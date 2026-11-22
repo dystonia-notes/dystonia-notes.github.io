@@ -58,13 +58,16 @@
   if (page === 'map') {
     const centers = await get('centers.json');
     main.innerHTML = `<h1>${esc(t(i18n.nav.map))}</h1><p class="lead">${esc(t(i18n.tagline))}</p><div id="map"></div>` +
-      (centers.length ? '' : `<p class="empty">${esc(t(i18n.map_empty))}</p>`);
+      (centers.length ? `<ul class="items" style="margin-top:20px">${centers.map((c) =>
+        `<li>${c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(t(c.name))}</a>` : esc(t(c.name))}` +
+        `<div class="meta">${esc([c.city, c.country].join(', '))}${c.note ? ' · ' + esc(t(c.note)) : ''}</div></li>`).join('')}</ul>`
+        : `<p class="empty">${esc(t(i18n.map_empty))}</p>`);
     if (!window.L) return;
     const map = window.L.map('map').setView([30, 10], 2);
     window.L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18, attribution: '&copy; OpenStreetMap contributors' }).addTo(map);
     centers.forEach((c) => window.L.marker([c.lat, c.lng]).addTo(map).bindPopup(
-      `<b>${esc(t(c.name) || c.name)}</b><br>${esc([c.city, c.country].filter(Boolean).join(', '))}` +
+      `<b>${esc(t(c.name))}</b><br>${esc([c.city, c.country].filter(Boolean).join(', '))}${c.note ? '<br>' + esc(t(c.note)) : ''}` +
       (c.url ? `<br><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.url)}</a>` : '')));
   }
 })();

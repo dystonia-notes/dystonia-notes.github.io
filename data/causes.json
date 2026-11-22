@@ -1,38 +1,241 @@
 [
   {
+    "id": "skill-encoding",
+    "name": {
+      "ko": "운동 기술 표상의 교란",
+      "en": "Disrupted encoding of motor skill"
+    },
+    "summary": {
+      "ko": "고도로 연습된 기술이 뇌에 저장·재생되는 방식 자체가 어긋난다는 관점",
+      "en": "The view that the way a highly practised skill is stored and executed in the brain goes wrong"
+    },
+    "items": [
+      {
+        "type": "paper",
+        "evidence": "strong",
+        "title": "A unifying motor control framework for task-specific dystonia",
+        "authors": "Sadnicka A, Kornysheva K, Rothwell JC, Edwards MJ",
+        "year": 2017,
+        "source": "Nature Reviews Neurology 14(2):116–124",
+        "url": "https://doi.org/10.1038/nrneurol.2017.146",
+        "note": {
+          "ko": "과업·도구·말초·중추신경계 네 가지 위험 요소로 과업특이적 근긴장이상을 건강한 운동 학습의 틀 안에서 설명",
+          "en": "Explains task-specific dystonia within healthy motor learning, via four risk components: task, tool, periphery, CNS"
+        }
+      },
+      {
+        "type": "paper",
+        "evidence": "hypothesis",
+        "title": "A Proposed Cause, Cure, and Mechanism for Focal Task-Specific Dystonia: A Theoretical-Empirical Approach",
+        "authors": "Lu N, Pena R",
+        "year": 2025,
+        "source": "Preprints.org (동료심사 전 / not peer-reviewed)",
+        "url": "https://doi.org/10.20944/preprints202507.2002.v1",
+        "note": {
+          "ko": "피아니스트 환자 본인이 제1저자. 일차 운동피질 안에 흥분·억제 균형이 깨진 '근긴장이상 시너지'가 생긴다는 모델",
+          "en": "First author is the pianist-patient. Proposes a 'dystonic synergy' with excitation/inhibition imbalance forming in primary motor cortex"
+        }
+      }
+    ]
+  },
+  {
     "id": "sensorimotor-integration",
-    "name": { "ko": "감각-운동 통합 이상", "en": "Abnormal sensorimotor integration" },
-    "summary": { "ko": "감각 정보가 운동 명령으로 이어지는 과정의 이상", "en": "Disrupted processing between sensory input and motor output" },
-    "items": []
+    "name": {
+      "ko": "감각-운동 통합 이상",
+      "en": "Abnormal sensorimotor integration"
+    },
+    "summary": {
+      "ko": "감각 정보가 운동 명령으로 이어지는 과정의 이상",
+      "en": "Disrupted processing between sensory input and motor output"
+    },
+    "items": [
+      {
+        "type": "paper",
+        "evidence": "strong",
+        "title": "Alteration of digital representations in somatosensory cortex in focal hand dystonia",
+        "authors": "Elbert T, Candia V, Altenmüller E, et al.",
+        "year": 1998,
+        "source": "NeuroReport 9",
+        "note": {
+          "ko": "음악가 환자의 일차 체감각피질에서 손가락 표상 사이 거리가 좁아져 있음을 보고",
+          "en": "Reported reduced distance between finger representations in primary somatosensory cortex of affected musicians"
+        }
+      },
+      {
+        "type": "paper",
+        "evidence": "hypothesis",
+        "title": "Focal dystonia and the Sensory-Motor Integrative Loop for Enacting (SMILE)",
+        "authors": "Perruchoud D, Murray MM, Lefebvre J, Ionta S",
+        "year": 2014,
+        "source": "Frontiers in Human Neuroscience 8:458",
+        "url": "https://doi.org/10.3389/fnhum.2014.00458",
+        "note": {
+          "ko": "감각과 운동을 하나의 피드백 고리로 묶은 계산 모델 제안",
+          "en": "Proposes a computational model linking sensory and motor processes in one feedback loop"
+        }
+      },
+      {
+        "type": "paper",
+        "evidence": "strong",
+        "title": "Sensory trick phenomenon improves motor control in pianists with dystonia: prognostic value of glove-effect",
+        "authors": "Paulig J, Jabusch HC, Großbach M, Boullet L, Altenmüller E",
+        "year": 2014,
+        "source": "Frontiers in Psychology 5:1012",
+        "url": "https://doi.org/10.3389/fpsyg.2014.01012",
+        "note": {
+          "ko": "얇은 장갑을 끼면 일부 환자에서 연주가 즉시 나아지는 현상. 이 현상이 있던 환자는 치료 후 결과도 더 좋았음",
+          "en": "Wearing a thin glove briefly improved playing in some pianists; those with the effect had better treatment outcomes"
+        }
+      },
+      {
+        "type": "hypothesis",
+        "evidence": "personal",
+        "title": "일차감각피질 입력 교란 모델 / Primary somatosensory input-disruption model",
+        "authors": "유별 (운영자 / site author)",
+        "year": 2026,
+        "note": {
+          "ko": "피아니스트-환자의 자기 관찰에서 나온 가설. 손의 감각 지도가 왜곡되고, 그 왜곡이 '정상'으로 굳는 것이 핵심이며, 시간에 따라 변하는 감각 입력이 고정된 입력보다 회복에 유리하다고 봄",
+          "en": "Hypothesis from a pianist-patient's self-observation: a distorted hand map becomes locked in as 'normal'; time-varying sensory input should aid recovery more than constant input"
+        }
+      },
+      {
+        "type": "hypothesis",
+        "evidence": "personal",
+        "title": "주의 밖의 손에서 일어나는 운동 표상 드리프트 / Motor representation drift in the unattended hand",
+        "authors": "유별 (운영자 / site author)",
+        "year": 2026,
+        "note": {
+          "ko": "양손 연주 중 주의가 덜 가는 손에서 도구 변경으로 청각·촉각 피드백이 동시에 바뀌면, 감지되지 않은 채 운동 표상이 서서히 어긋날 수 있다는 가설",
+          "en": "Hypothesis: when a tool change alters auditory and tactile feedback for the less-attended hand, its motor representation may drift unnoticed"
+        }
+      }
+    ]
   },
   {
     "id": "reduced-inhibition",
-    "name": { "ko": "억제 기능 저하", "en": "Reduced inhibition" },
-    "summary": { "ko": "불필요한 근육 활동을 억누르는 신경 회로의 약화", "en": "Weakened neural circuits that suppress unwanted muscle activity" },
-    "items": []
+    "name": {
+      "ko": "억제 기능 저하",
+      "en": "Reduced inhibition"
+    },
+    "summary": {
+      "ko": "불필요한 근육 활동을 억누르는 신경 회로의 약화",
+      "en": "Weakened neural circuits that suppress unwanted muscle activity"
+    },
+    "items": [
+      {
+        "type": "paper",
+        "evidence": "strong",
+        "title": "Focal dystonia in musicians: From phenomenology to therapy",
+        "authors": "Jabusch HC, Altenmüller E",
+        "year": 2006,
+        "source": "Advances in Cognitive Psychology 2(2–3):207–220",
+        "url": "https://doaj.org/article/48ab18c6049f4bd79100a7133f02983a",
+        "note": {
+          "ko": "병태생리로 억제 저하, 비정상적 가소성, 감각운동 처리 변화 세 가지를 정리한 리뷰",
+          "en": "Review summarising reduced inhibition, maladaptive plasticity and altered sensorimotor processing"
+        }
+      }
+    ]
   },
   {
     "id": "maladaptive-plasticity",
-    "name": { "ko": "비정상적 가소성", "en": "Maladaptive plasticity" },
-    "summary": { "ko": "반복 연습 과정에서 뇌 지도가 잘못된 방향으로 재편됨", "en": "Brain maps reorganizing in an unhelpful way through repetitive practice" },
-    "items": []
+    "name": {
+      "ko": "비정상적 가소성",
+      "en": "Maladaptive plasticity"
+    },
+    "summary": {
+      "ko": "반복 연습 과정에서 뇌 지도가 잘못된 방향으로 재편됨",
+      "en": "Brain maps reorganizing in an unhelpful way through repetitive practice"
+    },
+    "items": [
+      {
+        "type": "paper",
+        "evidence": "strong",
+        "title": "Effective behavioral treatment of focal hand dystonia in musicians alters somatosensory cortical organization",
+        "authors": "Candia V, Wienbruch C, Elbert T, Rockstroh B, Ray W",
+        "year": 2003,
+        "source": "PNAS 100(13):7942–7946",
+        "url": "https://doi.org/10.1073/pnas.1231193100",
+        "note": {
+          "ko": "재훈련으로 증상이 나아지자 뒤섞였던 손가락 지도도 정상 쪽으로 되돌아감 — 가소성 변화가 되돌릴 수 있다는 근거",
+          "en": "Successful retraining also normalised the blurred finger map — evidence that plastic changes can be reversed"
+        }
+      }
+    ]
   },
   {
     "id": "cerebellum",
-    "name": { "ko": "소뇌의 관여", "en": "Cerebellar involvement" },
-    "summary": { "ko": "기저핵 외에 소뇌가 관여한다는 관점", "en": "The view that the cerebellum, not only the basal ganglia, is involved" },
+    "name": {
+      "ko": "소뇌의 관여",
+      "en": "Cerebellar involvement"
+    },
+    "summary": {
+      "ko": "기저핵 외에 소뇌가 관여한다는 관점",
+      "en": "The view that the cerebellum, not only the basal ganglia, is involved"
+    },
     "items": []
   },
   {
     "id": "predisposition",
-    "name": { "ko": "유전·소인", "en": "Genetic predisposition" },
-    "summary": { "ko": "발병하기 쉬운 체질적·유전적 요인", "en": "Inherited or constitutional susceptibility" },
-    "items": []
+    "name": {
+      "ko": "유전·소인",
+      "en": "Genetic predisposition"
+    },
+    "summary": {
+      "ko": "발병하기 쉬운 체질적·유전적 요인",
+      "en": "Inherited or constitutional susceptibility"
+    },
+    "items": [
+      {
+        "type": "paper",
+        "evidence": "hypothesis",
+        "title": "Genome-wide association study in musician's dystonia: a risk variant at the arylsulfatase G locus?",
+        "authors": "Lohmann K, Schmidt A, Schillert A, et al.",
+        "year": 2014,
+        "source": "Movement Disorders 29(7):921–927",
+        "note": {
+          "ko": "음악가 근긴장이상과 관련된 유전 변이 후보를 보고한 유전체 연구",
+          "en": "Genome-wide study reporting a candidate risk variant for musician's dystonia"
+        },
+        "url": "https://doi.org/10.1002/mds.25791"
+      }
+    ]
   },
   {
     "id": "practice-factors",
-    "name": { "ko": "연습·환경 요인", "en": "Practice and environmental factors" },
-    "summary": { "ko": "연습량, 기법, 스트레스 등 발병을 유발하는 환경", "en": "Practice load, technique, stress and other triggers" },
-    "items": []
+    "name": {
+      "ko": "연습·환경·심리 요인",
+      "en": "Practice, environmental and psychological factors"
+    },
+    "summary": {
+      "ko": "연습량, 기법 변경, 도구, 불안·완벽주의 등 발병을 부추기는 요인",
+      "en": "Practice load, technique or tool changes, anxiety and perfectionism as triggers"
+    },
+    "items": [
+      {
+        "type": "paper",
+        "evidence": "strong",
+        "title": "Anxiety as an aggravation factor during onset of focal dystonia in musicians",
+        "authors": "Jabusch HC, Altenmüller E",
+        "year": 2004,
+        "source": "Medical Problems of Performing Artists 19:75–81",
+        "note": {
+          "ko": "발병 시기의 불안이 증상을 악화시키는 요인이라는 보고",
+          "en": "Reports anxiety as an aggravating factor at onset"
+        }
+      },
+      {
+        "type": "paper",
+        "evidence": "strong",
+        "title": "Practice behaviors as trigger factor for the onset of Musicians' Dystonia",
+        "authors": "Passarotto E, Doll-Lee J, Altenmüller E, Lee A",
+        "year": 2023,
+        "url": "https://mediatum.ub.tum.de/doc/1761300/1761300.pdf",
+        "note": {
+          "ko": "발병 전 몇 년간의 연습 습관을 환자군과 건강한 피아니스트 사이에서 비교",
+          "en": "Compares practice behaviours in the years before onset between affected and healthy pianists"
+        }
+      }
+    ]
   }
 ]

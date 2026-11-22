@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "name": { "ko": "하노버 음악생리·음악가의학 연구소 (IMMM)", "en": "Institute of Music Physiology and Musicians' Medicine (IMMM)" },
+    "city": "Hannover", "country": "Germany", "lat": 52.3759, "lng": 9.7320,
+    "url": "https://www.immm.hmtm-hannover.de",
+    "note": { "ko": "음악가 근긴장이상 전문 외래. Altenmüller 그룹", "en": "Specialist outpatient clinic for musicians' dystonia; Altenmüller group" }
+  },
+  {
+    "name": { "ko": "예술 생리의학 연구소 (Terrassa)", "en": "Institut de Fisiologia i Medicina de l'Art" },
+    "city": "Terrassa", "country": "Spain", "lat": 41.5632, "lng": 2.0089,
+    "note": { "ko": "음악가 근긴장이상 진단·재활. Rosset-Llobet 그룹", "en": "Diagnosis and rehabilitation of musicians' dystonia; Rosset-Llobet group" }
+  },
+  {
+    "name": { "ko": "서울대학교병원 신경과", "en": "Seoul National University Hospital, Neurology" },
+    "city": "Seoul", "country": "Korea", "lat": 37.5796, "lng": 126.9990,
+    "note": { "ko": "이상운동질환·보톡스 클리닉", "en": "Movement disorders and botulinum toxin clinic" }
+  },
+  {
+    "name": { "ko": "삼성서울병원 신경과", "en": "Samsung Medical Center, Neurology" },
+    "city": "Seoul", "country": "Korea", "lat": 37.4881, "lng": 127.0855,
+    "note": { "ko": "이상운동질환 진료", "en": "Movement disorders" }
+  },
+  {
+    "name": { "ko": "서울아산병원 신경과", "en": "Asan Medical Center, Neurology" },
+    "city": "Seoul", "country": "Korea", "lat": 37.5266, "lng": 127.1083,
+    "note": { "ko": "이상운동질환 진료", "en": "Movement disorders" }
+  },
+  {
+    "name": { "ko": "한양대학교병원 신경과", "en": "Hanyang University Hospital, Neurology" },
+    "city": "Seoul", "country": "Korea", "lat": 37.5597, "lng": 127.0447,
+    "note": { "ko": "이상운동질환 진료", "en": "Movement disorders" }
+  },
+  {
+    "name": { "ko": "강남세브란스병원 신경과", "en": "Gangnam Severance Hospital, Neurology" },
+    "city": "Seoul", "country": "Korea", "lat": 37.4925, "lng": 127.0463,
+    "note": { "ko": "이상운동질환·보톡스 진료", "en": "Movement disorders and botulinum toxin" }
+  }
+]
