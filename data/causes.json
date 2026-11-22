@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sensorimotor-integration",
+    "name": { "ko": "감각-운동 통합 이상", "en": "Abnormal sensorimotor integration" },
+    "summary": { "ko": "감각 정보가 운동 명령으로 이어지는 과정의 이상", "en": "Disrupted processing between sensory input and motor output" },
+    "items": []
+  },
+  {
+    "id": "reduced-inhibition",
+    "name": { "ko": "억제 기능 저하", "en": "Reduced inhibition" },
+    "summary": { "ko": "불필요한 근육 활동을 억누르는 신경 회로의 약화", "en": "Weakened neural circuits that suppress unwanted muscle activity" },
+    "items": []
+  },
+  {
+    "id": "maladaptive-plasticity",
+    "name": { "ko": "비정상적 가소성", "en": "Maladaptive plasticity" },
+    "summary": { "ko": "반복 연습 과정에서 뇌 지도가 잘못된 방향으로 재편됨", "en": "Brain maps reorganizing in an unhelpful way through repetitive practice" },
+    "items": []
+  },
+  {
+    "id": "cerebellum",
+    "name": { "ko": "소뇌의 관여", "en": "Cerebellar involvement" },
+    "summary": { "ko": "기저핵 외에 소뇌가 관여한다는 관점", "en": "The view that the cerebellum, not only the basal ganglia, is involved" },
+    "items": []
+  },
+  {
+    "id": "predisposition",
+    "name": { "ko": "유전·소인", "en": "Genetic predisposition" },
+    "summary": { "ko": "발병하기 쉬운 체질적·유전적 요인", "en": "Inherited or constitutional susceptibility" },
+    "items": []
+  },
+  {
+    "id": "practice-factors",
+    "name": { "ko": "연습·환경 요인", "en": "Practice and environmental factors" },
+    "summary": { "ko": "연습량, 기법, 스트레스 등 발병을 유발하는 환경", "en": "Practice load, technique, stress and other triggers" },
+    "items": []
+  }
+]

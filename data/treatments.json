@@ -1,0 +1,44 @@
+[
+  {
+    "id": "botulinum-toxin",
+    "name": { "ko": "보툴리눔 독소 주사", "en": "Botulinum toxin injection" },
+    "summary": { "ko": "과도하게 수축하는 근육을 약화시키는 주사", "en": "Injections that weaken overactive muscles" },
+    "causes": [],
+    "items": []
+  },
+  {
+    "id": "retraining",
+    "name": { "ko": "감각-운동 재훈련", "en": "Sensorimotor retraining" },
+    "summary": { "ko": "동작과 감각을 다시 학습시키는 훈련", "en": "Training to relearn movement and sensation" },
+    "causes": ["sensorimotor-integration", "maladaptive-plasticity"],
+    "items": []
+  },
+  {
+    "id": "somatic-education",
+    "name": { "ko": "신체 교육 (알렉산더·펠덴크라이스 등)", "en": "Somatic education (Alexander, Feldenkrais, etc.)" },
+    "summary": { "ko": "몸 사용 습관과 자각을 다루는 접근", "en": "Approaches that work on habits of use and body awareness" },
+    "causes": ["practice-factors"],
+    "items": []
+  },
+  {
+    "id": "medication",
+    "name": { "ko": "약물", "en": "Medication" },
+    "summary": { "ko": "복용 약물로 증상을 조절하는 접근", "en": "Oral medication to manage symptoms" },
+    "causes": [],
+    "items": []
+  },
+  {
+    "id": "brain-stimulation",
+    "name": { "ko": "비침습 뇌 자극", "en": "Non-invasive brain stimulation" },
+    "summary": { "ko": "TMS·tDCS 등으로 뇌 활동을 조절", "en": "Modulating brain activity with TMS, tDCS, etc." },
+    "causes": ["reduced-inhibition", "maladaptive-plasticity"],
+    "items": []
+  },
+  {
+    "id": "surgery",
+    "name": { "ko": "수술적 치료", "en": "Surgical treatment" },
+    "summary": { "ko": "뇌심부자극술, 시상 절개술 등", "en": "Deep brain stimulation, thalamotomy, etc." },
+    "causes": [],
+    "items": []
+  }
+]

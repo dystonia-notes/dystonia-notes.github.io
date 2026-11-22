@@ -1,0 +1,43 @@
+{
+  "site": { "ko": "Dystonia Notes", "en": "Dystonia Notes" },
+  "tagline": {
+    "ko": "국소성 근긴장이상증(Focal Dystonia)의 원인과 치료를 탐구하는 노트",
+    "en": "Exploring the causes and treatments of focal dystonia"
+  },
+  "nav": {
+    "home": { "ko": "홈", "en": "Home" },
+    "causes": { "ko": "원인", "en": "Causes" },
+    "treatments": { "ko": "치료", "en": "Treatments" },
+    "map": { "ko": "치료 센터 지도", "en": "Treatment Centers" }
+  },
+  "home_intro": {
+    "ko": "이 사이트는 논문, 영상, 가설을 원인과 치료라는 두 축으로 정리합니다. 각 치료 항목은 그것이 근거로 삼는 원인 가설과 연결되어 있습니다.",
+    "en": "This site organizes papers, videos, and hypotheses along two axes: causes and treatments. Each treatment is linked to the causal hypotheses it is based on."
+  },
+  "evidence_title": { "ko": "근거 수준 표시", "en": "Evidence labels" },
+  "evidence": {
+    "established": { "ko": "확립", "en": "Established" },
+    "strong": { "ko": "유력", "en": "Supported" },
+    "hypothesis": { "ko": "가설", "en": "Hypothesis" },
+    "personal": { "ko": "개인 경험", "en": "Personal account" }
+  },
+  "evidence_desc": {
+    "established": { "ko": "여러 연구에서 반복 확인되어 학계에서 널리 받아들여짐", "en": "Repeatedly confirmed and widely accepted" },
+    "strong": { "ko": "근거가 쌓이고 있으나 아직 논쟁이 있음", "en": "Growing evidence, still debated" },
+    "hypothesis": { "ko": "제안 단계의 설명", "en": "Proposed explanation" },
+    "personal": { "ko": "환자·연주자 개인의 경험담", "en": "Individual patient or musician experience" }
+  },
+  "type": {
+    "paper": { "ko": "논문", "en": "Paper" },
+    "video": { "ko": "영상", "en": "Video" },
+    "hypothesis": { "ko": "가설", "en": "Hypothesis" }
+  },
+  "empty": { "ko": "항목 준비 중", "en": "Entries coming soon" },
+  "related_causes": { "ko": "근거로 삼는 원인", "en": "Based on causes" },
+  "map_empty": { "ko": "등록된 센터가 아직 없습니다.", "en": "No centers listed yet." },
+  "disclaimer": {
+    "ko": "이 사이트는 개인이 정리한 정보 모음이며 의료 조언이 아닙니다. 진단과 치료는 전문의와 상의하세요.",
+    "en": "This is a personally curated collection, not medical advice. Consult a specialist for diagnosis and treatment."
+  },
+  "lang_switch": { "ko": "English", "en": "한국어" }
+}

@@ -1,0 +1,37 @@
+:root{--fg:#1f2328;--muted:#656d76;--line:#e5e7eb;--bg:#fff;--accent:#2f6f6a;
+  --established:#2f6f6a;--strong:#4a6fa5;--hypothesis:#b7791f;--personal:#8a5a9c}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;color:var(--fg);background:var(--bg);line-height:1.7}
+header{border-bottom:1px solid var(--line)}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px}
+.bar{display:flex;align-items:center;gap:20px;height:60px}
+.brand{font-weight:700;color:var(--fg);text-decoration:none;margin-right:auto}
+nav a{color:var(--muted);text-decoration:none;font-size:15px}
+nav a:hover,nav a.on{color:var(--fg)}
+nav{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.lang{font-size:13px;border:1px solid var(--line);border-radius:6px;padding:2px 8px}
+main{padding:40px 0 60px}
+h1{font-size:28px;margin:0 0 8px}
+h2{font-size:20px;margin:0 0 4px}
+.lead{color:var(--muted);margin:0 0 32px}
+.group{border-top:1px solid var(--line);padding:24px 0}
+.group .sum{color:var(--muted);margin:0 0 12px;font-size:15px}
+.links{font-size:14px;color:var(--muted);margin:0 0 12px}
+.links a{color:var(--accent)}
+ul.items{list-style:none;padding:0;margin:0}
+ul.items li{padding:8px 0;border-bottom:1px dashed var(--line)}
+ul.items li:last-child{border-bottom:0}
+.meta{font-size:13px;color:var(--muted)}
+.tag{display:inline-block;font-size:12px;padding:0 7px;border-radius:10px;color:#fff;margin-right:6px;vertical-align:1px}
+.tag.type{background:#eef0f3;color:var(--muted)}
+.tag.established{background:var(--established)}.tag.strong{background:var(--strong)}
+.tag.hypothesis{background:var(--hypothesis)}.tag.personal{background:var(--personal)}
+.empty{color:#9aa0a6;font-size:14px}
+.legend{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-size:14px;margin:12px 0 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:24px 0 40px}
+.card{border:1px solid var(--line);border-radius:10px;padding:18px;color:var(--fg);text-decoration:none}
+.card:hover{border-color:var(--accent)}
+.card b{display:block;margin-bottom:4px}
+.card span{color:var(--muted);font-size:14px}
+#map{height:520px;border:1px solid var(--line);border-radius:10px}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px;padding:20px 0 40px}
