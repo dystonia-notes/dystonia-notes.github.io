@@ -88,10 +88,19 @@
   if (page === 'videos') {
     const chans = await get('videos.json');
     const ts = (o) => (o && o[L]) || '';
+    const topics = await get('topics.json');
+    const viewHTML = (c) => {
+      const ps = [].concat(ts(c.view) || []);
+      if (!ps.length) return '';
+      const tp = topics.find((x) => x.id === c.view_topic);
+      return `<div class="view"><b>${esc(t(i18n.view_title))}</b>${ps.map((p) => `<p>${esc(p)}</p>`).join('')}` +
+        (tp ? `<p class="links"><a href="${base}topic-${esc(tp.id)}.html">${esc(t(tp.name))} →</a></p>` : '') + `</div>`;
+    };
     main.innerHTML = `<h1>${esc(t(i18n.nav.videos))}</h1><p class="lead">${esc(t(i18n.videos_intro))}</p>` +
       chans.map((c) => `<section class="group" id="${esc(c.id)}"><h2>${esc(c.name)}</h2>
         ${ts(c.about) ? `<p class="sum">${esc(ts(c.about))}</p>` : ''}
         ${ts(c.caution) ? `<div class="view"><p>${esc(ts(c.caution))}</p></div>` : ''}
+        ${viewHTML(c)}
         <p class="links"><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(t(i18n.channel_link))}</a></p>
         ${c.groups.map((g) => `<h3 class="vg">${esc(t(g.name))}</h3><ul class="items">${g.videos.map((v) =>
           `<li><span class="tag type">${esc(t(i18n.type.video))}</span><span class="tag ${esc(v.evidence)}">${esc(t(i18n.evidence[v.evidence]))}</span>` +
