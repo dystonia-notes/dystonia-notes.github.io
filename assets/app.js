@@ -69,7 +69,7 @@
     const tp = await get(meta.file);
     document.title = `${t(tp.name)} · ${t(i18n.site)}`;
     main.innerHTML = `<h1>${esc(t(tp.name))}</h1><p class="lead">${esc(t(tp.summary))}</p>
-      ${L === 'ko' ? `<p class="tools"><button type="button" id="toggle-all">${esc(t(i18n.open_all))}</button></p>` : ''}` +
+      <p class="tools"><button type="button" id="toggle-all">${esc(t(i18n.open_all))}</button></p>` +
       tp.layers.map((ly) => `<section class="group layer" id="${esc(ly.id)}"><h2>${esc(t(ly.name))}</h2>
         <p class="sum">${esc(t(ly.intro))}</p>${figHTML(ly.figure)}${listHTML(ly.items)}
         ${ly.view ? `<div class="view"><b>${esc(t(i18n.view_title))}</b><p>${esc(t(ly.view))}</p></div>` : ''}</section>`).join('') +

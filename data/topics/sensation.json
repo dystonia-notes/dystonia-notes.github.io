@@ -56,6 +56,27 @@
                   "지도가 붙은 것이 증상의 원인인지, 증상이 생긴 뒤의 결과인지는 이 연구만으로는 가릴 수 없다."
                 ]
               ]
+            },
+            "en": {
+              "basis": "Summarised from the abstract",
+              "sections": [
+                [
+                  "What they did",
+                  "Each finger of musicians with dystonia was stimulated in turn, and magnetoencephalography (MEG) located where the somatosensory cortex responded. The distances between those finger locations were then compared."
+                ],
+                [
+                  "What they found",
+                  "In the affected hand, the finger representations lay closer together than in the comparison hands. The authors called this a fusion of the digit representations."
+                ],
+                [
+                  "Why it matters here",
+                  "Musicians move several fingers almost simultaneously, repeatedly, for many years. The authors proposed that this pattern of use makes finger representations prone to merging, and that this may be involved in how the disorder arises. The retraining method below (SMR) was built on this idea."
+                ],
+                [
+                  "Limits and cautions",
+                  "This study alone cannot tell whether the merged map causes the symptoms or results from them."
+                ]
+              ]
             }
           }
         },
@@ -93,6 +114,27 @@
                 [
                   "한계·주의",
                   "6명의 작은 연구다. 저자들 스스로 오래전의 사건이나 발달 과정의 이상 때문일 가능성을 완전히 배제할 수 없다고 적었다. 음악가만을 대상으로 한 연구도 아니다."
+                ]
+              ]
+            },
+            "en": {
+              "basis": "Summarised from the abstract",
+              "sections": [
+                [
+                  "What they did",
+                  "The arrangement of the fingers in the somatosensory hand area was mapped in six patients with focal dystonia of the hand."
+                ],
+                [
+                  "What they found",
+                  "The normal order and layout of finger representations in primary somatosensory cortex was disturbed in the patients."
+                ],
+                [
+                  "Why it matters here",
+                  "In the same year as Elbert's study of musicians, a different laboratory using a different method reached a similar conclusion. The authors read it as support for abnormal plasticity being involved in the development of dystonia."
+                ],
+                [
+                  "Limits and cautions",
+                  "A small study of six patients. The authors themselves noted that an earlier event or a developmental anomaly could not be entirely ruled out. It was not limited to musicians."
                 ]
               ]
             }
@@ -134,6 +176,27 @@
                   "모든 환자가 그런 것은 아니다. 아래 Candia 등(2003)은 두 점 식별 검사가 정상인 음악가만 골라 연구했는데도 지도의 변화를 확인했다. 임상 검사에서 감각이 정상이어도 지도는 달라져 있을 수 있다는 뜻이다."
                 ]
               ]
+            },
+            "en": {
+              "basis": "Summarised from the abstract",
+              "sections": [
+                [
+                  "What they did",
+                  "If the map is blurred, tactile resolution at the fingertip should be reduced too. Seventeen patients with focal hand dystonia took two tests: detecting a gap in a grooved dome pressed on the tip of the index finger, and saying where on the middle segment of the index finger a single fine filament had touched."
+                ],
+                [
+                  "What they found",
+                  "Patients performed worse than controls on both tests (gap detection p = 0.004, localisation p = 0.013). The loss of spatial resolution grew with age in both groups."
+                ],
+                [
+                  "Why it matters here",
+                  "The map abnormality seen in imaging also shows up as a difference in actual sensory ability. Together with an earlier finding of impaired temporal discrimination, the authors took this as support for a sensory contribution to dystonia."
+                ],
+                [
+                  "Limits and cautions",
+                  "This does not hold for every patient. Candia et al. (2003), below, studied only musicians whose two-point discrimination was normal and still found map changes. Normal sensation on clinical testing does not guarantee a normal map."
+                ]
+              ]
             }
           }
         },
@@ -154,10 +217,12 @@
           },
           "figure": {
             "src": {
-              "ko": "assets/fig/distance.svg"
+              "ko": "assets/fig/distance.svg",
+              "en": "assets/fig/en/distance.svg"
             },
             "caption": {
-              "ko": "엄지와 새끼손가락 표상 사이의 거리. 환자에서 절반 가까이 좁다."
+              "ko": "엄지와 새끼손가락 표상 사이의 거리. 환자에서 절반 가까이 좁다.",
+              "en": "Distance between the thumb and little-finger representations: almost halved in patients."
             }
           },
           "detail": {
@@ -181,6 +246,27 @@
                   "6명 대 6명의 작은 연구이고, 대상은 음악가가 아니라 서경증 환자다. 저자들도 이차 체감각피질에서 차이가 없었던 것이 실제로 차이가 없어서인지 표본이 작아서인지 알 수 없다고 적었다."
                 ]
               ]
+            },
+            "en": {
+              "basis": "Summarised from the open-access full text",
+              "sections": [
+                [
+                  "What they did",
+                  "Vibration was applied to the right thumb (D1) and little finger (D5) of six patients with right-hand writer's cramp and six healthy controls, and PET located where blood flow rose. The distance between the two finger representations was measured."
+                ],
+                [
+                  "What they found",
+                  "In primary somatosensory cortex the three-dimensional distance was 14.1 mm in patients and 25.3 mm in controls (p = 0.02). One patient had the vertical order of the two fingers reversed. In secondary somatosensory cortex there was no group difference."
+                ],
+                [
+                  "Why it matters here",
+                  "Earlier studies located the fingers from the brain's electrical or magnetic signals. This one used blood flow, an entirely different measure, and found the same direction of effect. Agreement across methods adds weight."
+                ],
+                [
+                  "Limits and cautions",
+                  "Six against six, and the patients had writer's cramp, not musician's dystonia. The authors could not say whether the absence of a difference in secondary cortex was real or due to the small sample."
+                ]
+              ]
             }
           }
         },
@@ -201,10 +287,12 @@
           },
           "figure": {
             "src": {
-              "ko": "assets/fig/spectrum.svg"
+              "ko": "assets/fig/spectrum.svg",
+              "en": "assets/fig/en/spectrum.svg"
             },
             "caption": {
-              "ko": "한 근육에 진동을 줬을 때 운동피질 반응의 방향. 음악가 근긴장이상에서는 근육 사이의 구분이 사라진다."
+              "ko": "한 근육에 진동을 줬을 때 운동피질 반응의 방향. 음악가 근긴장이상에서는 근육 사이의 구분이 사라진다.",
+              "en": "Direction of the motor-cortex response when one muscle is vibrated. In musician's dystonia the distinction between muscles disappears."
             }
           },
           "detail": {
@@ -228,6 +316,27 @@
                   "집단마다 6~8명의 작은 연구다. 한 시점의 비교이므로, 이 차이가 병이 생기기 전부터 있었는지 생긴 뒤의 변화인지는 알 수 없다."
                 ]
               ]
+            },
+            "en": {
+              "basis": "Summarised from the abstract and figure legends",
+              "sections": [
+                [
+                  "What they did",
+                  "One hand muscle was vibrated to produce sensory input, and at that moment transcranial magnetic stimulation (TMS) probed the motor cortex. The response was compared between the vibrated muscle and other hand muscles, in 7 people with musician's dystonia, 6 with writer's cramp, 8 healthy non-musicians and 8 healthy musicians."
+                ],
+                [
+                  "What they found",
+                  "In healthy non-musicians only the vibrated muscle was facilitated while the others were inhibited: the sensory input was focused on its own muscle. In healthy musicians some neighbouring muscles were facilitated as well. In musician's dystonia the distinction was gone: vibrating any muscle strongly reduced inhibition in all hand muscles. In writer's cramp vibration had little effect."
+                ],
+                [
+                  "Why it matters here",
+                  "The key point is that healthy musicians sit between non-musicians and patients. Practice widens the link between sensation and movement in a useful way, but in patients that change goes too far and hinders movement — this is the authors' model. It also shows that sensation may play a different role in musician's dystonia and in writer's cramp."
+                ],
+                [
+                  "Limits and cautions",
+                  "Small groups of six to eight. A single time point, so it cannot show whether the difference preceded the disorder or followed it."
+                ]
+              ]
             }
           }
         },
@@ -249,10 +358,12 @@
           },
           "figure": {
             "src": {
-              "ko": "assets/fig/smr.svg"
+              "ko": "assets/fig/smr.svg",
+              "en": "assets/fig/en/smr.svg"
             },
             "caption": {
-              "ko": "감각운동 재조율(SMR) 훈련의 구성. 증상 손가락이 다른 손가락과 따로 움직이는 경험을 집중적으로 쌓는다."
+              "ko": "감각운동 재조율(SMR) 훈련의 구성. 증상 손가락이 다른 손가락과 따로 움직이는 경험을 집중적으로 쌓는다.",
+              "en": "Structure of sensory motor retuning (SMR): the dystonic finger gains concentrated experience of moving separately from the others."
             }
           },
           "detail": {
@@ -274,6 +385,27 @@
                 [
                   "한계·주의",
                   "대조군이 없다. 저자들은 측정 기간이 짧아 이 변화가 일시적일 가능성을 배제하지 못한다고 적었다. 또 이것이 잘못된 지도를 되돌린 것인지, 새로운 운동 프로그램이 만들어진 것인지, 증상을 누르는 다른 변화인지도 알 수 없다고 했다. 한 가지 더 주의할 점: 이 연구에서는 훈련 뒤 증상 손의 표상 거리가 줄면서 건강한 손과 비슷해졌다. 거리가 넓을수록 정상이라는 단순한 그림이 아니다. 중요한 것은 건강한 손과 얼마나 비슷한가, 순서가 정돈되어 있는가다."
+                ]
+              ]
+            },
+            "en": {
+              "basis": "Summarised from the full text",
+              "sections": [
+                [
+                  "What they did",
+                  "Ten professional musicians with dystonia in one hand received sensory motor retuning (SMR). A splint held one or more fingers in their playing position while two or three fingers, including the dystonic one, were moved in alternating sequence. Training ran for 8 consecutive days, 1.5–2.5 hours a day, under a therapist's supervision. MEG located all finger representations of both hands before and after."
+                ],
+                [
+                  "What they found",
+                  "The map of the affected hand changed. The mean distance between its finger representations shifted to resemble the unaffected hand, and the fingers became arranged according to the normal ordering. The untrained hand's map did not change. Patients' own ratings and the smoothness of finger movement improved, and the degree of movement improvement correlated with the change in the brain response of the dystonic finger (r = −0.75)."
+                ],
+                [
+                  "Why it matters here",
+                  "The map abnormality seen from the cause side and the recovery seen from the treatment side meet on the same map. A change built up over years moved after eight days of intensive training, showing the map is still rewritable."
+                ],
+                [
+                  "Limits and cautions",
+                  "There was no control group. The authors noted that with such a short measurement period the change might be transient, and that they could not tell whether a faulty map was undone, a new motor programme was formed, or some other change suppressed the symptoms. One more caution: here the distances in the affected hand decreased as they came to resemble the healthy hand. The picture is not simply 'wider is normal'. What matters is similarity to the healthy hand and an orderly arrangement."
                 ]
               ]
             }
@@ -315,6 +447,27 @@
                   "효과가 얼마나 오래 가는지는 초록만으로 확인하지 못했다. 15분 훈련의 즉시 효과와 장기 회복은 다른 문제다."
                 ]
               ]
+            },
+            "en": {
+              "basis": "Summarised from the abstract (full text still to be checked)",
+              "sections": [
+                [
+                  "What they did",
+                  "A follow-up to the 2005 study. In musician's dystonia, proprioceptive input (from muscles and joints) spread too widely into motor cortex, erasing the distinction between muscles. Assuming that the disordered movement follows from this disordered sensorimotor organisation, the authors gave pianists with dystonia 15 minutes of proprioceptive training."
+                ],
+                [
+                  "What they found",
+                  "After training, sensorimotor organisation returned toward that of healthy pianists, and, as the title says, motor control was reported to improve with it. In the same group's 2008 study, attended vibration training tended to restore the organisation in musician's dystonia but not in writer's cramp."
+                ],
+                [
+                  "Why it matters here",
+                  "Evidence that sensory input alone, in 15 minutes, can change the motor side. Attention is also part of the training: participants did not simply receive vibration, they attended to it."
+                ],
+                [
+                  "Limits and cautions",
+                  "How long the effect lasts could not be confirmed from the abstract. An immediate effect of 15 minutes of training is a different matter from long-term recovery."
+                ]
+              ]
             }
           }
         },
@@ -352,6 +505,27 @@
                 [
                   "한계·주의",
                   "10명의 예비 연구이고 대조 훈련이 없다. 관찰자 평가는 좋아졌는데 본인 평가는 그렇지 않았다는 간극이 있다. 1년 뒤 추적 보고에서는 계속 훈련한 3명만 다뤘다."
+                ]
+              ]
+            },
+            "en": {
+              "basis": "Summarised from a published commentary and the abstract",
+              "sections": [
+                [
+                  "What they did",
+                  "Ten patients with task-specific dystonia of the hand and ten healthy people learned to read Braille for eight weeks: one hour a day in the first week, then 30 minutes a day at home, mainly with the most affected finger. Tactile resolution was measured before and after by judging the orientation of grooved domes with the fingertip."
+                ],
+                [
+                  "What they found",
+                  "Tactile resolution improved in both patients and healthy participants. Observer-rated dystonia improved in 5 of 10 patients, and six wrote a standard paragraph faster. Patients' own ratings of their disability did not change significantly. Several who stopped practising worsened again, and improved when they resumed."
+                ],
+                [
+                  "Why it matters here",
+                  "Purely sensory training, on neither an instrument nor handwriting, moved motor symptoms. Braille delivers a different pattern to the fingertip every time and has to be read attentively. The relapse on stopping suggests that ongoing input is needed, not a one-off correction."
+                ],
+                [
+                  "Limits and cautions",
+                  "A pilot study of ten with no control training. Observer ratings improved while self-ratings did not. The one-year follow-up covered only the three who kept training."
                 ]
               ]
             }
@@ -393,16 +567,39 @@
                   "학회 초록이다. 검사 부위가 손끝이 아니라 손등이고, 음악가를 따로 본 연구가 아니다. 행동 검사에서 정상이라고 해서 뇌 영상으로 본 지도까지 정상이라는 뜻은 아니다."
                 ]
               ]
+            },
+            "en": {
+              "basis": "Summarised from the published conference abstract",
+              "sections": [
+                [
+                  "What they did",
+                  "Fifty-seven patients with focal dystonia (21 cervical, 16 eye/face, 20 right hand) and 21 healthy people judged how far apart two points on the skin felt. Testing covered the backs of both hands and the forehead, at several spacings and orientations, 160 trials per site. The pattern of perceived distance is thought to reflect the structure of somatosensory receptive fields."
+                ],
+                [
+                  "What they found",
+                  "No group differences on any measure at any site, including the affected hand."
+                ],
+                [
+                  "Why it matters here",
+                  "Evidence pointing the other way. The authors question whether abnormal somatosensory organisation is a feature running through all focal dystonia. Even if the map hypothesis is accepted, whether it applies to every type and every patient remains open."
+                ],
+                [
+                  "Limits and cautions",
+                  "A conference abstract. The test site was the back of the hand, not the fingertip, and musicians were not examined separately. Normal performance on a behavioural test does not mean the map seen in imaging is normal."
+                ]
+              ]
             }
           }
         }
       ],
       "figure": {
         "src": {
-          "ko": "assets/fig/map.svg"
+          "ko": "assets/fig/map.svg",
+          "en": "assets/fig/en/map.svg"
         },
         "caption": {
-          "ko": "손가락 지도의 모식도. 왼쪽은 손가락마다 자리가 나뉜 상태, 오른쪽은 근긴장이상에서 보고된 경향."
+          "ko": "손가락 지도의 모식도. 왼쪽은 손가락마다 자리가 나뉜 상태, 오른쪽은 근긴장이상에서 보고된 경향.",
+          "en": "Schematic of the finger map. Left: each finger has its own zone. Right: the trend reported in dystonia."
         }
       }
     },
@@ -434,10 +631,12 @@
           },
           "figure": {
             "src": {
-              "ko": "assets/fig/tools.svg"
+              "ko": "assets/fig/tools.svg",
+              "en": "assets/fig/en/tools.svg"
             },
             "caption": {
-              "ko": "도구가 바뀌자 병의 빈도가 달라진 역사적 사례들."
+              "ko": "도구가 바뀌자 병의 빈도가 달라진 역사적 사례들.",
+              "en": "Historical cases in which a change of tool changed how often the disorder occurred."
             }
           },
           "detail": {
@@ -461,6 +660,27 @@
                   "여러 연구를 엮은 종설이다. 역사적 사례는 통제된 실험이 아니라 관찰이며, 도구 말고도 일하는 방식 등 다른 요인이 함께 바뀌었을 수 있다."
                 ]
               ]
+            },
+            "en": {
+              "basis": "Summarised from the full text",
+              "sections": [
+                [
+                  "The paper's framework",
+                  "Task-specific dystonia is treated not as a broken brain but as healthy motor skill learning gone astray. Skilled performance is split into task, tool, periphery (the body) and central nervous system, and risk arises from a mismatch between what the task and tool demand and what the body and nervous system can deliver."
+                ],
+                [
+                  "Cases about tools",
+                  "When the quill gave way to the steel nib in the nineteenth century, motor problems of the writing hand rose sharply among British civil servants: the mechanics of the nib differed, and the short pauses to sharpen the quill disappeared. More than one in ten Morse telegraphists developed motor problems, and most were freed of them when the Morse key was replaced by a keyboard. Among musicians, incidence rises as string instruments get smaller, suggesting that tools demanding finer spatial precision carry more risk."
+                ],
+                [
+                  "Why it matters here",
+                  "A tool fixes both the sensation coming into the hand and the movement the hand must produce. When the tool changes, the task demand changes, and a skill representation that has already set may fail to absorb it. For musicians, who cannot change their tools, the authors propose building resilience of the representation through practice that emphasises flexibility."
+                ],
+                [
+                  "Limits and cautions",
+                  "A review. The historical cases are observations, not controlled experiments, and other factors such as working practices may have changed alongside the tool."
+                ]
+              ]
             }
           }
         },
@@ -481,10 +701,12 @@
           },
           "figure": {
             "src": {
-              "ko": "assets/fig/jabusch.svg"
+              "ko": "assets/fig/jabusch.svg",
+              "en": "assets/fig/en/jabusch.svg"
             },
             "caption": {
-              "ko": "치료별로 호전됐다고 답한 비율. 도구 쪽을 바꾸는 인체공학적 조정이 가장 높다."
+              "ko": "치료별로 호전됐다고 답한 비율. 도구 쪽을 바꾸는 인체공학적 조정이 가장 높다.",
+              "en": "Share reporting improvement by treatment. Ergonomic changes, which alter the tool side, rank highest."
             }
           },
           "detail": {
@@ -506,6 +728,27 @@
                 [
                   "한계·주의",
                   "지나간 치료를 돌아보며 본인이 평가한 자료다. 치료가 무작위로 배정되지 않았고 한 사람이 여러 치료를 받았으므로, 이 비율을 치료 사이의 우열로 읽어서는 안 된다. 조정할 여지가 있는 악기를 가진 사람만 인체공학적 조정을 받았을 가능성도 있다."
+                ]
+              ]
+            },
+            "en": {
+              "basis": "Summarised from the abstract",
+              "sections": [
+                [
+                  "What they did",
+                  "144 professional musicians diagnosed with focal dystonia at a specialist musicians' clinic in Hannover were followed up. They had received botulinum toxin (71), trihexyphenidyl (69), pedagogical retraining (24), ergonomic changes (51) or nonspecific exercises on the instrument (78), and rated their own response to each."
+                ],
+                [
+                  "What they found",
+                  "Overall 54% (77 patients) reported alleviation. By treatment: trihexyphenidyl 33%, botulinum toxin 49%, pedagogical retraining 50%, nonspecific exercises 56%, ergonomic changes 63%."
+                ],
+                [
+                  "Why it matters here",
+                  "Ergonomic changes work on the tool side: the shape of the instrument or how it is held. That more people felt improvement from changing the tool than from treatments aimed at muscle or brain fits Sadnicka's framework, in which the tool is one axis of the disorder. At the same time, no treatment was dominant."
+                ],
+                [
+                  "Limits and cautions",
+                  "Retrospective self-ratings. Treatments were not randomly assigned and one person often had several, so the percentages should not be read as a ranking of treatments. It is also possible that only those whose instruments could be adjusted received ergonomic changes."
                 ]
               ]
             }
@@ -548,16 +791,39 @@
                   "나머지 약 80%에서는 뚜렷한 효과가 없었다. 장갑 효과가 좋은 결과를 예측한다는 것과 장갑이 치료가 된다는 것은 다른 이야기다."
                 ]
               ]
+            },
+            "en": {
+              "basis": "Summarised from the abstract (full text still to be checked)",
+              "sections": [
+                [
+                  "What they did",
+                  "Thirty pianists with dystonia played scales wearing a thin latex glove. Motor control with and without the glove was compared from the evenness of keystroke timing recorded by the keyboard. The relation to outcome after treatment (botulinum toxin, pedagogical retraining, medication) was also examined."
+                ],
+                [
+                  "What they found",
+                  "19% of patients showed a significant improvement in motor control simply from wearing the glove. Those with a clear glove effect before treatment had significantly better outcomes afterwards."
+                ],
+                [
+                  "Why it matters here",
+                  "A small change in the sensation reaching the fingertips can change movement immediately. The symptoms are tied to incoming sensation, not only to muscle or motor command. Such sensory tricks are known to be unstable and to last only minutes, which is interpreted as rapid habituation to the altered input."
+                ],
+                [
+                  "Limits and cautions",
+                  "About 80% showed no clear effect. That a glove effect predicts a good outcome is not the same as a glove being a treatment."
+                ]
+              ]
             }
           }
         }
       ],
       "figure": {
         "src": {
-          "ko": "assets/fig/four.svg"
+          "ko": "assets/fig/four.svg",
+          "en": "assets/fig/en/four.svg"
         },
         "caption": {
-          "ko": "Sadnicka 등(2017)의 네 가지 구성요소. 이 층은 그중 도구를 본다."
+          "ko": "Sadnicka 등(2017)의 네 가지 구성요소. 이 층은 그중 도구를 본다.",
+          "en": "The four components in Sadnicka et al. (2017). This layer looks at the tool."
         }
       }
     },
@@ -588,10 +854,12 @@
           },
           "figure": {
             "src": {
-              "ko": "assets/fig/digital.svg"
+              "ko": "assets/fig/digital.svg",
+              "en": "assets/fig/en/digital.svg"
             },
             "caption": {
-              "ko": "악기를 바꾸며 손끝 감각과 소리, 두 통로가 한꺼번에 달라졌다."
+              "ko": "악기를 바꾸며 손끝 감각과 소리, 두 통로가 한꺼번에 달라졌다.",
+              "en": "Changing instrument altered two channels at once: touch and sound."
             }
           },
           "detail": {
@@ -619,6 +887,31 @@
                   "한 사람의 회상이다. 같은 시기에 연습량 등 다른 요인도 달라졌을 수 있고, 따로 떼어 볼 방법이 없다. 디지털 피아노가 누구에게나 해롭다는 뜻이 아니다."
                 ]
               ]
+            },
+            "en": {
+              "basis": "From the author's own notes",
+              "sections": [
+                [
+                  "What happened",
+                  "After many years on acoustic pianos I switched to a digital piano and played it for several years. Its keys were stiff and slow to respond. During that period the symptoms in my right hand worsened noticeably faster."
+                ],
+                [
+                  "How I see it",
+                  "When playing with both hands, my conscious attention was almost entirely on the left. The right hand already ran automatically, correcting itself from sound and fingertip sensation. The switch to digital changed the sound (recorded samples) and the fingertip sensation (no string vibration) at the same time. In the right hand, where attention did not reach, I think this mismatch accumulated unnoticed. An existing tendency for my index finger to lift grew stronger on those keys. So I regard the digital piano as an accelerant, not a cause."
+                ],
+                [
+                  "Where it meets the research",
+                  "Sadnicka et al. (2017) say that a change of tool changes the task demand and that a set skill representation may fail to absorb it. Same structure as the steel nib and the Morse key."
+                ],
+                [
+                  "What I do now",
+                  "I alternate between two upright pianos, at home and at the studio. Differences of that size seem to keep the representation flexible. I avoid large, sudden changes of tool."
+                ],
+                [
+                  "Limits",
+                  "One person's recollection. Other things, such as practice load, may have changed over the same period and cannot be separated out. This does not mean digital pianos are harmful for everyone."
+                ]
+              ]
             }
           }
         },
@@ -638,10 +931,12 @@
           },
           "figure": {
             "src": {
-              "ko": "assets/fig/adapt.svg"
+              "ko": "assets/fig/adapt.svg",
+              "en": "assets/fig/en/adapt.svg"
             },
             "caption": {
-              "ko": "도구나 주사로 감각을 바꿨을 때 겪은 흐름."
+              "ko": "도구나 주사로 감각을 바꿨을 때 겪은 흐름.",
+              "en": "The course I experienced when a device or injection changed the sensation."
             }
           },
           "detail": {
@@ -665,6 +960,27 @@
                   "얼마 만에 돌아왔는지 날짜로 적어두지 않았다. 느낌에 의존한 기록이다. 도구가 쓸모없다는 뜻이 아니라, 도구만으로는 오래가지 않았다는 뜻이다."
                 ]
               ]
+            },
+            "en": {
+              "basis": "From the author's own notes",
+              "sections": [
+                [
+                  "What happened",
+                  "To reduce over-extension of my fourth finger I modified a splint so that it only limited the finger's angle. At first it was very comfortable and symptoms hardly appeared while wearing it. Over time the symptoms gradually returned with the splint still on. Tape and rings, anything touching the skin, went the same way: fine for a short while, then my body got used to them faster than expected. Mirror practice also helped only at first."
+                ],
+                [
+                  "How I see it",
+                  "I do not think the device corrected the finger. An unfamiliar sensation let me sidestep the familiar route of the symptom for a while. The sensation from a device is always the same; a sensation that is always the same soon becomes background, and the symptom settles again on top of the new background."
+                ],
+                [
+                  "Where it meets the research",
+                  "Same direction as the sensory-trick study (Paulig et al. 2014), in which a glove immediately improves some pianists' playing but the effect fades within minutes. The research describes habituation over minutes; my experience is adaptation over a longer period."
+                ],
+                [
+                  "Limits",
+                  "I did not record how long the return took. These are notes based on how it felt. I am not saying devices are useless, only that devices alone did not last."
+                ]
+              ]
             }
           }
         },
@@ -684,10 +1000,12 @@
           },
           "figure": {
             "src": {
-              "ko": "assets/fig/adapt.svg"
+              "ko": "assets/fig/adapt.svg",
+              "en": "assets/fig/en/adapt.svg"
             },
             "caption": {
-              "ko": "보톡스에서도 같은 흐름을 겪었다."
+              "ko": "보톡스에서도 같은 흐름을 겪었다.",
+              "en": "The same course with botulinum toxin."
             }
           },
           "detail": {
@@ -711,6 +1029,27 @@
                   "한 사람이 한 번 맞은 경험이다. 주사 위치와 용량, 위치를 정하는 방법에 따라 결과는 달라질 수 있다. 보톡스가 효과 없다는 일반적인 결론이 아니다."
                 ]
               ]
+            },
+            "en": {
+              "basis": "From the author's own notes",
+              "sections": [
+                [
+                  "What happened",
+                  "I had botulinum toxin injected into muscles related to the fourth and fifth fingers of my right hand. For about a week the fingers felt different, and symptoms appeared less. From about two weeks on, the unfamiliar sensation was still there but the symptoms began to settle back in. My notes at two and a half weeks: the force over-extending the fourth finger felt reduced from 10 to about 6–7, while the drooping of the fingers was almost unchanged. Unintentionally, I had difficulty lifting my third finger for about seven weeks."
+                ],
+                [
+                  "How I see it",
+                  "Botulinum toxin reduces muscle force. Yet what changed first, in my experience, was sensation, and the period when the symptoms hid coincided with the period when that sensation was unfamiliar. The same order as with the splint: symptoms hide while it is strange, and return on top once it is familiar."
+                ],
+                [
+                  "Where it meets the research",
+                  "In Jabusch et al. (2005), 49% of musicians felt improvement with botulinum toxin. Half were helped and half were not."
+                ],
+                [
+                  "Limits",
+                  "One person, one injection. Results can differ with injection site, dose and how the site is chosen. This is not a general conclusion that botulinum toxin does not work."
+                ]
+              ]
             }
           }
         },
@@ -731,10 +1070,12 @@
           },
           "figure": {
             "src": {
-              "ko": "assets/fig/cycle.svg"
+              "ko": "assets/fig/cycle.svg",
+              "en": "assets/fig/en/cycle.svg"
             },
             "caption": {
-              "ko": "가설의 요지. 고정된 입력은 흡수되고, 변하는 입력만 학습 신호로 남는다고 본다."
+              "ko": "가설의 요지. 고정된 입력은 흡수되고, 변하는 입력만 학습 신호로 남는다고 본다.",
+              "en": "The hypothesis in brief: constant input is absorbed; only varying input remains a learning signal."
             }
           },
           "detail": {
@@ -760,6 +1101,31 @@
                 [
                   "한계",
                   "한 사람의 자기 관찰에서 나온 가설이다. 객관적으로 잰 자료가 없고, 손으로 잡아주는 것이 오래가는 이유가 입력의 변화 때문인지 다른 이유 때문인지도 가려내지 못했다. 위 연구들을 이 가설로 묶은 것은 주인장의 해석이며, 그 논문의 저자들이 한 말이 아니다."
+                ]
+              ]
+            },
+            "en": {
+              "basis": "The author's hypothesis — untested",
+              "sections": [
+                [
+                  "Hypothesis",
+                  "The symptoms of dystonia are bound to a particular sensory state that the body has taken as its default. Changing that default sensation can therefore make symptoms vanish for a while. But if the changed sensation is always the same, it becomes the new default and the symptoms return on top of it. Constant input is absorbed; only input that varies over time remains a learning signal."
+                ],
+                [
+                  "Observations behind it",
+                  "Splint, tape, mirror and botulinum toxin all worked at first and then dulled. By contrast, someone holding my finger by hand, or my own left hand lightly touching the fingers of the right, did not dull with time. The first group is always the same input; the second differs slightly every time. I read the following the same way: in unfamiliar activities such as cube-solving or basketball the symptoms are not prominent, and they appear as the activity becomes familiar."
+                ],
+                [
+                  "Where it meets the research",
+                  "The studies that restored the map share something. Candia's retraining kept changing finger combinations, Rosenkranz's training directed attention to the sensation, and Zeuner's Braille gave a different pattern to read each time: attended, repeated, varying input. The report that the glove effect fades within minutes fits the idea that constant input is absorbed."
+                ],
+                [
+                  "How to test it",
+                  "Give the same corrective sensation in a constant form to one group and a varying form to another, and compare how long the effect lasts. If the varying form lasts longer, that supports the hypothesis."
+                ],
+                [
+                  "Limits",
+                  "A hypothesis from one person's self-observation. There are no objective measurements, and I have not separated whether hands-on touch lasts because the input varies or for some other reason. Grouping the studies above under this hypothesis is my own interpretation, not something their authors said."
                 ]
               ]
             }
