@@ -1,5 +1,29 @@
 [
-  { "id": "sensation", "file": "topics/sensation.json",
-    "name": { "ko": "감각", "en": "Sensation" },
-    "summary": { "ko": "손의 지도, 도구, 그리고 감각을 바꿔도 돌아오는 증상", "en": "The hand map, tools, and symptoms that return when sensation changes" } }
+  {
+    "id": "sensation",
+    "file": "topics/sensation.json",
+    "name": {
+      "ko": "감각",
+      "en": "Sensation"
+    },
+    "summary": {
+      "ko": "손의 지도, 도구, 그리고 감각을 바꿔도 돌아오는 증상",
+      "en": "The hand map, tools, and symptoms that return when sensation changes"
+    }
+  },
+  {
+    "id": "vision",
+    "file": "topics/vision.json",
+    "name": {
+      "ko": "시각",
+      "en": "Vision"
+    },
+    "summary": {
+      "ko": "무언가를 형성해 갈 때 눈이 하는 일: 보는 것, 거울, 그리고 안 보던 손",
+      "en": "What the eyes do while a movement is being formed: looking, mirrors, and the hand that went unwatched"
+    },
+    "langs": [
+      "ko"
+    ]
+  }
 ]

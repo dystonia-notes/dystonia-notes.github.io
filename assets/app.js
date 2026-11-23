@@ -45,7 +45,8 @@
     <h2>${esc(t(g.name))}</h2><p class="sum">${esc(t(g.summary))}</p>${extra}${listHTML(g.items)}</section>`;
   const legendHTML = () => `<div class="legend">${Object.keys(i18n.evidence).map((k) =>
     `<span><span class="tag ${k}">${esc(t(i18n.evidence[k]))}</span></span><span>${esc(t(i18n.evidence_desc[k]))}</span>`).join('')}</div>`;
-  const cardsHTML = (topics) => topics.map((tp) =>
+  const inLang = (tp) => !tp.langs || tp.langs.includes(L);
+  const cardsHTML = (topics) => topics.filter(inLang).map((tp) =>
     `<a class="card" href="${base}topic-${esc(tp.id)}.html"><b>${esc(t(tp.name))}</b><span>${esc(t(tp.summary))}</span></a>`).join('');
 
   if (page === 'home') {
@@ -68,6 +69,8 @@
   if (page === 'topic') {
     const topics = await get('topics.json');
     const meta = topics.find((x) => x.id === html.dataset.topic);
+    const OL = L === 'en' ? 'ko' : 'en';
+    if (meta.langs && !meta.langs.includes(OL)) { const sw = document.querySelector('header a.lang'); if (sw) sw.href = other + file.topics; }
     const tp = await get(meta.file);
     document.title = `${t(tp.name)} · ${t(i18n.site)}`;
     main.innerHTML = `<h1>${esc(t(tp.name))}</h1><p class="lead">${esc(t(tp.summary))}</p>
@@ -92,7 +95,7 @@
     const viewHTML = (c) => {
       const ps = [].concat(ts(c.view) || []);
       if (!ps.length) return '';
-      const tp = topics.find((x) => x.id === c.view_topic);
+      const tp = topics.find((x) => x.id === c.view_topic && inLang(x));
       return `<div class="view"><b>${esc(t(i18n.view_title))}</b>${ps.map((p) => `<p>${esc(p)}</p>`).join('')}` +
         (tp ? `<p class="links"><a href="${base}topic-${esc(tp.id)}.html">${esc(t(tp.name))} →</a></p>` : '') + `</div>`;
     };
