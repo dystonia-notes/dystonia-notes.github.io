@@ -1,0 +1,146 @@
+{
+  "id": "sensation",
+  "name": { "ko": "감각", "en": "Sensation" },
+  "summary": {
+    "ko": "근긴장이상은 움직임의 병이지만, 그 뿌리에는 감각이 있다. 손이 뇌에 그려진 지도, 그 지도를 흔드는 도구, 그리고 도구로 감각을 바꿔도 증상이 돌아오는 경험을 차례로 쌓는다.",
+    "en": "Dystonia is a movement disorder, but its roots lie in sensation. This page stacks three layers: the hand's map in the brain, the tools that shake that map, and the experience of symptoms returning even when tools change the sensation."
+  },
+  "layers": [
+    {
+      "id": "homunculus",
+      "name": { "ko": "1. 손가락이 뇌에 그려진 지도", "en": "1. The map of the fingers in the brain" },
+      "intro": {
+        "ko": "일차 체감각피질에는 손가락마다 자리가 정해진 지도(호문쿨루스)가 있다. 음악가 근긴장이상에서는 이 지도의 손가락 자리들이 서로 붙거나 뒤섞여 있다는 보고가 반복되었고, 재훈련으로 지도가 되돌아온다는 연구도 있다. 다만 모든 근긴장이상에 공통된 특징인지는 아직 논쟁 중이다.",
+        "en": "The primary somatosensory cortex holds a map of the hand in which each finger has its place. In musician's dystonia, finger territories have repeatedly been found merged or disordered, and some studies show the map recovering with retraining. Whether this is common to all focal dystonias is still debated."
+      },
+      "items": [
+        {
+          "type": "paper", "evidence": "strong", "aspects": ["cause"],
+          "title": "Alteration of digital representations in somatosensory cortex in focal hand dystonia",
+          "authors": "Elbert T, Candia V, Altenmüller E, et al.", "year": 1998, "source": "NeuroReport 9",
+          "note": { "ko": "음악가 환자의 체감각피질에서 손가락 사이 거리가 좁아져 있음", "en": "Reduced distance between finger representations in affected musicians" }
+        },
+        {
+          "type": "paper", "evidence": "strong", "aspects": ["cause"],
+          "title": "Abnormal somatosensory homunculus in dystonia of the hand",
+          "authors": "Bara-Jimenez W, Catalan MJ, Hallett M, Gerloff C", "year": 1998, "source": "Annals of Neurology 44(5):828–831",
+          "url": "https://doi.org/10.1002/ana.410440520",
+          "note": { "ko": "손 근긴장이상 환자 6명에서 손가락 표상의 정상 배열이 흐트러져 있음", "en": "Disordered finger arrangement in S1 of six hand-dystonia patients" }
+        },
+        {
+          "type": "paper", "evidence": "strong", "aspects": ["cause"],
+          "title": "Spatial discrimination is abnormal in focal hand dystonia",
+          "authors": "Bara-Jimenez W, Shelton P, Hallett M", "year": 2000, "source": "Neurology 55(12):1869",
+          "note": { "ko": "지도가 흐려지면 감각 해상도도 떨어질 것이라는 가설을 공간 변별 검사로 확인", "en": "Tests whether a blurred map shows up as poorer spatial discrimination" }
+        },
+        {
+          "type": "paper", "evidence": "strong", "aspects": ["cause"],
+          "title": "Reorganization of the Human Somatosensory Cortex in Hand Dystonia",
+          "authors": "Catalan MJ, Ishii K, Bara-Jimenez W, Hallett M", "year": 2012, "source": "Journal of Movement Disorders 5(1):5–8",
+          "url": "https://doi.org/10.14802/jmd.12002",
+          "note": { "ko": "PET로 다시 확인: 환자의 손가락 표상들이 정상인보다 서로 더 가까움", "en": "PET confirmation: finger representations closer together in patients" }
+        },
+        {
+          "type": "paper", "evidence": "strong", "aspects": ["cause"],
+          "title": "Pathophysiological differences between musician's dystonia and writer's cramp",
+          "authors": "Rosenkranz K, Williamon A, Butler K, Cordivari C, Lees AJ, Rothwell JC", "year": 2005, "source": "Brain 128(4):918–931",
+          "url": "https://doi.org/10.1093/brain/awh402",
+          "note": { "ko": "건강한 음악가는 비음악가와 환자의 중간. 연습이 만든 이로운 재편이 환자에선 지나쳐 움직임을 방해한다는 모델. 서경증과는 양상이 다름", "en": "Healthy musicians sit between non-musicians and patients: practice-driven reorganisation goes too far in MD; differs from writer's cramp" }
+        },
+        {
+          "type": "paper", "evidence": "strong", "aspects": ["cause", "treatment"],
+          "title": "Effective behavioral treatment of focal hand dystonia in musicians alters somatosensory cortical organization",
+          "authors": "Candia V, Wienbruch C, Elbert T, Rockstroh B, Ray W", "year": 2003, "source": "PNAS 100(13):7942–7946",
+          "url": "https://doi.org/10.1073/pnas.1231193100",
+          "note": { "ko": "재훈련으로 증상이 나아지자 뒤섞였던 지도도 정상 쪽으로 돌아옴 — 원인과 치료가 같은 지도 위에서 만남", "en": "As retraining improved symptoms, the map normalised — cause and treatment meet on the same map" }
+        },
+        {
+          "type": "paper", "evidence": "strong", "aspects": ["treatment"],
+          "title": "Regaining motor control in musician's dystonia by restoring sensorimotor organization",
+          "authors": "Rosenkranz K, Butler K, Williamon A, Rothwell JC", "year": 2009, "source": "Journal of Neuroscience 29(46):14627–14636",
+          "url": "https://doi.org/10.1523/JNEUROSCI.2094-09.2009",
+          "note": { "ko": "15분간 주의를 기울인 고유감각 훈련으로 감각-운동 조직이 건강한 피아니스트 쪽으로 회복", "en": "15 minutes of attended proprioceptive training restored sensorimotor organisation toward healthy pianists" }
+        },
+        {
+          "type": "paper", "evidence": "case", "aspects": ["treatment"],
+          "title": "Sensory training for patients with focal hand dystonia",
+          "authors": "Zeuner KE, Bara-Jimenez W, Noguchi PS, Goldstein SR, Dambrosia JM, Hallett M", "year": 2002, "source": "Annals of Neurology 51:593–598",
+          "url": "https://doi.org/10.1002/ana.10174",
+          "note": { "ko": "8주간 점자 읽기로 감각을 훈련하자 감각 해상도와 증상이 함께 좋아짐 (10명)", "en": "Eight weeks of Braille reading improved both tactile acuity and dystonia (n=10)" }
+        },
+        {
+          "type": "paper", "evidence": "hypothesis", "aspects": ["cause"],
+          "title": "Intact organization of tactile space in isolated focal dystonia (학회 초록 / conference abstract)",
+          "authors": "Mainka T, Azañón E, Zeuner K, et al.", "year": 2020, "source": "MDS Virtual Congress 2020",
+          "url": "https://www.mdsabstracts.org/abstract/intact-organization-of-tactile-space-in-isolated-focal-dystonia/",
+          "note": { "ko": "반대 증거: 촉각 거리 지각은 정상. 지도 이상이 모든 국소성 근긴장이상의 공통 특징인지 의문 제기", "en": "Counter-evidence: tactile distance perception was intact, questioning map abnormality as a universal feature" }
+        }
+      ]
+    },
+    {
+      "id": "tool",
+      "name": { "ko": "2. 도구가 지도를 흔든다", "en": "2. Tools shake the map" },
+      "intro": {
+        "ko": "감각은 맨손이 아니라 도구를 통해 들어온다. Sadnicka 등(2017)은 과업특이적 근긴장이상의 위험을 과업·도구·말초·중추신경계 네 요소로 나누었고, 그중 도구가 바뀌면 과업의 요구가 바뀌어 기존 기술 표상이 감당하지 못할 수 있다고 보았다.",
+        "en": "Sensation reaches the brain through tools, not bare hands. Sadnicka et al. (2017) divide risk into task, tool, periphery and CNS; a tool change alters task demands that an existing skill representation may not be able to absorb."
+      },
+      "items": [
+        {
+          "type": "paper", "evidence": "strong", "aspects": ["cause"],
+          "title": "A unifying motor control framework for task-specific dystonia — '도구(Tool)' 항목",
+          "authors": "Sadnicka A, Kornysheva K, Rothwell JC, Edwards MJ", "year": 2017, "source": "Nature Reviews Neurology 14(2):116–124",
+          "url": "https://doi.org/10.1038/nrneurol.2017.146",
+          "note": { "ko": "깃털 펜→강철 펜촉 전환으로 필경사의 운동 장애 급증(펜 깎던 휴식이 사라짐), 모스 키→키보드 교체로 교환수 대부분 회복, 현악기는 작을수록 발생률↑(높은 공간 해상도 요구). 음악가는 도구를 바꿀 수 없으니 표상의 탄력성을 키우는 쪽이 예방책", "en": "Quill-to-steel-nib switch raised clerks' motor problems (lost micro-breaks); replacing Morse keys freed most telegraphists; smaller string instruments carry higher risk. Musicians can't change tools, so building representational resilience is the preventive route" }
+        },
+        {
+          "type": "paper", "evidence": "strong", "aspects": ["treatment"],
+          "title": "Focal dystonia in musicians: Treatment strategies and long-term outcome in 144 patients",
+          "authors": "Jabusch HC, Zschucke D, Schmidt A, Schuele S, Altenmüller E", "year": 2005, "source": "Movement Disorders 20(12):1623–1626",
+          "url": "https://doi.org/10.1002/mds.20631",
+          "note": { "ko": "도구 쪽을 손보는 인체공학적 조정이 자가 평가 호전율 63%로 가장 높았음", "en": "Ergonomic (tool-side) changes had the highest self-rated improvement rate, 63%" }
+        },
+        {
+          "type": "paper", "evidence": "strong", "aspects": ["cause", "treatment"],
+          "title": "Sensory trick phenomenon improves motor control in pianists with dystonia: prognostic value of glove-effect",
+          "authors": "Paulig J, Jabusch HC, Großbach M, Boullet L, Altenmüller E", "year": 2014, "source": "Frontiers in Psychology 5:1012",
+          "url": "https://doi.org/10.3389/fpsyg.2014.01012",
+          "note": { "ko": "얇은 장갑 하나로 감각을 바꾸면 일부 환자는 즉시 나아지지만, 효과는 안정적이지 않고 몇 분 만에 사라짐 — 바뀐 감각에 익숙해지는 것", "en": "A thin glove helps some pianists instantly, but the effect is unstable and fades within minutes — habituation to the altered input" }
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "name": { "ko": "3. 주인장의 경험: 감각을 바꿔도 증상은 돌아온다", "en": "3. The author's experience: change the sensation, and the symptom returns" },
+      "intro": {
+        "ko": "피아니스트-환자인 주인장의 관찰. 연구가 아니라 한 사람의 기록이며, 위의 연구들과 어디서 만나는지를 함께 적는다.",
+        "en": "Observations by the site author, a pianist-patient. One person's record, not research — noting where it meets the studies above."
+      },
+      "items": [
+        {
+          "type": "experience", "evidence": "personal", "aspects": ["cause"],
+          "title": { "ko": "디지털 피아노: 원인이 아니라 촉진제", "en": "Digital piano: an accelerant, not a cause" },
+          "note": { "ko": "어쿠스틱에서 디지털로 바꾸며 청각(샘플링 음원)과 촉각(현 진동)이 동시에 바뀌었다. 주의가 왼손에 가 있던 사이, 오른손은 이 교란을 감지하지 못한 채 조금씩 어긋났고 이 시기에 증상이 빨라졌다. 터치감을 아무리 잘 만들어도 미묘하게 달라 감각에 혼동이 온다.", "en": "Switching from acoustic to digital changed hearing (sampled sound) and touch (no string vibration) at once. With attention on the left hand, the right hand drifted without noticing, and symptoms accelerated. However good the action, the subtle difference confuses the senses." }
+        },
+        {
+          "type": "experience", "evidence": "personal", "aspects": ["treatment"],
+          "title": { "ko": "부목·테이프·반지: 처음엔 되다가 적응한다", "en": "Splints, tape, rings: they work, then the body adapts" },
+          "note": { "ko": "접촉성 물건을 착용하면 일시적으로 잘 된다. 그런데 생각보다 빨리 몸이 그 도구에 적응해, 도구를 낀 채로 다시 증상이 나타난 일이 여러 번 있었다. 장갑 효과가 몇 분 만에 사라진다는 연구와 같은 방향.", "en": "Wearing contact objects helps temporarily, but the body adapts faster than expected and symptoms return while still wearing them — the same direction as the short-lived glove effect." }
+        },
+        {
+          "type": "experience", "evidence": "personal", "aspects": ["treatment"],
+          "title": { "ko": "보톡스: 같은 패턴", "en": "Botulinum toxin: the same pattern" },
+          "note": { "ko": "약간 마비된 듯한 낯선 감각이 생기자 한동안 증상이 숨었다. 그러나 그 감각이 그대로인 채로 증상이 다시 적응하기 시작했다. 근육을 누르는 치료도 결국 뇌가 새 조건을 학습해버린다.", "en": "A slightly numb, unfamiliar sensation hid symptoms for a while, but symptoms began adapting while that sensation remained. Even muscle-weakening treatment becomes a new condition the brain learns." }
+        },
+        {
+          "type": "hypothesis", "evidence": "personal", "aspects": ["cause", "treatment"],
+          "title": { "ko": "가설: 증상은 '기본값'이 된 감각에 묶여 있다", "en": "Hypothesis: symptoms are bound to a sensation that has become the default" },
+          "note": { "ko": "근긴장이상이 특정 감각에 의해 유발되고 몸이 그 감각을 기본값으로 세팅해 둔 것이라면, 기본 감각을 바꾸는 것만으로 증상이 잠시 사라질 수 있다. 하지만 바뀐 감각이 고정되어 있으면 그것이 새 기본값이 되어 증상이 그 위로 돌아온다. 그래서 고정된 입력은 흡수되고, 시간에 따라 변하는 입력만 학습 신호로 남는다고 본다.", "en": "If dystonia is triggered by a particular sensation the body has set as default, changing that sensation can briefly remove symptoms. But a fixed new sensation becomes the new default and symptoms return on top of it. Hence fixed inputs get absorbed; only time-varying input remains a learning signal." }
+        }
+      ],
+      "view": {
+        "ko": "세 층을 겹쳐 보면: 지도는 흐려져 있고(1층), 도구는 그 지도에 들어가는 감각을 바꾸며(2층), 감각을 바꾸는 것만으로는 지도가 다시 짜이지 않는다(3층). 지도를 되돌린 연구들(Candia 2003, Rosenkranz 2009, Zeuner 2002)은 모두 주의를 기울인, 반복되는, 변화하는 입력을 썼다는 공통점이 있다.",
+        "en": "Stacking the layers: the map is blurred (1), tools change what reaches it (2), and merely changing sensation does not rewire it (3). The studies that restored the map (Candia 2003, Rosenkranz 2009, Zeuner 2002) all used attended, repeated, varying input."
+      }
+    }
+  ]
+}

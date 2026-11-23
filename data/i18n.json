@@ -12,13 +12,13 @@
       "ko": "홈",
       "en": "Home"
     },
-    "causes": {
-      "ko": "원인",
-      "en": "Causes"
+    "topics": {
+      "ko": "주제",
+      "en": "Topics"
     },
-    "treatments": {
-      "ko": "치료",
-      "en": "Treatments"
+    "library": {
+      "ko": "전체 자료",
+      "en": "Library"
     },
     "map": {
       "ko": "치료 센터 지도",
@@ -26,8 +26,8 @@
     }
   },
   "home_intro": {
-    "ko": "이 사이트는 논문, 영상, 가설을 원인과 치료라는 두 축으로 정리합니다. 각 치료 항목은 그것이 근거로 삼는 원인 가설과 연결되어 있습니다.",
-    "en": "This site organizes papers, videos, and hypotheses along two axes: causes and treatments. Each treatment is linked to the causal hypotheses it is based on."
+    "ko": "주제별로 원인과 치료를 함께 파고드는 노트입니다. 각 주제는 연구 근거와 주인장의 경험·관점을 층으로 쌓고, 항목마다 원인 측면인지 치료 측면인지 표시합니다.",
+    "en": "Notes that dig into causes and treatments together, topic by topic. Each topic stacks research evidence and the author's experience in layers, marking whether each item bears on cause or treatment."
   },
   "evidence_title": {
     "ko": "근거 수준 표시",
@@ -89,6 +89,10 @@
     "hypothesis": {
       "ko": "가설",
       "en": "Hypothesis"
+    },
+    "experience": {
+      "ko": "경험",
+      "en": "Experience"
     }
   },
   "empty": {
@@ -110,5 +114,35 @@
   "lang_switch": {
     "ko": "English",
     "en": "한국어"
+  },
+  "aspect": {
+    "cause": {
+      "ko": "원인 측면",
+      "en": "Cause"
+    },
+    "treatment": {
+      "ko": "치료 측면",
+      "en": "Treatment"
+    }
+  },
+  "view_title": {
+    "ko": "주인장 관점",
+    "en": "Author's view"
+  },
+  "library_intro": {
+    "ko": "사이트에 실린 자료를 기전·요인과 치료 접근으로 나눠 모은 찾아보기용 목록입니다.",
+    "en": "A browsable list of all sources, grouped by mechanism/factor and by treatment approach."
+  },
+  "lib_causes": {
+    "ko": "기전·요인",
+    "en": "Mechanisms & factors"
+  },
+  "lib_treatments": {
+    "ko": "치료 접근",
+    "en": "Treatment approaches"
+  },
+  "topics_intro": {
+    "ko": "주인장의 관점으로 엮은 주제들. 하나씩 늘려갑니다.",
+    "en": "Topics woven from the author's perspective, added one by one."
   }
 }
