@@ -10,13 +10,13 @@
   const i18n = await get('i18n.json');
   const base = L === 'en' ? root + 'en/' : root;
   const other = L === 'en' ? root : root + 'en/';
-  const file = { home: '', topics: 'topics.html', library: 'library.html', map: 'map.html' };
+  const file = { home: '', topics: 'topics.html', videos: 'videos.html', library: 'library.html', map: 'map.html' };
   const navKey = page === 'topic' ? 'topics' : page;
   const selfFile = page === 'topic' ? `topic-${html.dataset.topic}.html` : file[page];
 
   document.querySelector('header').innerHTML = `<div class="wrap bar">
     <a class="brand" href="${base}">${esc(t(i18n.site))}</a>
-    <nav>${['home', 'topics', 'library', 'map']
+    <nav>${['home', 'topics', 'videos', 'library', 'map']
       .map((k) => `<a href="${base}${file[k]}" class="${k === navKey ? 'on' : ''}">${esc(t(i18n.nav[k]))}</a>`).join('')}
       <a class="lang" href="${other}${selfFile}">${esc(t(i18n.lang_switch))}</a></nav></div>`;
   document.querySelector('footer').innerHTML = `<div class="wrap">${esc(t(i18n.disclaimer))}</div>`;
@@ -52,6 +52,7 @@
     main.innerHTML = `<h1>${esc(t(i18n.site))}</h1><p class="lead">${esc(t(i18n.tagline))}</p>
       <p>${esc(t(i18n.home_intro))}</p>
       <div class="cards">${cardsHTML(topics)}
+        <a class="card" href="${base}videos.html"><b>${esc(t(i18n.nav.videos))}</b><span>${esc(t(i18n.videos_intro).split('.')[0])}</span></a>
         <a class="card" href="${base}library.html"><b>${esc(t(i18n.nav.library))}</b><span>${esc(t(i18n.library_intro))}</span></a>
         <a class="card" href="${base}map.html"><b>${esc(t(i18n.nav.map))}</b></a></div>
       <h2>${esc(t(i18n.evidence_title))}</h2>${legendHTML()}`;
@@ -80,6 +81,30 @@
       const open = all.some((x) => !x.open);
       all.forEach((x) => { x.open = open; });
       btn.textContent = t(open ? i18n.close_all : i18n.open_all);
+    });
+  }
+
+  if (page === 'videos') {
+    const chans = await get('videos.json');
+    const ts = (o) => (o && o[L]) || '';
+    main.innerHTML = `<h1>${esc(t(i18n.nav.videos))}</h1><p class="lead">${esc(t(i18n.videos_intro))}</p>` +
+      chans.map((c) => `<section class="group" id="${esc(c.id)}"><h2>${esc(c.name)}</h2>
+        ${ts(c.about) ? `<p class="sum">${esc(ts(c.about))}</p>` : ''}
+        ${ts(c.caution) ? `<div class="view"><p>${esc(ts(c.caution))}</p></div>` : ''}
+        <p class="links"><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(t(i18n.channel_link))}</a></p>
+        ${c.groups.map((g) => `<h3 class="vg">${esc(t(g.name))}</h3><ul class="items">${g.videos.map((v) =>
+          `<li><span class="tag type">${esc(t(i18n.type.video))}</span><span class="tag ${esc(v.evidence)}">${esc(t(i18n.evidence[v.evidence]))}</span>` +
+          `<a class="ttl" href="https://www.youtube.com/watch?v=${esc(v.id)}" target="_blank" rel="noopener">${esc(v.title)}</a>` +
+          `<div class="meta">${[v.duration, ts(v.note)].filter(Boolean).map(esc).join(' · ')}</div>` +
+          `<button type="button" class="play" data-id="${esc(v.id)}">${esc(t(i18n.play_here))}</button><div class="player"></div></li>`).join('')}</ul>`).join('')}
+      </section>`).join('');
+    main.addEventListener('click', (e) => {
+      const btn = e.target.closest('button.play');
+      if (!btn) return;
+      const box = btn.nextElementSibling;
+      if (box.firstChild) { box.innerHTML = ''; btn.textContent = t(i18n.play_here); return; }
+      box.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(btn.dataset.id)}" title="YouTube video player" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+      btn.textContent = t(i18n.close_player);
     });
   }
 

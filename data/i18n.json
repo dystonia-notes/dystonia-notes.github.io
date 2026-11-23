@@ -16,6 +16,10 @@
       "ko": "주제",
       "en": "Topics"
     },
+    "videos": {
+      "ko": "영상",
+      "en": "Videos"
+    },
     "library": {
       "ko": "전체 자료",
       "en": "Library"
@@ -26,7 +30,7 @@
     }
   },
   "home_intro": {
-    "ko": "주제별로 원인과 치료를 함께 파고드는 노트입니다. 각 주제는 연구 근거와 주인장의 경험·관점을 층으로 쌓고, 항목마다 원인 측면인지 치료 측면인지 표시합니다.",
+    "ko": "주제별로 원인과 치료를 함께 파고드는 노트입니다. 각 주제는 연구 근거와 유별의 경험·관점을 층으로 쌓고, 항목마다 원인 측면인지 치료 측면인지 표시합니다.",
     "en": "Notes that dig into causes and treatments together, topic by topic. Each topic stacks research evidence and the author's experience in layers, marking whether each item bears on cause or treatment."
   },
   "evidence_title": {
@@ -126,7 +130,7 @@
     }
   },
   "view_title": {
-    "ko": "주인장 관점",
+    "ko": "유별 관점",
     "en": "Author's view"
   },
   "library_intro": {
@@ -142,7 +146,7 @@
     "en": "Treatment approaches"
   },
   "topics_intro": {
-    "ko": "주인장의 관점으로 엮은 주제들. 하나씩 늘려갑니다.",
+    "ko": "유별의 관점으로 엮은 주제들. 하나씩 늘려갑니다.",
     "en": "Topics woven from the author's perspective, added one by one."
   },
   "more": {
@@ -160,5 +164,21 @@
   "close_all": {
     "ko": "모두 접기",
     "en": "Collapse all"
+  },
+  "videos_intro": {
+    "ko": "근긴장이상을 다루는 유튜브 채널과 영상 소개. 제목을 누르면 유튜브로 가고, '여기서 보기'를 누르면 이 자리에서 재생된다.",
+    "en": "YouTube channels and videos about dystonia. Titles link to YouTube; 'Play here' loads the player in place."
+  },
+  "play_here": {
+    "ko": "여기서 보기",
+    "en": "Play here"
+  },
+  "close_player": {
+    "ko": "닫기",
+    "en": "Close"
+  },
+  "channel_link": {
+    "ko": "채널 바로가기",
+    "en": "Visit channel"
   }
 }

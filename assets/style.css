@@ -63,3 +63,8 @@ figcaption{font-size:13px;color:var(--muted);margin-top:6px}
 .tools{margin:-16px 0 8px}
 .tools button{font:inherit;font-size:13px;background:#fff;border:1px solid var(--line);border-radius:6px;padding:4px 10px;cursor:pointer;color:var(--fg)}
 .tools button:hover{border-color:var(--accent)}
+h3.vg{font-size:15px;margin:20px 0 4px;color:var(--muted);font-weight:600}
+button.play{font:inherit;font-size:13px;background:#fff;border:1px solid var(--line);border-radius:6px;padding:2px 10px;margin-top:6px;cursor:pointer;color:var(--accent)}
+button.play:hover{border-color:var(--accent)}
+.player iframe{display:block;width:100%;max-width:640px;aspect-ratio:16/9;border:0;border-radius:10px;margin-top:10px;background:#000}
+.view p:only-child{margin:0}
