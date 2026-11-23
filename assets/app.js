@@ -3,7 +3,7 @@
   const L = html.lang === 'en' ? 'en' : 'ko';
   const page = html.dataset.page;
   const root = html.dataset.root || './';
-  const get = (p) => fetch(root + 'data/' + p).then((r) => r.json());
+  const get = (p) => fetch(root + 'data/' + p, { cache: 'no-cache' }).then((r) => r.json());
   const t = (o) => (o == null ? '' : typeof o === 'string' ? o : (o[L] || o.ko || o.en || ''));
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
