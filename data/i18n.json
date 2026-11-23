@@ -188,5 +188,9 @@
   "covers_title": {
     "ko": "다루는 내용",
     "en": "What it covers"
+  },
+  "site_link": {
+    "ko": "공식 사이트",
+    "en": "Official site"
   }
 }

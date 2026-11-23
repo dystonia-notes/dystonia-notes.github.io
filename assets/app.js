@@ -100,9 +100,10 @@
       chans.map((c) => `<section class="group" id="${esc(c.id)}"><h2>${esc(c.name)}</h2>
         ${ts(c.about) ? `<p class="sum">${esc(ts(c.about))}</p>` : ''}
         ${ts(c.covers) ? `<p class="covers-t">${esc(t(i18n.covers_title))}</p><ul class="covers">${ts(c.covers).map((x) => `<li><b>${esc(x.h)}</b> ${esc(x.p)}</li>`).join('')}</ul>` : ''}
+        ${c.site && ts(c.site.note) ? `<p class="sum">${esc(ts(c.site.note))}</p>` : ''}
+        <p class="links"><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(t(i18n.channel_link))}</a>${c.site ? ` · <a href="${esc(c.site.url)}" target="_blank" rel="noopener">${esc(t(i18n.site_link))}</a>` : ''}</p>
         ${ts(c.caution) ? `<div class="view"><p>${esc(ts(c.caution))}</p></div>` : ''}
         ${viewHTML(c)}
-        <p class="links"><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(t(i18n.channel_link))}</a></p>
         ${c.groups.map((g) => `<h3 class="vg">${esc(t(g.name))}</h3><ul class="items">${g.videos.map((v) =>
           `<li><span class="tag type">${esc(t(i18n.type.video))}</span><span class="tag ${esc(v.evidence)}">${esc(t(i18n.evidence[v.evidence]))}</span>` +
           `<a class="ttl" href="https://www.youtube.com/watch?v=${esc(v.id)}" target="_blank" rel="noopener">${esc(v.title)}</a>` +
