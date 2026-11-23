@@ -144,5 +144,21 @@
   "topics_intro": {
     "ko": "주인장의 관점으로 엮은 주제들. 하나씩 늘려갑니다.",
     "en": "Topics woven from the author's perspective, added one by one."
+  },
+  "more": {
+    "ko": "자세히 보기",
+    "en": "Details"
+  },
+  "source_link": {
+    "ko": "원문 보기",
+    "en": "Open source"
+  },
+  "open_all": {
+    "ko": "모두 펼치기",
+    "en": "Expand all"
+  },
+  "close_all": {
+    "ko": "모두 접기",
+    "en": "Collapse all"
   }
 }

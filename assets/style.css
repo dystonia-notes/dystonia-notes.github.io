@@ -44,3 +44,22 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px;paddin
 .view p{margin:4px 0 0;font-size:15px}
 h2.part{margin-top:40px;font-size:22px}
 .layer h2{font-size:21px}
+li.has-detail{padding:0}
+details>summary{list-style:none;cursor:pointer;padding:10px 8px;border-radius:8px;margin:0 -8px}
+details>summary::-webkit-details-marker{display:none}
+details>summary:hover{background:#f6f8fa}
+details>summary:focus-visible{outline:2px solid var(--accent)}
+.ttl{font-weight:600}
+.more{display:inline-block;margin-top:6px;font-size:13px;color:var(--accent)}
+.more::after{content:" ▾"}
+details[open]>summary .more::after{content:" ▴"}
+.detail{padding:4px 0 18px 14px;margin:4px 0 8px 4px;border-left:2px solid var(--line)}
+.detail h4{margin:16px 0 2px;font-size:14px;color:var(--accent)}
+.detail p{margin:0;font-size:15px;line-height:1.75}
+.detail .basis{margin-top:14px;font-size:13px;color:var(--muted)}
+figure{margin:14px 0 6px}
+figure img{width:100%;max-width:720px;height:auto;display:block;border:1px solid var(--line);border-radius:10px;background:#fff;padding:8px}
+figcaption{font-size:13px;color:var(--muted);margin-top:6px}
+.tools{margin:-16px 0 8px}
+.tools button{font:inherit;font-size:13px;background:#fff;border:1px solid var(--line);border-radius:6px;padding:4px 10px;cursor:pointer;color:var(--fg)}
+.tools button:hover{border-color:var(--accent)}

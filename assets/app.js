@@ -22,13 +22,22 @@
   document.querySelector('footer').innerHTML = `<div class="wrap">${esc(t(i18n.disclaimer))}</div>`;
   const main = document.querySelector('main .wrap');
 
+  const figHTML = (f) => (f && f.src && f.src[L])
+    ? `<figure><img src="${root}${esc(f.src[L])}" alt="${esc(t(f.caption))}" loading="lazy"><figcaption>${esc(t(f.caption))}</figcaption></figure>` : '';
   const itemHTML = (it) => {
-    const title = it.url ? `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(t(it.title))}</a>` : esc(t(it.title));
+    const dt = it.detail && it.detail[L];
+    const link = (txt) => `<a href="${esc(it.url)}" target="_blank" rel="noopener">${txt}</a>`;
+    const title = (it.url && !dt) ? link(esc(t(it.title))) : esc(t(it.title));
     const meta = [it.authors, it.year, it.source].filter(Boolean).map(esc).join(' · ');
     const tags = `<span class="tag type">${esc(t(i18n.type[it.type]))}</span>` +
       (it.evidence ? `<span class="tag ${esc(it.evidence)}">${esc(t(i18n.evidence[it.evidence]))}</span>` : '') +
       (it.aspects || []).map((a) => `<span class="tag aspect ${esc(a)}">${esc(t(i18n.aspect[a]))}</span>`).join('');
-    return `<li>${tags}${title}${meta ? `<div class="meta">${meta}</div>` : ''}${it.note ? `<div class="note">${esc(t(it.note))}</div>` : ''}</li>`;
+    const head = `${tags}<span class="ttl">${title}</span>${meta ? `<div class="meta">${meta}</div>` : ''}${it.note ? `<div class="note">${esc(t(it.note))}</div>` : ''}`;
+    if (!dt) return `<li>${head}</li>`;
+    return `<li class="has-detail"><details><summary>${head}<span class="more">${esc(t(i18n.more))}</span></summary>
+      <div class="detail">${figHTML(it.figure)}
+        ${dt.sections.map(([h, p]) => `<h4>${esc(h)}</h4><p>${esc(p)}</p>`).join('')}
+        <p class="basis">${esc(dt.basis)}${it.url ? ' · ' + link(esc(t(i18n.source_link))) : ''}</p></div></details></li>`;
   };
   const listHTML = (items) => items.length ? `<ul class="items">${items.map(itemHTML).join('')}</ul>` : `<p class="empty">${esc(t(i18n.empty))}</p>`;
   const groupHTML = (g, extra = '') => `<section class="group" id="${esc(g.id)}">
@@ -59,11 +68,19 @@
     const meta = topics.find((x) => x.id === html.dataset.topic);
     const tp = await get(meta.file);
     document.title = `${t(tp.name)} · ${t(i18n.site)}`;
-    main.innerHTML = `<h1>${esc(t(tp.name))}</h1><p class="lead">${esc(t(tp.summary))}</p>` +
+    main.innerHTML = `<h1>${esc(t(tp.name))}</h1><p class="lead">${esc(t(tp.summary))}</p>
+      ${L === 'ko' ? `<p class="tools"><button type="button" id="toggle-all">${esc(t(i18n.open_all))}</button></p>` : ''}` +
       tp.layers.map((ly) => `<section class="group layer" id="${esc(ly.id)}"><h2>${esc(t(ly.name))}</h2>
-        <p class="sum">${esc(t(ly.intro))}</p>${listHTML(ly.items)}
+        <p class="sum">${esc(t(ly.intro))}</p>${figHTML(ly.figure)}${listHTML(ly.items)}
         ${ly.view ? `<div class="view"><b>${esc(t(i18n.view_title))}</b><p>${esc(t(ly.view))}</p></div>` : ''}</section>`).join('') +
       `<section class="group"><h2>${esc(t(i18n.evidence_title))}</h2>${legendHTML()}</section>`;
+    const btn = document.getElementById('toggle-all');
+    if (btn) btn.addEventListener('click', () => {
+      const all = [...main.querySelectorAll('details')];
+      const open = all.some((x) => !x.open);
+      all.forEach((x) => { x.open = open; });
+      btn.textContent = t(open ? i18n.close_all : i18n.open_all);
+    });
   }
 
   if (page === 'library') {

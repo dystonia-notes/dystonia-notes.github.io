@@ -1,6 +1,9 @@
 {
   "id": "sensation",
-  "name": { "ko": "감각", "en": "Sensation" },
+  "name": {
+    "ko": "감각",
+    "en": "Sensation"
+  },
   "summary": {
     "ko": "근긴장이상은 움직임의 병이지만, 그 뿌리에는 감각이 있다. 손이 뇌에 그려진 지도, 그 지도를 흔드는 도구, 그리고 도구로 감각을 바꿔도 증상이 돌아오는 경험을 차례로 쌓는다.",
     "en": "Dystonia is a movement disorder, but its roots lie in sensation. This page stacks three layers: the hand's map in the brain, the tools that shake that map, and the experience of symptoms returning even when tools change the sensation."
@@ -8,133 +11,759 @@
   "layers": [
     {
       "id": "homunculus",
-      "name": { "ko": "1. 손가락이 뇌에 그려진 지도", "en": "1. The map of the fingers in the brain" },
+      "name": {
+        "ko": "1. 손가락이 뇌에 그려진 지도",
+        "en": "1. The map of the fingers in the brain"
+      },
       "intro": {
         "ko": "일차 체감각피질에는 손가락마다 자리가 정해진 지도(호문쿨루스)가 있다. 음악가 근긴장이상에서는 이 지도의 손가락 자리들이 서로 붙거나 뒤섞여 있다는 보고가 반복되었고, 재훈련으로 지도가 되돌아온다는 연구도 있다. 다만 모든 근긴장이상에 공통된 특징인지는 아직 논쟁 중이다.",
         "en": "The primary somatosensory cortex holds a map of the hand in which each finger has its place. In musician's dystonia, finger territories have repeatedly been found merged or disordered, and some studies show the map recovering with retraining. Whether this is common to all focal dystonias is still debated."
       },
       "items": [
         {
-          "type": "paper", "evidence": "strong", "aspects": ["cause"],
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
           "title": "Alteration of digital representations in somatosensory cortex in focal hand dystonia",
-          "authors": "Elbert T, Candia V, Altenmüller E, et al.", "year": 1998, "source": "NeuroReport 9",
-          "note": { "ko": "음악가 환자의 체감각피질에서 손가락 사이 거리가 좁아져 있음", "en": "Reduced distance between finger representations in affected musicians" }
+          "authors": "Elbert T, Candia V, Altenmüller E, et al.",
+          "year": 1998,
+          "source": "NeuroReport 9(16):3571–3575",
+          "note": {
+            "ko": "음악가 환자의 체감각피질에서 손가락 사이 거리가 좁아져 있음",
+            "en": "Reduced distance between finger representations in affected musicians"
+          },
+          "url": "https://doi.org/10.1097/00001756-199811160-00006",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "근긴장이상이 있는 음악가의 손가락 하나하나에 자극을 주고, 뇌자도(MEG)로 체감각피질의 어느 지점이 반응하는지 위치를 잡았다. 그렇게 얻은 손가락별 위치 사이의 거리를 비교했다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "증상이 있는 손에서는 손가락 표상 사이의 거리가 비교 대상보다 좁았다. 저자들은 이를 손가락 표상의 융합(fusion)이라고 불렀다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "음악가는 여러 손가락을 오랜 세월 거의 동시에, 반복해서 움직인다. 저자들은 이런 사용 방식 때문에 손가락 표상이 서로 붙기 쉬워지고, 그것이 발병에 관여할 수 있다고 보았다. 뒤에 나오는 재훈련(SMR)은 이 생각에서 출발해 만들어졌다."
+                ],
+                [
+                  "한계·주의",
+                  "지도가 붙은 것이 증상의 원인인지, 증상이 생긴 뒤의 결과인지는 이 연구만으로는 가릴 수 없다."
+                ]
+              ]
+            }
+          }
         },
         {
-          "type": "paper", "evidence": "strong", "aspects": ["cause"],
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
           "title": "Abnormal somatosensory homunculus in dystonia of the hand",
-          "authors": "Bara-Jimenez W, Catalan MJ, Hallett M, Gerloff C", "year": 1998, "source": "Annals of Neurology 44(5):828–831",
+          "authors": "Bara-Jimenez W, Catalan MJ, Hallett M, Gerloff C",
+          "year": 1998,
+          "source": "Annals of Neurology 44(5):828–831",
           "url": "https://doi.org/10.1002/ana.410440520",
-          "note": { "ko": "손 근긴장이상 환자 6명에서 손가락 표상의 정상 배열이 흐트러져 있음", "en": "Disordered finger arrangement in S1 of six hand-dystonia patients" }
+          "note": {
+            "ko": "손 근긴장이상 환자 6명에서 손가락 표상의 정상 배열이 흐트러져 있음",
+            "en": "Disordered finger arrangement in S1 of six hand-dystonia patients"
+          },
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "손 근긴장이상 환자 6명을 대상으로 대뇌 체감각 영역에서 손가락들이 어떻게 배치되어 있는지 지도를 그렸다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "일차 체감각피질에서 손가락 표상이 놓이는 정상적인 순서와 배열이 환자에게서는 흐트러져 있었다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "같은 해 Elbert 등의 음악가 연구와 다른 연구실에서, 다른 방법으로 비슷한 결론에 도달했다. 저자들은 비정상적 가소성이 근긴장이상의 발생에 관여한다는 생각을 지지하는 결과로 해석했다."
+                ],
+                [
+                  "한계·주의",
+                  "6명의 작은 연구다. 저자들 스스로 오래전의 사건이나 발달 과정의 이상 때문일 가능성을 완전히 배제할 수 없다고 적었다. 음악가만을 대상으로 한 연구도 아니다."
+                ]
+              ]
+            }
+          }
         },
         {
-          "type": "paper", "evidence": "strong", "aspects": ["cause"],
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
           "title": "Spatial discrimination is abnormal in focal hand dystonia",
-          "authors": "Bara-Jimenez W, Shelton P, Hallett M", "year": 2000, "source": "Neurology 55(12):1869",
-          "note": { "ko": "지도가 흐려지면 감각 해상도도 떨어질 것이라는 가설을 공간 변별 검사로 확인", "en": "Tests whether a blurred map shows up as poorer spatial discrimination" }
+          "authors": "Bara-Jimenez W, Shelton P, Hallett M",
+          "year": 2000,
+          "source": "Neurology 55(12):1869",
+          "note": {
+            "ko": "지도가 흐려지면 감각 해상도도 떨어질 것이라는 가설을 공간 변별 검사로 확인",
+            "en": "Tests whether a blurred map shows up as poorer spatial discrimination"
+          },
+          "url": "https://doi.org/10.1212/wnl.55.12.1869",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "지도가 흐려졌다면 손끝의 감각 해상도도 떨어져 있을 것이라는 가설을 세웠다. 손 근긴장이상 환자 17명에게 두 가지 검사를 했다. 하나는 검지 끝마디에 홈이 파인 돔을 대고 틈을 알아채는지 보는 검사(틈 감지), 다른 하나는 검지 가운데 마디를 가는 실로 한 번 건드리고 어디였는지 맞히는 검사(위치 맞히기)다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "환자는 두 검사 모두에서 대조군보다 성적이 낮았다(틈 감지 p = 0.004, 위치 맞히기 p = 0.013). 공간 해상도의 저하는 두 집단 모두에서 나이가 많을수록 컸다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "뇌 영상에서 본 지도의 이상이 실제 감각 능력의 차이로도 나타난다는 근거다. 저자들은 앞서 보고된 시간 변별의 저하와 함께, 감각 기능 이상이 근긴장이상의 병태생리에 관여한다고 보았다."
+                ],
+                [
+                  "한계·주의",
+                  "모든 환자가 그런 것은 아니다. 아래 Candia 등(2003)은 두 점 식별 검사가 정상인 음악가만 골라 연구했는데도 지도의 변화를 확인했다. 임상 검사에서 감각이 정상이어도 지도는 달라져 있을 수 있다는 뜻이다."
+                ]
+              ]
+            }
+          }
         },
         {
-          "type": "paper", "evidence": "strong", "aspects": ["cause"],
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
           "title": "Reorganization of the Human Somatosensory Cortex in Hand Dystonia",
-          "authors": "Catalan MJ, Ishii K, Bara-Jimenez W, Hallett M", "year": 2012, "source": "Journal of Movement Disorders 5(1):5–8",
+          "authors": "Catalan MJ, Ishii K, Bara-Jimenez W, Hallett M",
+          "year": 2012,
+          "source": "Journal of Movement Disorders 5(1):5–8",
           "url": "https://doi.org/10.14802/jmd.12002",
-          "note": { "ko": "PET로 다시 확인: 환자의 손가락 표상들이 정상인보다 서로 더 가까움", "en": "PET confirmation: finger representations closer together in patients" }
+          "note": {
+            "ko": "PET로 다시 확인: 환자의 손가락 표상들이 정상인보다 서로 더 가까움",
+            "en": "PET confirmation: finger representations closer together in patients"
+          },
+          "figure": {
+            "src": {
+              "ko": "assets/fig/distance.svg"
+            },
+            "caption": {
+              "ko": "엄지와 새끼손가락 표상 사이의 거리. 환자에서 절반 가까이 좁다."
+            }
+          },
+          "detail": {
+            "ko": {
+              "basis": "공개된 원문을 확인해 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "오른손 서경증 환자 6명과 건강한 대조군 6명의 오른손 엄지(D1)와 새끼손가락(D5)에 진동 자극을 주고, PET로 뇌 혈류가 늘어나는 지점을 찾았다. 두 손가락의 표상이 얼마나 떨어져 있는지를 쟀다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "일차 체감각피질에서 두 손가락 표상 사이의 3차원 거리는 환자 14.1 mm, 대조군 25.3 mm였다(p = 0.02). 환자 한 명은 두 손가락의 위아래 순서가 뒤바뀌어 있었다. 이차 체감각피질에서는 집단 간 차이가 없었다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "앞선 연구들은 뇌의 전기·자기 신호로 위치를 추정했다. 이 연구는 혈류라는 전혀 다른 측정으로 같은 방향의 결과를 다시 얻었다. 측정 방법이 달라도 결과가 같다는 점이 무게를 더한다."
+                ],
+                [
+                  "한계·주의",
+                  "6명 대 6명의 작은 연구이고, 대상은 음악가가 아니라 서경증 환자다. 저자들도 이차 체감각피질에서 차이가 없었던 것이 실제로 차이가 없어서인지 표본이 작아서인지 알 수 없다고 적었다."
+                ]
+              ]
+            }
+          }
         },
         {
-          "type": "paper", "evidence": "strong", "aspects": ["cause"],
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
           "title": "Pathophysiological differences between musician's dystonia and writer's cramp",
-          "authors": "Rosenkranz K, Williamon A, Butler K, Cordivari C, Lees AJ, Rothwell JC", "year": 2005, "source": "Brain 128(4):918–931",
+          "authors": "Rosenkranz K, Williamon A, Butler K, Cordivari C, Lees AJ, Rothwell JC",
+          "year": 2005,
+          "source": "Brain 128(4):918–931",
           "url": "https://doi.org/10.1093/brain/awh402",
-          "note": { "ko": "건강한 음악가는 비음악가와 환자의 중간. 연습이 만든 이로운 재편이 환자에선 지나쳐 움직임을 방해한다는 모델. 서경증과는 양상이 다름", "en": "Healthy musicians sit between non-musicians and patients: practice-driven reorganisation goes too far in MD; differs from writer's cramp" }
+          "note": {
+            "ko": "건강한 음악가는 비음악가와 환자의 중간. 연습이 만든 이로운 재편이 환자에선 지나쳐 움직임을 방해한다는 모델. 서경증과는 양상이 다름",
+            "en": "Healthy musicians sit between non-musicians and patients: practice-driven reorganisation goes too far in MD; differs from writer's cramp"
+          },
+          "figure": {
+            "src": {
+              "ko": "assets/fig/spectrum.svg"
+            },
+            "caption": {
+              "ko": "한 근육에 진동을 줬을 때 운동피질 반응의 방향. 음악가 근긴장이상에서는 근육 사이의 구분이 사라진다."
+            }
+          },
+          "detail": {
+            "ko": {
+              "basis": "초록과 그림 설명을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "손 근육 하나에 진동을 줘서 감각 입력을 만들고, 그 순간 자기 자극(TMS)으로 운동피질의 반응을 쟀다. 진동을 준 근육과 주지 않은 다른 손 근육에서 반응이 어떻게 달라지는지를 봤다. 대상은 음악가 근긴장이상 7명, 서경증 6명, 건강한 비음악가 8명, 건강한 음악가 8명이다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "건강한 비음악가는 진동을 준 근육만 반응이 커지고 다른 근육은 오히려 억제됐다. 감각 입력이 해당 근육에만 초점이 맞는 셈이다. 건강한 음악가는 이웃 근육 일부도 함께 커졌다. 음악가 근긴장이상에서는 근육 사이의 구분이 없어져, 어느 근육에 진동을 줘도 모든 손 근육의 억제가 크게 줄었다. 서경증에서는 진동이 거의 영향을 주지 않았다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "건강한 음악가가 비음악가와 환자의 중간에 놓인다는 점이 핵심이다. 연습은 감각과 운동의 연결을 넓히는 이로운 변화를 만들지만, 환자에서는 그 변화가 지나쳐 움직임을 돕는 대신 방해한다는 것이 저자들의 모델이다. 또한 같은 손 근긴장이상이어도 음악가와 서경증은 감각이 맡는 역할이 다를 수 있음을 보여준다."
+                ],
+                [
+                  "한계·주의",
+                  "집단마다 6~8명의 작은 연구다. 한 시점의 비교이므로, 이 차이가 병이 생기기 전부터 있었는지 생긴 뒤의 변화인지는 알 수 없다."
+                ]
+              ]
+            }
+          }
         },
         {
-          "type": "paper", "evidence": "strong", "aspects": ["cause", "treatment"],
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause",
+            "treatment"
+          ],
           "title": "Effective behavioral treatment of focal hand dystonia in musicians alters somatosensory cortical organization",
-          "authors": "Candia V, Wienbruch C, Elbert T, Rockstroh B, Ray W", "year": 2003, "source": "PNAS 100(13):7942–7946",
+          "authors": "Candia V, Wienbruch C, Elbert T, Rockstroh B, Ray W",
+          "year": 2003,
+          "source": "PNAS 100(13):7942–7946",
           "url": "https://doi.org/10.1073/pnas.1231193100",
-          "note": { "ko": "재훈련으로 증상이 나아지자 뒤섞였던 지도도 정상 쪽으로 돌아옴 — 원인과 치료가 같은 지도 위에서 만남", "en": "As retraining improved symptoms, the map normalised — cause and treatment meet on the same map" }
+          "note": {
+            "ko": "재훈련으로 증상이 나아지자 뒤섞였던 지도도 정상 쪽으로 돌아옴 — 원인과 치료가 같은 지도 위에서 만남",
+            "en": "As retraining improved symptoms, the map normalised — cause and treatment meet on the same map"
+          },
+          "figure": {
+            "src": {
+              "ko": "assets/fig/smr.svg"
+            },
+            "caption": {
+              "ko": "감각운동 재조율(SMR) 훈련의 구성. 증상 손가락이 다른 손가락과 따로 움직이는 경험을 집중적으로 쌓는다."
+            }
+          },
+          "detail": {
+            "ko": {
+              "basis": "전문(한글 번역본)을 확인해 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "한쪽 손에 근긴장이상이 있는 전문 음악가 10명에게 감각운동 재조율(SMR)을 시행했다. 부목으로 손가락 하나 이상을 연주 자세 그대로 고정하고, 증상 손가락을 포함한 두세 손가락을 순서대로 번갈아 움직이는 훈련이다. 8일 연속, 하루 1.5~2.5시간, 치료사 감독 아래 진행했다. 훈련 전과 후에 뇌자도로 양손 모든 손가락의 표상 위치를 쟀다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "증상이 있는 손의 지도가 달라졌다. 손가락 표상 사이의 평균 거리가 변해 증상이 없는 손과 비슷해졌고, 손가락들의 배열이 정상적인 순서 원칙에 맞게 정돈됐다. 훈련하지 않은 손의 지도는 변하지 않았다. 환자의 주관적 평가와 손가락 움직임의 매끄러움도 좋아졌고, 움직임이 좋아진 정도는 증상 손가락의 뇌 반응 변화와 상관이 있었다(r = −0.75)."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "원인 쪽에서 본 지도의 이상과 치료 쪽에서 본 회복이 같은 지도 위에서 만난다. 수년에 걸쳐 만들어진 변화가 8일의 집중 훈련으로 움직였다는 점에서, 지도는 굳어 있는 것이 아니라 여전히 다시 쓸 수 있는 상태임을 보여준다."
+                ],
+                [
+                  "한계·주의",
+                  "대조군이 없다. 저자들은 측정 기간이 짧아 이 변화가 일시적일 가능성을 배제하지 못한다고 적었다. 또 이것이 잘못된 지도를 되돌린 것인지, 새로운 운동 프로그램이 만들어진 것인지, 증상을 누르는 다른 변화인지도 알 수 없다고 했다. 한 가지 더 주의할 점: 이 연구에서는 훈련 뒤 증상 손의 표상 거리가 줄면서 건강한 손과 비슷해졌다. 거리가 넓을수록 정상이라는 단순한 그림이 아니다. 중요한 것은 건강한 손과 얼마나 비슷한가, 순서가 정돈되어 있는가다."
+                ]
+              ]
+            }
+          }
         },
         {
-          "type": "paper", "evidence": "strong", "aspects": ["treatment"],
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "treatment"
+          ],
           "title": "Regaining motor control in musician's dystonia by restoring sensorimotor organization",
-          "authors": "Rosenkranz K, Butler K, Williamon A, Rothwell JC", "year": 2009, "source": "Journal of Neuroscience 29(46):14627–14636",
+          "authors": "Rosenkranz K, Butler K, Williamon A, Rothwell JC",
+          "year": 2009,
+          "source": "Journal of Neuroscience 29(46):14627–14636",
           "url": "https://doi.org/10.1523/JNEUROSCI.2094-09.2009",
-          "note": { "ko": "15분간 주의를 기울인 고유감각 훈련으로 감각-운동 조직이 건강한 피아니스트 쪽으로 회복", "en": "15 minutes of attended proprioceptive training restored sensorimotor organisation toward healthy pianists" }
+          "note": {
+            "ko": "15분간 주의를 기울인 고유감각 훈련으로 감각-운동 조직이 건강한 피아니스트 쪽으로 회복",
+            "en": "15 minutes of attended proprioceptive training restored sensorimotor organisation toward healthy pianists"
+          },
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리 (원문 추가 확인 필요)",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "앞의 2005년 연구에서 이어진다. 음악가 근긴장이상에서는 고유감각(근육과 관절에서 오는 감각) 입력이 운동피질에 지나치게 넓게 퍼져 근육 사이의 구분이 사라져 있었다. 저자들은 흐트러진 움직임이 이 흐트러진 감각-운동 조직의 결과라고 가정하고, 근긴장이상이 있는 피아니스트에게 15분짜리 고유감각 훈련을 시켰다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "훈련 뒤 감각-운동 조직이 건강한 피아니스트에 가까운 모습으로 돌아왔다. 논문 제목이 말하듯 운동 조절도 함께 나아졌다고 보고했다. 같은 연구진의 2008년 연구에서는 주의를 기울이며 받는 진동 훈련이 음악가 근긴장이상에서는 조직을 되돌리는 경향을 보였지만 서경증에서는 그렇지 않았다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "감각 입력만으로, 그것도 15분 만에 운동 쪽이 달라질 수 있다는 근거다. 그리고 훈련에 주의가 함께 들어가 있다는 점이 눈에 띈다. 그냥 진동을 받는 것이 아니라 그 감각에 주의를 두는 훈련이었다."
+                ],
+                [
+                  "한계·주의",
+                  "효과가 얼마나 오래 가는지는 초록만으로 확인하지 못했다. 15분 훈련의 즉시 효과와 장기 회복은 다른 문제다."
+                ]
+              ]
+            }
+          }
         },
         {
-          "type": "paper", "evidence": "case", "aspects": ["treatment"],
+          "type": "paper",
+          "evidence": "case",
+          "aspects": [
+            "treatment"
+          ],
           "title": "Sensory training for patients with focal hand dystonia",
-          "authors": "Zeuner KE, Bara-Jimenez W, Noguchi PS, Goldstein SR, Dambrosia JM, Hallett M", "year": 2002, "source": "Annals of Neurology 51:593–598",
+          "authors": "Zeuner KE, Bara-Jimenez W, Noguchi PS, Goldstein SR, Dambrosia JM, Hallett M",
+          "year": 2002,
+          "source": "Annals of Neurology 51:593–598",
           "url": "https://doi.org/10.1002/ana.10174",
-          "note": { "ko": "8주간 점자 읽기로 감각을 훈련하자 감각 해상도와 증상이 함께 좋아짐 (10명)", "en": "Eight weeks of Braille reading improved both tactile acuity and dystonia (n=10)" }
+          "note": {
+            "ko": "8주간 점자 읽기로 감각을 훈련하자 감각 해상도와 증상이 함께 좋아짐 (10명)",
+            "en": "Eight weeks of Braille reading improved both tactile acuity and dystonia (n=10)"
+          },
+          "detail": {
+            "ko": {
+              "basis": "논문 해설 기사와 초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "손의 과업특이적 근긴장이상 환자 10명과 건강한 사람 10명에게 8주 동안 점자 읽기를 가르쳤다. 첫 주는 하루 1시간, 이후 7주는 하루 30분씩 집에서 연습했고, 증상이 가장 심한 손가락을 주로 쓰게 했다. 전후로 홈이 파인 돔의 방향을 손끝으로 맞히는 검사로 감각 해상도를 쟀다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "감각 해상도는 환자와 건강한 사람 모두에서 좋아졌다. 관찰자가 평가한 근긴장이상의 정도는 환자 10명 중 5명에서 나아졌고, 6명은 같은 문단을 더 빨리 썼다. 다만 환자 스스로 느끼는 불편함의 평가는 유의하게 달라지지 않았다. 연습을 그만둔 환자 몇 명은 증상이 다시 나빠졌고, 다시 시작하자 나아졌다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "악기도 글씨도 아닌, 순수한 감각 훈련이 운동 증상을 움직였다. 점자 읽기는 손끝에 매번 다른 패턴이 들어오고, 그것을 주의 깊게 읽어내야 하는 과제다. 그리고 그만두면 되돌아간다는 점은 한 번의 교정이 아니라 계속 이어지는 입력이 필요함을 시사한다."
+                ],
+                [
+                  "한계·주의",
+                  "10명의 예비 연구이고 대조 훈련이 없다. 관찰자 평가는 좋아졌는데 본인 평가는 그렇지 않았다는 간극이 있다. 1년 뒤 추적 보고에서는 계속 훈련한 3명만 다뤘다."
+                ]
+              ]
+            }
+          }
         },
         {
-          "type": "paper", "evidence": "hypothesis", "aspects": ["cause"],
+          "type": "paper",
+          "evidence": "hypothesis",
+          "aspects": [
+            "cause"
+          ],
           "title": "Intact organization of tactile space in isolated focal dystonia (학회 초록 / conference abstract)",
-          "authors": "Mainka T, Azañón E, Zeuner K, et al.", "year": 2020, "source": "MDS Virtual Congress 2020",
+          "authors": "Mainka T, Azañón E, Zeuner K, et al.",
+          "year": 2020,
+          "source": "MDS Virtual Congress 2020",
           "url": "https://www.mdsabstracts.org/abstract/intact-organization-of-tactile-space-in-isolated-focal-dystonia/",
-          "note": { "ko": "반대 증거: 촉각 거리 지각은 정상. 지도 이상이 모든 국소성 근긴장이상의 공통 특징인지 의문 제기", "en": "Counter-evidence: tactile distance perception was intact, questioning map abnormality as a universal feature" }
+          "note": {
+            "ko": "반대 증거: 촉각 거리 지각은 정상. 지도 이상이 모든 국소성 근긴장이상의 공통 특징인지 의문 제기",
+            "en": "Counter-evidence: tactile distance perception was intact, questioning map abnormality as a universal feature"
+          },
+          "detail": {
+            "ko": {
+              "basis": "공개된 학회 초록을 확인해 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "국소성 근긴장이상 환자 57명(목 21명, 눈·얼굴 16명, 오른손 20명)과 건강한 사람 21명에게, 피부에 닿은 두 점 사이의 거리가 얼마나 멀게 느껴지는지를 물었다. 양쪽 손등과 이마에서, 여러 간격과 방향으로 부위마다 160번씩 검사했다. 느껴지는 거리의 패턴은 체감각 수용장의 구조를 반영한다고 알려져 있다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "어떤 지표에서도, 어떤 부위에서도 집단 사이에 차이가 없었다. 증상이 있는 손에서도 마찬가지였다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "위의 연구들과 반대 방향의 증거다. 저자들은 체감각 조직의 이상이 국소성 근긴장이상 전체를 관통하는 특징이라는 생각에 의문을 제기했다. 지도 가설을 받아들이더라도 그것이 모든 유형, 모든 환자에게 해당하는지는 열려 있는 문제임을 일깨운다."
+                ],
+                [
+                  "한계·주의",
+                  "학회 초록이다. 검사 부위가 손끝이 아니라 손등이고, 음악가를 따로 본 연구가 아니다. 행동 검사에서 정상이라고 해서 뇌 영상으로 본 지도까지 정상이라는 뜻은 아니다."
+                ]
+              ]
+            }
+          }
         }
-      ]
+      ],
+      "figure": {
+        "src": {
+          "ko": "assets/fig/map.svg"
+        },
+        "caption": {
+          "ko": "손가락 지도의 모식도. 왼쪽은 손가락마다 자리가 나뉜 상태, 오른쪽은 근긴장이상에서 보고된 경향."
+        }
+      }
     },
     {
       "id": "tool",
-      "name": { "ko": "2. 도구가 지도를 흔든다", "en": "2. Tools shake the map" },
+      "name": {
+        "ko": "2. 도구가 지도를 흔든다",
+        "en": "2. Tools shake the map"
+      },
       "intro": {
         "ko": "감각은 맨손이 아니라 도구를 통해 들어온다. Sadnicka 등(2017)은 과업특이적 근긴장이상의 위험을 과업·도구·말초·중추신경계 네 요소로 나누었고, 그중 도구가 바뀌면 과업의 요구가 바뀌어 기존 기술 표상이 감당하지 못할 수 있다고 보았다.",
         "en": "Sensation reaches the brain through tools, not bare hands. Sadnicka et al. (2017) divide risk into task, tool, periphery and CNS; a tool change alters task demands that an existing skill representation may not be able to absorb."
       },
       "items": [
         {
-          "type": "paper", "evidence": "strong", "aspects": ["cause"],
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
           "title": "A unifying motor control framework for task-specific dystonia — '도구(Tool)' 항목",
-          "authors": "Sadnicka A, Kornysheva K, Rothwell JC, Edwards MJ", "year": 2017, "source": "Nature Reviews Neurology 14(2):116–124",
+          "authors": "Sadnicka A, Kornysheva K, Rothwell JC, Edwards MJ",
+          "year": 2017,
+          "source": "Nature Reviews Neurology 14(2):116–124",
           "url": "https://doi.org/10.1038/nrneurol.2017.146",
-          "note": { "ko": "깃털 펜→강철 펜촉 전환으로 필경사의 운동 장애 급증(펜 깎던 휴식이 사라짐), 모스 키→키보드 교체로 교환수 대부분 회복, 현악기는 작을수록 발생률↑(높은 공간 해상도 요구). 음악가는 도구를 바꿀 수 없으니 표상의 탄력성을 키우는 쪽이 예방책", "en": "Quill-to-steel-nib switch raised clerks' motor problems (lost micro-breaks); replacing Morse keys freed most telegraphists; smaller string instruments carry higher risk. Musicians can't change tools, so building representational resilience is the preventive route" }
+          "note": {
+            "ko": "깃털 펜→강철 펜촉 전환으로 필경사의 운동 장애 급증(펜 깎던 휴식이 사라짐), 모스 키→키보드 교체로 교환수 대부분 회복, 현악기는 작을수록 발생률↑(높은 공간 해상도 요구). 음악가는 도구를 바꿀 수 없으니 표상의 탄력성을 키우는 쪽이 예방책",
+            "en": "Quill-to-steel-nib switch raised clerks' motor problems (lost micro-breaks); replacing Morse keys freed most telegraphists; smaller string instruments carry higher risk. Musicians can't change tools, so building representational resilience is the preventive route"
+          },
+          "figure": {
+            "src": {
+              "ko": "assets/fig/tools.svg"
+            },
+            "caption": {
+              "ko": "도구가 바뀌자 병의 빈도가 달라진 역사적 사례들."
+            }
+          },
+          "detail": {
+            "ko": {
+              "basis": "전문(한글 번역본)을 확인해 정리",
+              "sections": [
+                [
+                  "이 논문의 틀",
+                  "과업특이적 근긴장이상을 고장 난 뇌의 병이 아니라, 건강한 운동 기술 학습이 어긋난 결과로 본다. 기술 수행을 과업, 도구, 말초(몸), 중추신경계 네 요소로 나누고, 과업과 도구가 요구하는 것과 몸과 신경계가 감당할 수 있는 것 사이의 어긋남에서 위험이 생긴다고 설명한다."
+                ],
+                [
+                  "도구에 관한 사례",
+                  "19세기에 깃털 펜이 강철 펜촉으로 바뀌자 영국 공무원 사이에서 글씨 쓰는 손의 운동 문제가 크게 늘었다. 펜촉의 역학이 달라졌고, 펜을 깎느라 쉬던 짧은 틈도 사라졌다. 모스 부호 교환수는 10명 중 1명 이상이 운동 문제를 겪었는데, 모스 키가 키보드로 바뀌자 대부분 증상에서 벗어났다. 음악가에서는 현악기의 크기가 작을수록 발생률이 높다. 더 높은 공간 정밀도를 요구하는 도구일수록 위험하다는 뜻이다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "도구는 손에 들어오는 감각과 손이 내야 하는 움직임을 함께 정한다. 도구가 바뀌면 과업의 요구가 바뀌고, 이미 굳은 기술 표상이 그 변화를 받아내지 못하면 수행이 무너질 수 있다. 저자들은 도구를 바꿀 수 없는 음악가에게는 표상의 탄력성을 키우는 것, 곧 수행의 유연성을 강조하는 연습을 예방책으로 제안한다."
+                ],
+                [
+                  "한계·주의",
+                  "여러 연구를 엮은 종설이다. 역사적 사례는 통제된 실험이 아니라 관찰이며, 도구 말고도 일하는 방식 등 다른 요인이 함께 바뀌었을 수 있다."
+                ]
+              ]
+            }
+          }
         },
         {
-          "type": "paper", "evidence": "strong", "aspects": ["treatment"],
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "treatment"
+          ],
           "title": "Focal dystonia in musicians: Treatment strategies and long-term outcome in 144 patients",
-          "authors": "Jabusch HC, Zschucke D, Schmidt A, Schuele S, Altenmüller E", "year": 2005, "source": "Movement Disorders 20(12):1623–1626",
+          "authors": "Jabusch HC, Zschucke D, Schmidt A, Schuele S, Altenmüller E",
+          "year": 2005,
+          "source": "Movement Disorders 20(12):1623–1626",
           "url": "https://doi.org/10.1002/mds.20631",
-          "note": { "ko": "도구 쪽을 손보는 인체공학적 조정이 자가 평가 호전율 63%로 가장 높았음", "en": "Ergonomic (tool-side) changes had the highest self-rated improvement rate, 63%" }
+          "note": {
+            "ko": "도구 쪽을 손보는 인체공학적 조정이 자가 평가 호전율 63%로 가장 높았음",
+            "en": "Ergonomic (tool-side) changes had the highest self-rated improvement rate, 63%"
+          },
+          "figure": {
+            "src": {
+              "ko": "assets/fig/jabusch.svg"
+            },
+            "caption": {
+              "ko": "치료별로 호전됐다고 답한 비율. 도구 쪽을 바꾸는 인체공학적 조정이 가장 높다."
+            }
+          },
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "독일 하노버의 음악가 전문 외래에서 근긴장이상으로 진단받은 전문 음악가 144명을 추적했다. 보툴리눔 독소(71명), 트리헥시페니딜(69명), 교육적 재훈련(24명), 인체공학적 조정(51명), 악기에서의 비특이적 연습(78명)을 받았고, 각 치료에 얼마나 반응했는지를 환자 본인이 평가했다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "전체의 54%(77명)가 증상이 덜해졌다고 답했다. 치료별로는 트리헥시페니딜 33%, 보툴리눔 독소 49%, 교육적 재훈련 50%, 비특이적 연습 56%, 인체공학적 조정 63%였다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "인체공학적 조정은 악기의 모양이나 잡는 방식 같은 도구 쪽을 손보는 일이다. 근육이나 뇌에 직접 손대는 치료보다 도구를 바꾸는 쪽에서 호전을 느낀 사람이 가장 많았다는 점은, 도구가 병의 한 축이라는 Sadnicka의 틀과 같은 방향이다. 동시에 어느 치료도 압도적이지 않았다."
+                ],
+                [
+                  "한계·주의",
+                  "지나간 치료를 돌아보며 본인이 평가한 자료다. 치료가 무작위로 배정되지 않았고 한 사람이 여러 치료를 받았으므로, 이 비율을 치료 사이의 우열로 읽어서는 안 된다. 조정할 여지가 있는 악기를 가진 사람만 인체공학적 조정을 받았을 가능성도 있다."
+                ]
+              ]
+            }
+          }
         },
         {
-          "type": "paper", "evidence": "strong", "aspects": ["cause", "treatment"],
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause",
+            "treatment"
+          ],
           "title": "Sensory trick phenomenon improves motor control in pianists with dystonia: prognostic value of glove-effect",
-          "authors": "Paulig J, Jabusch HC, Großbach M, Boullet L, Altenmüller E", "year": 2014, "source": "Frontiers in Psychology 5:1012",
+          "authors": "Paulig J, Jabusch HC, Großbach M, Boullet L, Altenmüller E",
+          "year": 2014,
+          "source": "Frontiers in Psychology 5:1012",
           "url": "https://doi.org/10.3389/fpsyg.2014.01012",
-          "note": { "ko": "얇은 장갑 하나로 감각을 바꾸면 일부 환자는 즉시 나아지지만, 효과는 안정적이지 않고 몇 분 만에 사라짐 — 바뀐 감각에 익숙해지는 것", "en": "A thin glove helps some pianists instantly, but the effect is unstable and fades within minutes — habituation to the altered input" }
+          "note": {
+            "ko": "얇은 장갑 하나로 감각을 바꾸면 일부 환자는 즉시 나아지지만, 효과는 안정적이지 않고 몇 분 만에 사라짐 — 바뀐 감각에 익숙해지는 것",
+            "en": "A thin glove helps some pianists instantly, but the effect is unstable and fades within minutes — habituation to the altered input"
+          },
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리 (원문 추가 확인 필요)",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "근긴장이상이 있는 피아니스트 30명에게 얇은 라텍스 장갑을 끼고 음계를 치게 했다. 건반이 기록하는 타건 간격의 고르기로, 장갑을 꼈을 때와 뺐을 때의 운동 조절을 비교했다. 이후 보툴리눔 독소, 교육적 재훈련, 약물 등으로 치료한 결과와의 관계도 살폈다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "19%의 환자가 장갑을 끼는 것만으로 운동 조절이 유의하게 좋아졌다. 치료 전에 이 장갑 효과가 뚜렷했던 환자는 치료 뒤의 결과도 유의하게 더 좋았다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "손끝에 들어오는 감각을 조금 바꾸는 것만으로 움직임이 즉시 달라질 수 있다는 근거다. 증상이 근육이나 운동 명령만의 문제가 아니라 들어오는 감각과 묶여 있다는 뜻이다. 다만 이런 감각 트릭의 효과는 안정적이지 않고 몇 분 정도만 이어진다고 알려져 있다. 바뀐 감각에 금세 익숙해지기 때문으로 해석된다."
+                ],
+                [
+                  "한계·주의",
+                  "나머지 약 80%에서는 뚜렷한 효과가 없었다. 장갑 효과가 좋은 결과를 예측한다는 것과 장갑이 치료가 된다는 것은 다른 이야기다."
+                ]
+              ]
+            }
+          }
         }
-      ]
+      ],
+      "figure": {
+        "src": {
+          "ko": "assets/fig/four.svg"
+        },
+        "caption": {
+          "ko": "Sadnicka 등(2017)의 네 가지 구성요소. 이 층은 그중 도구를 본다."
+        }
+      }
     },
     {
       "id": "experience",
-      "name": { "ko": "3. 주인장의 경험: 감각을 바꿔도 증상은 돌아온다", "en": "3. The author's experience: change the sensation, and the symptom returns" },
+      "name": {
+        "ko": "3. 주인장의 경험: 감각을 바꿔도 증상은 돌아온다",
+        "en": "3. The author's experience: change the sensation, and the symptom returns"
+      },
       "intro": {
         "ko": "피아니스트-환자인 주인장의 관찰. 연구가 아니라 한 사람의 기록이며, 위의 연구들과 어디서 만나는지를 함께 적는다.",
         "en": "Observations by the site author, a pianist-patient. One person's record, not research — noting where it meets the studies above."
       },
       "items": [
         {
-          "type": "experience", "evidence": "personal", "aspects": ["cause"],
-          "title": { "ko": "디지털 피아노: 원인이 아니라 촉진제", "en": "Digital piano: an accelerant, not a cause" },
-          "note": { "ko": "어쿠스틱에서 디지털로 바꾸며 청각(샘플링 음원)과 촉각(현 진동)이 동시에 바뀌었다. 주의가 왼손에 가 있던 사이, 오른손은 이 교란을 감지하지 못한 채 조금씩 어긋났고 이 시기에 증상이 빨라졌다. 터치감을 아무리 잘 만들어도 미묘하게 달라 감각에 혼동이 온다.", "en": "Switching from acoustic to digital changed hearing (sampled sound) and touch (no string vibration) at once. With attention on the left hand, the right hand drifted without noticing, and symptoms accelerated. However good the action, the subtle difference confuses the senses." }
+          "type": "experience",
+          "evidence": "personal",
+          "aspects": [
+            "cause"
+          ],
+          "title": {
+            "ko": "디지털 피아노: 원인이 아니라 촉진제",
+            "en": "Digital piano: an accelerant, not a cause"
+          },
+          "note": {
+            "ko": "어쿠스틱에서 디지털로 바꾸며 청각(샘플링 음원)과 촉각(현 진동)이 동시에 바뀌었다. 주의가 왼손에 가 있던 사이, 오른손은 이 교란을 감지하지 못한 채 조금씩 어긋났고 이 시기에 증상이 빨라졌다. 터치감을 아무리 잘 만들어도 미묘하게 달라 감각에 혼동이 온다.",
+            "en": "Switching from acoustic to digital changed hearing (sampled sound) and touch (no string vibration) at once. With attention on the left hand, the right hand drifted without noticing, and symptoms accelerated. However good the action, the subtle difference confuses the senses."
+          },
+          "figure": {
+            "src": {
+              "ko": "assets/fig/digital.svg"
+            },
+            "caption": {
+              "ko": "악기를 바꾸며 손끝 감각과 소리, 두 통로가 한꺼번에 달라졌다."
+            }
+          },
+          "detail": {
+            "ko": {
+              "basis": "주인장의 기록을 정리",
+              "sections": [
+                [
+                  "무슨 일이 있었나",
+                  "오래 어쿠스틱 피아노를 치다가 디지털 피아노로 바꿔 여러 해를 쳤다. 건반이 뻣뻣하고 반응이 둔한 악기였다. 그 시기에 오른손 증상이 눈에 띄게 빨리 나빠졌다."
+                ],
+                [
+                  "어떻게 보나",
+                  "양손으로 칠 때 의식적인 주의는 거의 왼손에 가 있었다. 오른손은 이미 자동으로 움직였고, 소리와 손끝 감각에 기대어 스스로를 고쳐가고 있었다. 디지털로 바꾸면서 소리(녹음된 음원)와 손끝 감각(현의 진동이 없음)이 동시에 달라졌다. 주의가 닿지 않는 오른손에서는 이 어긋남이 알아차려지지 않은 채 쌓였다고 본다. 원래 있던 검지가 들리는 경향이 이 건반에서 더 커졌다. 그래서 디지털 피아노를 원인이 아니라 촉진제로 본다."
+                ],
+                [
+                  "연구와 만나는 지점",
+                  "Sadnicka 등(2017)은 도구가 바뀌면 과업의 요구가 바뀌고, 굳은 기술 표상이 그 변화를 받아내지 못할 수 있다고 했다. 펜촉과 모스 키의 사례와 같은 구조다."
+                ],
+                [
+                  "지금의 실천",
+                  "집과 학원의 업라이트 피아노 두 대를 오가며 친다. 이 정도의 작은 차이는 오히려 표상을 유연하게 해주는 것 같다. 크고 갑작스러운 도구 변경은 피한다."
+                ],
+                [
+                  "한계",
+                  "한 사람의 회상이다. 같은 시기에 연습량 등 다른 요인도 달라졌을 수 있고, 따로 떼어 볼 방법이 없다. 디지털 피아노가 누구에게나 해롭다는 뜻이 아니다."
+                ]
+              ]
+            }
+          }
         },
         {
-          "type": "experience", "evidence": "personal", "aspects": ["treatment"],
-          "title": { "ko": "부목·테이프·반지: 처음엔 되다가 적응한다", "en": "Splints, tape, rings: they work, then the body adapts" },
-          "note": { "ko": "접촉성 물건을 착용하면 일시적으로 잘 된다. 그런데 생각보다 빨리 몸이 그 도구에 적응해, 도구를 낀 채로 다시 증상이 나타난 일이 여러 번 있었다. 장갑 효과가 몇 분 만에 사라진다는 연구와 같은 방향.", "en": "Wearing contact objects helps temporarily, but the body adapts faster than expected and symptoms return while still wearing them — the same direction as the short-lived glove effect." }
+          "type": "experience",
+          "evidence": "personal",
+          "aspects": [
+            "treatment"
+          ],
+          "title": {
+            "ko": "부목·테이프·반지: 처음엔 되다가 적응한다",
+            "en": "Splints, tape, rings: they work, then the body adapts"
+          },
+          "note": {
+            "ko": "접촉성 물건을 착용하면 일시적으로 잘 된다. 그런데 생각보다 빨리 몸이 그 도구에 적응해, 도구를 낀 채로 다시 증상이 나타난 일이 여러 번 있었다. 장갑 효과가 몇 분 만에 사라진다는 연구와 같은 방향.",
+            "en": "Wearing contact objects helps temporarily, but the body adapts faster than expected and symptoms return while still wearing them — the same direction as the short-lived glove effect."
+          },
+          "figure": {
+            "src": {
+              "ko": "assets/fig/adapt.svg"
+            },
+            "caption": {
+              "ko": "도구나 주사로 감각을 바꿨을 때 겪은 흐름."
+            }
+          },
+          "detail": {
+            "ko": {
+              "basis": "주인장의 기록을 정리",
+              "sections": [
+                [
+                  "무슨 일이 있었나",
+                  "4번 손가락이 지나치게 펴지는 것을 줄이려고, 부목을 고쳐 손가락 각도만 제한하도록 만들어 썼다. 처음에는 아주 편했고, 낀 상태에서는 증상이 거의 나오지 않았다. 그러나 시간이 지나자 부목을 낀 채로 증상이 서서히 돌아왔다. 테이프나 반지처럼 피부에 닿는 물건도 같았다. 잠깐은 잘 되다가 생각보다 빨리 몸이 익숙해졌다. 거울을 이용한 연습도 처음에만 효과가 있고 곧 무뎌졌다."
+                ],
+                [
+                  "어떻게 보나",
+                  "도구가 손가락을 고쳐준 것이 아니라, 낯선 감각이 익숙한 증상의 길을 잠시 비켜가게 한 것이라고 본다. 도구가 주는 감각은 늘 같다. 늘 같은 감각은 곧 배경이 되고, 증상은 그 새로운 배경 위에 다시 자리를 잡는다."
+                ],
+                [
+                  "연구와 만나는 지점",
+                  "장갑을 끼면 일부 피아니스트의 연주가 즉시 나아지지만 그 효과가 몇 분 만에 사라진다는 감각 트릭 연구(Paulig 등 2014)와 같은 방향이다. 다만 연구는 분 단위의 익숙해짐을 말하고, 여기서의 경험은 더 긴 기간에 걸친 적응이다."
+                ],
+                [
+                  "한계",
+                  "얼마 만에 돌아왔는지 날짜로 적어두지 않았다. 느낌에 의존한 기록이다. 도구가 쓸모없다는 뜻이 아니라, 도구만으로는 오래가지 않았다는 뜻이다."
+                ]
+              ]
+            }
+          }
         },
         {
-          "type": "experience", "evidence": "personal", "aspects": ["treatment"],
-          "title": { "ko": "보톡스: 같은 패턴", "en": "Botulinum toxin: the same pattern" },
-          "note": { "ko": "약간 마비된 듯한 낯선 감각이 생기자 한동안 증상이 숨었다. 그러나 그 감각이 그대로인 채로 증상이 다시 적응하기 시작했다. 근육을 누르는 치료도 결국 뇌가 새 조건을 학습해버린다.", "en": "A slightly numb, unfamiliar sensation hid symptoms for a while, but symptoms began adapting while that sensation remained. Even muscle-weakening treatment becomes a new condition the brain learns." }
+          "type": "experience",
+          "evidence": "personal",
+          "aspects": [
+            "treatment"
+          ],
+          "title": {
+            "ko": "보톡스: 같은 패턴",
+            "en": "Botulinum toxin: the same pattern"
+          },
+          "note": {
+            "ko": "약간 마비된 듯한 낯선 감각이 생기자 한동안 증상이 숨었다. 그러나 그 감각이 그대로인 채로 증상이 다시 적응하기 시작했다. 근육을 누르는 치료도 결국 뇌가 새 조건을 학습해버린다.",
+            "en": "A slightly numb, unfamiliar sensation hid symptoms for a while, but symptoms began adapting while that sensation remained. Even muscle-weakening treatment becomes a new condition the brain learns."
+          },
+          "figure": {
+            "src": {
+              "ko": "assets/fig/adapt.svg"
+            },
+            "caption": {
+              "ko": "보톡스에서도 같은 흐름을 겪었다."
+            }
+          },
+          "detail": {
+            "ko": {
+              "basis": "주인장의 기록을 정리",
+              "sections": [
+                [
+                  "무슨 일이 있었나",
+                  "오른손 4·5번 손가락과 관련된 근육에 보툴리눔 독소 주사를 맞았다. 약 1주 동안은 손가락의 감각이 전과 달랐고, 그 동안 증상이 덜 나타났다. 약 2주 뒤부터는 그 낯선 감각은 그대로인데 증상이 다시 자리를 잡기 시작했다. 2주 반 시점의 기록으로는, 4번 손가락이 지나치게 펴지는 힘이 10에서 6~7 정도로 줄어든 느낌이었지만 손가락이 아래로 처지는 증상에는 거의 변화가 없었다. 의도하지 않게 3번 손가락을 들어 올리기 어려운 상태가 약 7주 이어졌다."
+                ],
+                [
+                  "어떻게 보나",
+                  "보톡스는 근육의 힘을 줄이는 치료다. 그런데 겪어보니 먼저 달라진 것은 감각이었고, 증상이 숨었던 시기는 그 감각이 낯설던 시기와 겹쳤다. 부목에서 겪은 것과 같은 순서다. 처음에는 낯설어서 증상이 숨고, 익숙해지면 그 위로 증상이 돌아온다."
+                ],
+                [
+                  "연구와 만나는 지점",
+                  "Jabusch 등(2005)에서 보툴리눔 독소로 호전을 느낀 음악가는 49%였다. 절반은 도움을 받았고 절반은 그렇지 않았다."
+                ],
+                [
+                  "한계",
+                  "한 사람이 한 번 맞은 경험이다. 주사 위치와 용량, 위치를 정하는 방법에 따라 결과는 달라질 수 있다. 보톡스가 효과 없다는 일반적인 결론이 아니다."
+                ]
+              ]
+            }
+          }
         },
         {
-          "type": "hypothesis", "evidence": "personal", "aspects": ["cause", "treatment"],
-          "title": { "ko": "가설: 증상은 '기본값'이 된 감각에 묶여 있다", "en": "Hypothesis: symptoms are bound to a sensation that has become the default" },
-          "note": { "ko": "근긴장이상이 특정 감각에 의해 유발되고 몸이 그 감각을 기본값으로 세팅해 둔 것이라면, 기본 감각을 바꾸는 것만으로 증상이 잠시 사라질 수 있다. 하지만 바뀐 감각이 고정되어 있으면 그것이 새 기본값이 되어 증상이 그 위로 돌아온다. 그래서 고정된 입력은 흡수되고, 시간에 따라 변하는 입력만 학습 신호로 남는다고 본다.", "en": "If dystonia is triggered by a particular sensation the body has set as default, changing that sensation can briefly remove symptoms. But a fixed new sensation becomes the new default and symptoms return on top of it. Hence fixed inputs get absorbed; only time-varying input remains a learning signal." }
+          "type": "hypothesis",
+          "evidence": "personal",
+          "aspects": [
+            "cause",
+            "treatment"
+          ],
+          "title": {
+            "ko": "가설: 증상은 '기본값'이 된 감각에 묶여 있다",
+            "en": "Hypothesis: symptoms are bound to a sensation that has become the default"
+          },
+          "note": {
+            "ko": "근긴장이상이 특정 감각에 의해 유발되고 몸이 그 감각을 기본값으로 세팅해 둔 것이라면, 기본 감각을 바꾸는 것만으로 증상이 잠시 사라질 수 있다. 하지만 바뀐 감각이 고정되어 있으면 그것이 새 기본값이 되어 증상이 그 위로 돌아온다. 그래서 고정된 입력은 흡수되고, 시간에 따라 변하는 입력만 학습 신호로 남는다고 본다.",
+            "en": "If dystonia is triggered by a particular sensation the body has set as default, changing that sensation can briefly remove symptoms. But a fixed new sensation becomes the new default and symptoms return on top of it. Hence fixed inputs get absorbed; only time-varying input remains a learning signal."
+          },
+          "figure": {
+            "src": {
+              "ko": "assets/fig/cycle.svg"
+            },
+            "caption": {
+              "ko": "가설의 요지. 고정된 입력은 흡수되고, 변하는 입력만 학습 신호로 남는다고 본다."
+            }
+          },
+          "detail": {
+            "ko": {
+              "basis": "주인장의 가설 — 검증되지 않음",
+              "sections": [
+                [
+                  "가설",
+                  "근긴장이상의 증상은 특정한 감각 상태에 묶여 있고, 몸은 그 감각을 기본값으로 삼고 있다. 그래서 기본 감각을 바꾸기만 해도 증상이 잠시 사라질 수 있다. 하지만 바뀐 감각이 늘 같으면 그것이 새 기본값이 되고, 증상은 그 위로 돌아온다. 고정된 입력은 흡수되고, 시간에 따라 변하는 입력만 학습 신호로 남는다."
+                ],
+                [
+                  "근거로 삼는 관찰",
+                  "부목, 테이프, 거울, 보톡스는 모두 처음에는 듣다가 무뎌졌다. 반면 다른 사람이 손으로 손가락을 잡아주거나, 내 왼손으로 오른손가락을 가볍게 건드려주는 것은 시간이 지나도 무뎌지지 않았다. 앞쪽은 늘 같은 입력이고, 뒤쪽은 매번 조금씩 다른 입력이다. 큐브나 농구처럼 안 하던 활동에서는 증상이 두드러지지 않다가, 그 활동에 익숙해질수록 다시 나타나는 것도 같은 흐름으로 본다."
+                ],
+                [
+                  "연구와 만나는 지점",
+                  "지도를 되돌린 연구들에는 공통점이 있다. Candia의 재훈련은 손가락 조합을 계속 바꿨고, Rosenkranz의 훈련은 감각에 주의를 두게 했고, Zeuner의 점자는 매번 다른 패턴을 읽게 했다. 모두 주의를 기울인, 반복되는, 변화하는 입력이다. 장갑 효과가 몇 분 만에 사라진다는 보고는 고정된 입력이 흡수된다는 쪽과 맞는다."
+                ],
+                [
+                  "검증하려면",
+                  "같은 교정 감각을 한쪽은 고정된 형태로, 다른 쪽은 변하는 형태로 주고 효과가 얼마나 오래 가는지 비교하면 된다. 변하는 쪽이 더 오래 간다면 이 가설을 지지한다."
+                ],
+                [
+                  "한계",
+                  "한 사람의 자기 관찰에서 나온 가설이다. 객관적으로 잰 자료가 없고, 손으로 잡아주는 것이 오래가는 이유가 입력의 변화 때문인지 다른 이유 때문인지도 가려내지 못했다. 위 연구들을 이 가설로 묶은 것은 주인장의 해석이며, 그 논문의 저자들이 한 말이 아니다."
+                ]
+              ]
+            }
+          }
         }
       ],
       "view": {
