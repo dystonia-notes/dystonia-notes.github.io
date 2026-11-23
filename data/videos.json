@@ -11,27 +11,145 @@
     },
     "groups": [
       {
-        "name": { "ko": "강의", "en": "Lectures" },
+        "name": {
+          "ko": "강의",
+          "en": "Lectures"
+        },
         "videos": [
-          { "id": "aJM5GC-Iw_Y", "title": "The Mechanism of Dystonia | Part 1", "duration": "38:19", "evidence": "hypothesis", "note": { "ko": "1부. 근긴장이상이 어떤 기전으로 나타나는지에 대한 이 단체의 설명" } },
-          { "id": "FQ79jJZ-PM4", "title": "The Cause of Dystonia | Part 2", "duration": "54:05", "evidence": "hypothesis", "note": { "ko": "2부. 무엇이 근긴장이상을 만드는지에 대한 설명" } },
-          { "id": "cfqUyPhei7Q", "title": "The Cure for Dystonia | Part 3", "duration": "24:13", "evidence": "hypothesis", "note": { "ko": "3부. 이 단체가 제안하는 재훈련 방법" } }
+          {
+            "id": "aJM5GC-Iw_Y",
+            "title": "The Mechanism of Dystonia | Part 1",
+            "duration": "38:19",
+            "evidence": "hypothesis",
+            "note": {
+              "ko": "1부. 운동피질의 한 운동 단위에서 흥분에 비해 빠른 억제가 모자라다는 가설과, 증상 역치라는 개념"
+            }
+          },
+          {
+            "id": "FQ79jJZ-PM4",
+            "title": "The Cause of Dystonia | Part 2",
+            "duration": "54:05",
+            "evidence": "hypothesis",
+            "note": {
+              "ko": "2부. 테크닉을 바꾼 뒤 현재 용량을 넘는 연습을 반복하면 그 불균형이 만들어진다는 가설"
+            }
+          },
+          {
+            "id": "cfqUyPhei7Q",
+            "title": "The Cure for Dystonia | Part 3",
+            "duration": "24:13",
+            "evidence": "hypothesis",
+            "note": {
+              "ko": "3부. 증상이 나오지 않는 세기 이하에서만 연습하는 재훈련(BATR)의 원리와 실행 방법"
+            }
+          }
         ]
       },
       {
-        "name": { "ko": "회복 후기", "en": "Recovery testimonials" },
+        "name": {
+          "ko": "회복 후기",
+          "en": "Recovery testimonials"
+        },
         "videos": [
-          { "id": "IlGImfsr0hY", "title": "기타리스트 신준기의 디스토니아 회복 후기", "duration": "12:21", "evidence": "personal", "note": { "ko": "기타리스트의 회복 후기 (한국어)" } },
-          { "id": "NvkZygKKeO4", "title": "Guitarist Jun ki Shin's Dystonia Recovery Testimonial", "duration": "12:21", "evidence": "personal", "note": { "ko": "위 신준기 후기의 영어 제목판" } },
-          { "id": "6s5mm9BAVkw", "title": "Pianist Jonathan Story - My Experience Working with Norman Lu", "duration": "9:59", "evidence": "personal", "note": { "ko": "피아니스트가 말하는 훈련 경험" } },
-          { "id": "c0WR7CVAzng", "title": "Pianist Allan Godoy's Dystonia Recovery Testimonial", "duration": "12:07", "evidence": "personal", "note": { "ko": "피아니스트의 회복 후기" } },
-          { "id": "zX4nvI0gdEM", "title": "Guitarist Richie Zidich's Dystonia Recovery Testimonial", "duration": "15:06", "evidence": "personal", "note": { "ko": "기타리스트의 회복 후기" } },
-          { "id": "sn9QNygnoZw", "title": "Guitarist Atai Wangsa's Dystonia Recovery Testimonial", "duration": "11:03", "evidence": "personal", "note": { "ko": "기타리스트의 회복 후기" } },
-          { "id": "nlrO97IxcKk", "title": "Guitarist Didier Roegiers's Dystonia Recovery Testimonial", "duration": "17:17", "evidence": "personal", "note": { "ko": "기타리스트의 회복 후기" } },
-          { "id": "yfd7YJ1WxLo", "title": "Guitarist Djonathan Nagtalon's Dystonia Recovery Testimonial", "duration": "7:46", "evidence": "personal", "note": { "ko": "기타리스트의 회복 후기" } },
-          { "id": "mWSL7T28S_8", "title": "Violinist Baek Kim's Dystonia Recovery Testimonial", "duration": "10:37", "evidence": "personal", "note": { "ko": "바이올리니스트의 회복 후기" } },
-          { "id": "F_oH8_Db8Js", "title": "Drummer Cem Guvener's Dystonia Recovery Testimonial", "duration": "6:26", "evidence": "personal", "note": { "ko": "드러머의 회복 후기" } },
-          { "id": "xYEItBSyIhk", "title": "Trombonist Logan Chopyk's Dystonia Recovery Testimonial", "duration": "10:05", "evidence": "personal", "note": { "ko": "트롬본 연주자의 회복 후기" } }
+          {
+            "id": "IlGImfsr0hY",
+            "title": "기타리스트 신준기의 디스토니아 회복 후기",
+            "duration": "12:21",
+            "evidence": "personal",
+            "note": {
+              "ko": "기타리스트의 회복 후기 (한국어)"
+            }
+          },
+          {
+            "id": "NvkZygKKeO4",
+            "title": "Guitarist Jun ki Shin's Dystonia Recovery Testimonial",
+            "duration": "12:21",
+            "evidence": "personal",
+            "note": {
+              "ko": "위 신준기 후기와 같은 영상 (영어 제목)"
+            }
+          },
+          {
+            "id": "6s5mm9BAVkw",
+            "title": "Pianist Jonathan Story - My Experience Working with Norman Lu",
+            "duration": "9:59",
+            "evidence": "personal",
+            "note": {
+              "ko": "피아니스트가 말하는 훈련 경험"
+            }
+          },
+          {
+            "id": "c0WR7CVAzng",
+            "title": "Pianist Allan Godoy's Dystonia Recovery Testimonial",
+            "duration": "12:07",
+            "evidence": "personal",
+            "note": {
+              "ko": "피아니스트의 회복 후기"
+            }
+          },
+          {
+            "id": "zX4nvI0gdEM",
+            "title": "Guitarist Richie Zidich's Dystonia Recovery Testimonial",
+            "duration": "15:06",
+            "evidence": "personal",
+            "note": {
+              "ko": "기타리스트의 회복 후기"
+            }
+          },
+          {
+            "id": "sn9QNygnoZw",
+            "title": "Guitarist Atai Wangsa's Dystonia Recovery Testimonial",
+            "duration": "11:03",
+            "evidence": "personal",
+            "note": {
+              "ko": "기타리스트의 회복 후기"
+            }
+          },
+          {
+            "id": "nlrO97IxcKk",
+            "title": "Guitarist Didier Roegiers's Dystonia Recovery Testimonial",
+            "duration": "17:17",
+            "evidence": "personal",
+            "note": {
+              "ko": "기타리스트의 회복 후기"
+            }
+          },
+          {
+            "id": "yfd7YJ1WxLo",
+            "title": "Guitarist Djonathan Nagtalon's Dystonia Recovery Testimonial",
+            "duration": "7:46",
+            "evidence": "personal",
+            "note": {
+              "ko": "기타리스트의 회복 후기"
+            }
+          },
+          {
+            "id": "mWSL7T28S_8",
+            "title": "Violinist Baek Kim's Dystonia Recovery Testimonial",
+            "duration": "10:37",
+            "evidence": "personal",
+            "note": {
+              "ko": "바이올리니스트의 회복 후기"
+            }
+          },
+          {
+            "id": "F_oH8_Db8Js",
+            "title": "Drummer Cem Guvener's Dystonia Recovery Testimonial",
+            "duration": "6:26",
+            "evidence": "personal",
+            "note": {
+              "ko": "드러머의 회복 후기"
+            }
+          },
+          {
+            "id": "xYEItBSyIhk",
+            "title": "Trombonist Logan Chopyk's Dystonia Recovery Testimonial",
+            "duration": "10:05",
+            "evidence": "personal",
+            "note": {
+              "ko": "트롬본 연주자의 회복 후기"
+            }
+          }
         ]
       }
     ]
@@ -45,10 +163,29 @@
     },
     "groups": [
       {
-        "name": { "ko": "회복 이야기와 재훈련", "en": "Recovery and retraining" },
+        "name": {
+          "ko": "회복 이야기와 재훈련",
+          "en": "Recovery and retraining"
+        },
         "videos": [
-          { "id": "8T03h3eGi5o", "title": "Recovery from focal dystonia", "duration": "", "evidence": "personal", "note": { "ko": "발병부터 회복까지의 이야기" } },
-          { "id": "guOe4YSUN2E", "title": "What retraining is and is not", "duration": "", "evidence": "personal", "note": { "ko": "본인이 생각하는 재훈련의 뜻과 시작하는 방법" } }
+          {
+            "id": "8T03h3eGi5o",
+            "title": "Recovery from focal dystonia",
+            "duration": "",
+            "evidence": "personal",
+            "note": {
+              "ko": "발병부터 회복까지의 이야기"
+            }
+          },
+          {
+            "id": "guOe4YSUN2E",
+            "title": "What retraining is and is not",
+            "duration": "",
+            "evidence": "personal",
+            "note": {
+              "ko": "본인이 생각하는 재훈련의 뜻과 시작하는 방법"
+            }
+          }
         ]
       }
     ]

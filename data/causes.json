@@ -21,7 +21,8 @@
         "note": {
           "ko": "과업·도구·말초·중추신경계 네 가지 위험 요소로 과업특이적 근긴장이상을 건강한 운동 학습의 틀 안에서 설명",
           "en": "Explains task-specific dystonia within healthy motor learning, via four risk components: task, tool, periphery, CNS"
-        }
+        },
+        "free": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5975945"
       },
       {
         "type": "paper",
@@ -34,7 +35,8 @@
         "note": {
           "ko": "피아니스트 환자 본인이 제1저자. 일차 운동피질 안에 흥분·억제 균형이 깨진 '근긴장이상 시너지'가 생긴다는 모델",
           "en": "First author is the pianist-patient. Proposes a 'dystonic synergy' with excitation/inhibition imbalance forming in primary motor cortex"
-        }
+        },
+        "free": "https://doi.org/10.20944/preprints202507.2002.v1"
       }
     ]
   },
@@ -72,7 +74,8 @@
         "note": {
           "ko": "감각과 운동을 하나의 피드백 고리로 묶은 계산 모델 제안",
           "en": "Proposes a computational model linking sensory and motor processes in one feedback loop"
-        }
+        },
+        "free": "https://doi.org/10.3389/fnhum.2014.00458"
       },
       {
         "type": "paper",
@@ -85,7 +88,8 @@
         "note": {
           "ko": "얇은 장갑을 끼면 일부 환자에서 연주가 즉시 나아지는 현상. 이 현상이 있던 환자는 치료 후 결과도 더 좋았음",
           "en": "Wearing a thin glove briefly improved playing in some pianists; those with the effect had better treatment outcomes"
-        }
+        },
+        "free": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4172087"
       },
       {
         "type": "hypothesis",
@@ -133,7 +137,8 @@
         "note": {
           "ko": "병태생리로 억제 저하, 비정상적 가소성, 감각운동 처리 변화 세 가지를 정리한 리뷰",
           "en": "Review summarising reduced inhibition, maladaptive plasticity and altered sensorimotor processing"
-        }
+        },
+        "free": "https://doaj.org/article/48ab18c6049f4bd79100a7133f02983a"
       }
     ]
   },
@@ -159,7 +164,8 @@
         "note": {
           "ko": "재훈련으로 증상이 나아지자 뒤섞였던 손가락 지도도 정상 쪽으로 되돌아감 — 가소성 변화가 되돌릴 수 있다는 근거",
           "en": "Successful retraining also normalised the blurred finger map — evidence that plastic changes can be reversed"
-        }
+        },
+        "free": "https://pmc.ncbi.nlm.nih.gov/articles/PMC164692"
       }
     ]
   },
@@ -234,7 +240,8 @@
         "note": {
           "ko": "발병 전 몇 년간의 연습 습관을 환자군과 건강한 피아니스트 사이에서 비교",
           "en": "Compares practice behaviours in the years before onset between affected and healthy pianists"
-        }
+        },
+        "free": "https://mediatum.ub.tum.de/doc/1761300/1761300.pdf"
       }
     ]
   }

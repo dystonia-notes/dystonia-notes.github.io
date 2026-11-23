@@ -32,7 +32,8 @@
     const tags = `<span class="tag type">${esc(t(i18n.type[it.type]))}</span>` +
       (it.evidence ? `<span class="tag ${esc(it.evidence)}">${esc(t(i18n.evidence[it.evidence]))}</span>` : '') +
       (it.aspects || []).map((a) => `<span class="tag aspect ${esc(a)}">${esc(t(i18n.aspect[a]))}</span>`).join('');
-    const head = `${tags}<span class="ttl">${title}</span>${meta ? `<div class="meta">${meta}</div>` : ''}${it.note ? `<div class="note">${esc(t(it.note))}</div>` : ''}`;
+    const free = it.free ? `<a class="free" href="${esc(it.free)}" target="_blank" rel="noopener">${esc(t(i18n.free_link))}</a>` : '';
+    const head = `${tags}<span class="ttl">${title}</span>${free}${meta ? `<div class="meta">${meta}</div>` : ''}${it.note ? `<div class="note">${esc(t(it.note))}</div>` : ''}`;
     if (!dt) return `<li>${head}</li>`;
     return `<li class="has-detail"><details><summary>${head}<span class="more">${esc(t(i18n.more))}</span></summary>
       <div class="detail">${figHTML(it.figure)}

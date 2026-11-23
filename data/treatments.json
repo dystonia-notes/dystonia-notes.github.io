@@ -1,174 +1,340 @@
 [
   {
     "id": "overview",
-    "name": { "ko": "치료 전반 비교", "en": "Comparing treatments" },
-    "summary": { "ko": "여러 치료를 한 자리에서 비교한 연구", "en": "Studies comparing several treatments side by side" },
+    "name": {
+      "ko": "치료 전반 비교",
+      "en": "Comparing treatments"
+    },
+    "summary": {
+      "ko": "여러 치료를 한 자리에서 비교한 연구",
+      "en": "Studies comparing several treatments side by side"
+    },
     "causes": [],
     "items": [
       {
-        "type": "paper", "evidence": "strong",
+        "type": "paper",
+        "evidence": "strong",
         "title": "Focal dystonia in musicians: Treatment strategies and long-term outcome in 144 patients",
-        "authors": "Jabusch HC, Zschucke D, Schmidt A, Schuele S, Altenmüller E", "year": 2005, "source": "Movement Disorders 20(12):1623–1626",
+        "authors": "Jabusch HC, Zschucke D, Schmidt A, Schuele S, Altenmüller E",
+        "year": 2005,
+        "source": "Movement Disorders 20(12):1623–1626",
         "url": "https://doi.org/10.1002/mds.20631",
-        "note": { "ko": "환자 자가 평가 기준 호전 비율: 트리헥시페니딜 33%, 보톡스 49%, 교육적 재훈련 50%, 비감독 기술 연습 56%, 인체공학적 조정 63%. 어느 하나도 압도적이지 않음", "en": "Self-rated improvement: trihexyphenidyl 33%, botulinum toxin 49%, pedagogical retraining 50%, unmonitored exercises 56%, ergonomic changes 63%" }
+        "note": {
+          "ko": "환자 자가 평가 기준 호전 비율: 트리헥시페니딜 33%, 보톡스 49%, 교육적 재훈련 50%, 비감독 기술 연습 56%, 인체공학적 조정 63%. 어느 하나도 압도적이지 않음",
+          "en": "Self-rated improvement: trihexyphenidyl 33%, botulinum toxin 49%, pedagogical retraining 50%, unmonitored exercises 56%, ergonomic changes 63%"
+        }
       },
       {
-        "type": "paper", "evidence": "strong",
+        "type": "paper",
+        "evidence": "strong",
         "title": "Musician's dystonia in pianists: long-term evaluation of retraining and other therapies",
-        "authors": "van Vugt FT, Boullet L, Jabusch HC, Altenmüller E", "year": 2014, "source": "Parkinsonism & Related Disorders 20(1):8–12",
-        "note": { "ko": "피아니스트만 모아 재훈련 등 여러 치료의 장기 결과를 돌아본 연구", "en": "Retrospective long-term outcomes of retraining and other therapies in a pianist-only cohort" }
+        "authors": "van Vugt FT, Boullet L, Jabusch HC, Altenmüller E",
+        "year": 2014,
+        "source": "Parkinsonism & Related Disorders 20(1):8–12",
+        "note": {
+          "ko": "피아니스트만 모아 재훈련 등 여러 치료의 장기 결과를 돌아본 연구",
+          "en": "Retrospective long-term outcomes of retraining and other therapies in a pianist-only cohort"
+        }
       },
       {
-        "type": "paper", "evidence": "strong",
+        "type": "paper",
+        "evidence": "strong",
         "title": "Systematic Review of Rehabilitation in Focal Dystonias: Classification and Recommendations",
-        "authors": "Prudente CN, Zetterberg L, Bring A, Bradnam L, Kimberley TJ", "year": 2018, "source": "Movement Disorders Clinical Practice 5(3):237",
-        "note": { "ko": "재활 치료를 이론적 바탕에 따라 분류하고 근거 수준을 평가한 체계적 문헌고찰", "en": "Systematic review classifying rehabilitation approaches by theoretical basis and grading evidence" }
+        "authors": "Prudente CN, Zetterberg L, Bring A, Bradnam L, Kimberley TJ",
+        "year": 2018,
+        "source": "Movement Disorders Clinical Practice 5(3):237",
+        "note": {
+          "ko": "재활 치료를 이론적 바탕에 따라 분류하고 근거 수준을 평가한 체계적 문헌고찰",
+          "en": "Systematic review classifying rehabilitation approaches by theoretical basis and grading evidence"
+        },
+        "free": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6032834/"
       }
     ]
   },
   {
     "id": "retraining",
-    "name": { "ko": "감각-운동 재훈련", "en": "Sensorimotor retraining" },
-    "summary": { "ko": "동작과 감각을 다시 학습시키는 훈련", "en": "Training to relearn movement and sensation" },
-    "causes": ["sensorimotor-integration", "maladaptive-plasticity", "skill-encoding"],
+    "name": {
+      "ko": "감각-운동 재훈련",
+      "en": "Sensorimotor retraining"
+    },
+    "summary": {
+      "ko": "동작과 감각을 다시 학습시키는 훈련",
+      "en": "Training to relearn movement and sensation"
+    },
+    "causes": [
+      "sensorimotor-integration",
+      "maladaptive-plasticity",
+      "skill-encoding"
+    ],
     "items": [
       {
-        "type": "paper", "evidence": "strong",
+        "type": "paper",
+        "evidence": "strong",
         "title": "Sensory motor retuning: a behavioral treatment for focal hand dystonia of pianists and guitarists",
-        "authors": "Candia V, Schäfer T, Taub E, Rau H, Altenmüller E, Rockstroh B, Elbert T", "year": 2002, "source": "Archives of Physical Medicine and Rehabilitation 83(10):1342–1348",
+        "authors": "Candia V, Schäfer T, Taub E, Rau H, Altenmüller E, Rockstroh B, Elbert T",
+        "year": 2002,
+        "source": "Archives of Physical Medicine and Rehabilitation 83(10):1342–1348",
         "url": "https://kops.uni-konstanz.de/entities/publication/62eb417f-cc46-4bf1-ba8d-e5c2e0f874d3",
-        "note": { "ko": "SMR 원조 논문. 증상 손가락 외 손가락을 부목으로 고정하고 집중 훈련 후 1년간 매일 연습. 피아니스트·기타리스트에서 효과", "en": "Original SMR paper: splint non-dystonic fingers, intensive training, then daily practice for a year; benefited pianists and guitarists" }
+        "note": {
+          "ko": "SMR 원조 논문. 증상 손가락 외 손가락을 부목으로 고정하고 집중 훈련 후 1년간 매일 연습. 피아니스트·기타리스트에서 효과",
+          "en": "Original SMR paper: splint non-dystonic fingers, intensive training, then daily practice for a year; benefited pianists and guitarists"
+        },
+        "free": "https://kops.uni-konstanz.de/entities/publication/62eb417f-cc46-4bf1-ba8d-e5c2e0f874d3"
       },
       {
-        "type": "paper", "evidence": "strong",
+        "type": "paper",
+        "evidence": "strong",
         "title": "Effective behavioral treatment of focal hand dystonia in musicians alters somatosensory cortical organization",
-        "authors": "Candia V, Wienbruch C, Elbert T, Rockstroh B, Ray W", "year": 2003, "source": "PNAS 100(13):7942–7946",
+        "authors": "Candia V, Wienbruch C, Elbert T, Rockstroh B, Ray W",
+        "year": 2003,
+        "source": "PNAS 100(13):7942–7946",
         "url": "https://doi.org/10.1073/pnas.1231193100",
-        "note": { "ko": "SMR 후 뇌의 손가락 지도가 정상 쪽으로 바뀐 것을 뇌자도로 확인", "en": "MEG showed finger maps normalising after SMR" }
+        "note": {
+          "ko": "SMR 후 뇌의 손가락 지도가 정상 쪽으로 바뀐 것을 뇌자도로 확인",
+          "en": "MEG showed finger maps normalising after SMR"
+        },
+        "free": "https://pmc.ncbi.nlm.nih.gov/articles/PMC164692"
       },
       {
-        "type": "paper", "evidence": "case",
+        "type": "paper",
+        "evidence": "case",
         "title": "A Proposed Cause, Cure, and Mechanism for Focal Task-Specific Dystonia (BATR)",
-        "authors": "Lu N, Pena R", "year": 2025, "source": "Preprints.org (동료심사 전 / not peer-reviewed)",
+        "authors": "Lu N, Pena R",
+        "year": 2025,
+        "source": "Preprints.org (동료심사 전 / not peer-reviewed)",
         "url": "https://doi.org/10.20944/preprints202507.2002.v1",
-        "note": { "ko": "증상이 나오는 문턱 아래에서만 연습하는 '역치 이하 재훈련(BATR)'으로 회복했다는 저자 본인 사례", "en": "Author's own recovery using below/at-threshold retraining (BATR)" }
+        "note": {
+          "ko": "증상이 나오는 문턱 아래에서만 연습하는 '역치 이하 재훈련(BATR)'으로 회복했다는 저자 본인 사례",
+          "en": "Author's own recovery using below/at-threshold retraining (BATR)"
+        },
+        "free": "https://doi.org/10.20944/preprints202507.2002.v1"
       },
       {
-        "type": "video", "evidence": "personal",
+        "type": "video",
+        "evidence": "personal",
         "title": "Akiko Tarumoto — 회복 이야기 / Recovery story",
         "source": "The Mindful Pianist (YouTube)",
         "url": "https://www.youtube.com/watch?v=8T03h3eGi5o",
-        "note": { "ko": "오른손 엄지 근긴장이상에서 스스로 재훈련해 회복한 피아니스트. 증상은 특정 자극에 대한 반응이라는 관점", "en": "Pianist who self-retrained from right-thumb dystonia; frames symptoms as reactions to specific stimuli" }
+        "note": {
+          "ko": "오른손 엄지 근긴장이상에서 스스로 재훈련해 회복한 피아니스트. 증상은 특정 자극에 대한 반응이라는 관점",
+          "en": "Pianist who self-retrained from right-thumb dystonia; frames symptoms as reactions to specific stimuli"
+        }
       },
       {
-        "type": "video", "evidence": "personal",
+        "type": "video",
+        "evidence": "personal",
         "title": "Akiko Tarumoto — 재훈련이란 무엇인가 / What retraining is",
         "source": "The Mindful Pianist (YouTube)",
         "url": "https://www.youtube.com/watch?v=guOe4YSUN2E",
-        "note": { "ko": "재훈련 = 증상이 없는 상태를 연습하며 몸이 원하는 감각 정보를 넣어주는 것. 피아노·바이올린·기타별 시작 방법", "en": "Retraining as practising the non-dystonic state and feeding sensory input; how to start on piano, violin, guitar" }
+        "note": {
+          "ko": "재훈련 = 증상이 없는 상태를 연습하며 몸이 원하는 감각 정보를 넣어주는 것. 피아노·바이올린·기타별 시작 방법",
+          "en": "Retraining as practising the non-dystonic state and feeding sensory input; how to start on piano, violin, guitar"
+        }
       }
     ]
   },
   {
     "id": "somatic-education",
-    "name": { "ko": "신체 교육 (알렉산더·펠덴크라이스 등)", "en": "Somatic education (Alexander, Feldenkrais, etc.)" },
-    "summary": { "ko": "몸 사용 습관과 자각을 다루는 접근", "en": "Approaches that work on habits of use and body awareness" },
-    "causes": ["practice-factors", "sensorimotor-integration"],
+    "name": {
+      "ko": "신체 교육 (알렉산더·펠덴크라이스 등)",
+      "en": "Somatic education (Alexander, Feldenkrais, etc.)"
+    },
+    "summary": {
+      "ko": "몸 사용 습관과 자각을 다루는 접근",
+      "en": "Approaches that work on habits of use and body awareness"
+    },
+    "causes": [
+      "practice-factors",
+      "sensorimotor-integration"
+    ],
     "items": [
       {
-        "type": "paper", "evidence": "hypothesis",
+        "type": "paper",
+        "evidence": "hypothesis",
         "title": "Comparing the effects of Alexander technique, mirror therapy and conventional therapy on musician's cramp in guitarists",
-        "authors": "NewtonJayakumar N, Mohan Kumar G, et al.", "year": 2022, "source": "Biomedicine 42(1):185–189",
+        "authors": "NewtonJayakumar N, Mohan Kumar G, et al.",
+        "year": 2022,
+        "source": "Biomedicine 42(1):185–189",
         "url": "https://doi.org/10.51248/.v42i1.1607",
-        "note": { "ko": "기타 연주자 대상 비교에서 알렉산더 테크닉이 가장 효과적이었다고 보고. 단일 연구이고 평가 척도가 단순해 해석에 주의", "en": "Reports Alexander technique as most effective in guitarists; single study with simple Likert measures" }
+        "note": {
+          "ko": "기타 연주자 대상 비교에서 알렉산더 테크닉이 가장 효과적이었다고 보고. 단일 연구이고 평가 척도가 단순해 해석에 주의",
+          "en": "Reports Alexander technique as most effective in guitarists; single study with simple Likert measures"
+        },
+        "free": "https://doi.org/10.51248/.v42i1.1607"
       }
     ]
   },
   {
     "id": "psychological",
-    "name": { "ko": "심리적 접근", "en": "Psychological approaches" },
-    "summary": { "ko": "불안·완벽주의, 학습 환경, 주의 방향을 다루는 접근", "en": "Addressing anxiety, perfectionism, learning environment and focus of attention" },
-    "causes": ["practice-factors"],
+    "name": {
+      "ko": "심리적 접근",
+      "en": "Psychological approaches"
+    },
+    "summary": {
+      "ko": "불안·완벽주의, 학습 환경, 주의 방향을 다루는 접근",
+      "en": "Addressing anxiety, perfectionism, learning environment and focus of attention"
+    },
+    "causes": [
+      "practice-factors"
+    ],
     "items": [
       {
-        "type": "paper", "evidence": "hypothesis",
+        "type": "paper",
+        "evidence": "hypothesis",
         "title": "Treating the musician rather than the symptom: The holistic tools employed by current practices to attend to the non-motor problems of musicians with task-specific focal dystonia",
-        "authors": "Détári A", "year": 2023, "source": "Frontiers in Psychology 13:1038775",
+        "authors": "Détári A",
+        "year": 2023,
+        "source": "Frontiers in Psychology 13:1038775",
         "url": "https://doi.org/10.3389/fpsyg.2022.1038775",
-        "note": { "ko": "치료 실무자 14명 인터뷰. 안전한 학습 환경, 신체 지향 방법, 주의 초점 안내 세 영역의 도구를 정리", "en": "Interviews with 14 practitioners: safe learning environment, body-oriented methods, guided attention" }
+        "note": {
+          "ko": "치료 실무자 14명 인터뷰. 안전한 학습 환경, 신체 지향 방법, 주의 초점 안내 세 영역의 도구를 정리",
+          "en": "Interviews with 14 practitioners: safe learning environment, body-oriented methods, guided attention"
+        },
+        "free": "https://doi.org/10.3389/fpsyg.2022.1038775"
       },
       {
-        "type": "paper", "evidence": "case",
+        "type": "paper",
+        "evidence": "case",
         "title": "A pilot study on efficacy and tolerability of cognitive behavioral therapy (CBT-FD) for Japanese patients with focal dystonia",
-        "authors": "Kobayashi K, Sakamoto T, Maruo K, et al.", "year": 2020, "source": "Neurology and Clinical Neuroscience 8:16–27",
+        "authors": "Kobayashi K, Sakamoto T, Maruo K, et al.",
+        "year": 2020,
+        "source": "Neurology and Clinical Neuroscience 8:16–27",
         "url": "https://tsukuba.repo.nii.ac.jp/records/55978",
-        "note": { "ko": "15명 대상 인지행동치료 예비 연구. 불안·우울·삶의 질 개선 보고", "en": "Pilot CBT study (n=15) reporting improved anxiety, depression and quality of life" }
+        "note": {
+          "ko": "15명 대상 인지행동치료 예비 연구. 불안·우울·삶의 질 개선 보고",
+          "en": "Pilot CBT study (n=15) reporting improved anxiety, depression and quality of life"
+        },
+        "free": "https://tsukuba.repo.nii.ac.jp/records/55978"
       }
     ]
   },
   {
     "id": "botulinum-toxin",
-    "name": { "ko": "보툴리눔 독소 주사", "en": "Botulinum toxin injection" },
-    "summary": { "ko": "과도하게 수축하는 근육을 약화시키는 주사", "en": "Injections that weaken overactive muscles" },
+    "name": {
+      "ko": "보툴리눔 독소 주사",
+      "en": "Botulinum toxin injection"
+    },
+    "summary": {
+      "ko": "과도하게 수축하는 근육을 약화시키는 주사",
+      "en": "Injections that weaken overactive muscles"
+    },
     "causes": [],
     "items": [
       {
-        "type": "paper", "evidence": "case",
+        "type": "paper",
+        "evidence": "case",
         "title": "피아니스트의 국소 근긴장 이상에서 시행한 근전도 감시하 보톡스 주사 치료 / Electromyogram-guided Botox Treatment for Focal Dystonia in a Pianist's Hand",
-        "authors": "박호연, 전인호, 이한성, 윤준오", "year": 2012, "source": "대한정형외과학회지 47:232–235",
+        "authors": "박호연, 전인호, 이한성, 윤준오",
+        "year": 2012,
+        "source": "대한정형외과학회지 47:232–235",
         "url": "https://doi.org/10.4055/jkoa.2012.47.3.232",
-        "note": { "ko": "근전도로 주사 위치를 확인하며 시행한 국내 피아니스트 증례", "en": "Korean case report of EMG-guided injection in a professional pianist" }
+        "note": {
+          "ko": "근전도로 주사 위치를 확인하며 시행한 국내 피아니스트 증례",
+          "en": "Korean case report of EMG-guided injection in a professional pianist"
+        },
+        "free": "https://doi.org/10.4055/jkoa.2012.47.3.232"
       },
       {
-        "type": "paper", "evidence": "personal",
+        "type": "paper",
+        "evidence": "personal",
         "title": "Art in Science: Paying Attention to Dystonia",
-        "authors": "Green SA, Scolnik N", "year": 2024, "source": "Clinical Orthopaedics and Related Research 482:1757–1759",
+        "authors": "Green SA, Scolnik N",
+        "year": 2024,
+        "source": "Clinical Orthopaedics and Related Research 482:1757–1759",
         "url": "https://doi.org/10.1097/CORR.0000000000003188",
-        "note": { "ko": "피아니스트 레온 플라이셔의 이야기. 오랜 공백 끝에 롤핑과 보톡스를 거쳐 양손 연주로 복귀", "en": "The story of pianist Leon Fleisher, who returned to two-handed playing after Rolfing and Botox" }
+        "note": {
+          "ko": "피아니스트 레온 플라이셔의 이야기. 오랜 공백 끝에 롤핑과 보톡스를 거쳐 양손 연주로 복귀",
+          "en": "The story of pianist Leon Fleisher, who returned to two-handed playing after Rolfing and Botox"
+        }
       }
     ]
   },
   {
     "id": "medication",
-    "name": { "ko": "약물", "en": "Medication" },
-    "summary": { "ko": "복용 약물로 증상을 조절하는 접근 (예: 트리헥시페니딜)", "en": "Oral medication to manage symptoms (e.g. trihexyphenidyl)" },
+    "name": {
+      "ko": "약물",
+      "en": "Medication"
+    },
+    "summary": {
+      "ko": "복용 약물로 증상을 조절하는 접근 (예: 트리헥시페니딜)",
+      "en": "Oral medication to manage symptoms (e.g. trihexyphenidyl)"
+    },
     "causes": [],
     "items": []
   },
   {
     "id": "brain-stimulation",
-    "name": { "ko": "비침습 뇌 자극", "en": "Non-invasive brain stimulation" },
-    "summary": { "ko": "TMS·tDCS 등으로 뇌 활동을 조절", "en": "Modulating brain activity with TMS, tDCS, etc." },
-    "causes": ["reduced-inhibition", "maladaptive-plasticity"],
+    "name": {
+      "ko": "비침습 뇌 자극",
+      "en": "Non-invasive brain stimulation"
+    },
+    "summary": {
+      "ko": "TMS·tDCS 등으로 뇌 활동을 조절",
+      "en": "Modulating brain activity with TMS, tDCS, etc."
+    },
+    "causes": [
+      "reduced-inhibition",
+      "maladaptive-plasticity"
+    ],
     "items": [
       {
-        "type": "paper", "evidence": "case",
+        "type": "paper",
+        "evidence": "case",
         "title": "Cathodal Transcranial Direct Current Stimulation Improves Focal Hand Dystonia in Musicians: A Two-Case Study",
-        "authors": "Marceglia S, Mrakic-Sposta S, Fumagalli M, et al.", "year": 2017, "source": "Frontiers in Neuroscience 11:508",
+        "authors": "Marceglia S, Mrakic-Sposta S, Fumagalli M, et al.",
+        "year": 2017,
+        "source": "Frontiers in Neuroscience 11:508",
         "url": "https://doi.org/10.3389/fnins.2017.00508",
-        "note": { "ko": "음악가 2명에게 양측 운동피질 음극 tDCS 5일 시행 후 증상 개선 보고", "en": "Two musicians improved after 5 days of bilateral cathodal tDCS over motor cortex" }
+        "note": {
+          "ko": "음악가 2명에게 양측 운동피질 음극 tDCS 5일 시행 후 증상 개선 보고",
+          "en": "Two musicians improved after 5 days of bilateral cathodal tDCS over motor cortex"
+        },
+        "free": "https://doi.org/10.3389/fnins.2017.00508"
       }
     ]
   },
   {
     "id": "integrated",
-    "name": { "ko": "통합적 접근", "en": "Integrated approaches" },
-    "summary": { "ko": "신체·심리·신경 조절을 함께 쓰는 다학제 전략", "en": "Multidisciplinary strategies combining physical, psychological and neuromodulation" },
-    "causes": ["sensorimotor-integration", "maladaptive-plasticity", "practice-factors"],
+    "name": {
+      "ko": "통합적 접근",
+      "en": "Integrated approaches"
+    },
+    "summary": {
+      "ko": "신체·심리·신경 조절을 함께 쓰는 다학제 전략",
+      "en": "Multidisciplinary strategies combining physical, psychological and neuromodulation"
+    },
+    "causes": [
+      "sensorimotor-integration",
+      "maladaptive-plasticity",
+      "practice-factors"
+    ],
     "items": [
       {
-        "type": "paper", "evidence": "hypothesis",
+        "type": "paper",
+        "evidence": "hypothesis",
         "title": "Musician's dystonia: an opinion on novel treatment strategies",
-        "authors": "Grifoni J, Crispiatico V, Castagna A, et al.", "year": 2024, "source": "Frontiers in Neuroscience 18:1393767",
+        "authors": "Grifoni J, Crispiatico V, Castagna A, et al.",
+        "year": 2024,
+        "source": "Frontiers in Neuroscience 18:1393767",
         "url": "https://doi.org/10.3389/fnins.2024.1393767",
-        "note": { "ko": "물리치료·심리치료·뇌 자극을 개인에 맞춰 함께 쓰자는 의견 논문. 반복 동작에 변화를 넣어 굳은 패턴을 깨는 원리를 강조", "en": "Opinion paper for personalised combined physiotherapy, psychotherapy and neuromodulation; emphasises injecting variability" }
+        "note": {
+          "ko": "물리치료·심리치료·뇌 자극을 개인에 맞춰 함께 쓰자는 의견 논문. 반복 동작에 변화를 넣어 굳은 패턴을 깨는 원리를 강조",
+          "en": "Opinion paper for personalised combined physiotherapy, psychotherapy and neuromodulation; emphasises injecting variability"
+        },
+        "free": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11041626/"
       }
     ]
   },
   {
     "id": "surgery",
-    "name": { "ko": "수술적 치료", "en": "Surgical treatment" },
-    "summary": { "ko": "뇌심부자극술, 시상 절개술 등", "en": "Deep brain stimulation, thalamotomy, etc." },
+    "name": {
+      "ko": "수술적 치료",
+      "en": "Surgical treatment"
+    },
+    "summary": {
+      "ko": "뇌심부자극술, 시상 절개술 등",
+      "en": "Deep brain stimulation, thalamotomy, etc."
+    },
     "causes": [],
     "items": []
   }

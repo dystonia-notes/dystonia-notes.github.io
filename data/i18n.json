@@ -180,5 +180,9 @@
   "channel_link": {
     "ko": "채널 바로가기",
     "en": "Visit channel"
+  },
+  "free_link": {
+    "ko": "무료 전문",
+    "en": "Free full text"
   }
 }
