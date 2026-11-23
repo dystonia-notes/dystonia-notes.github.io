@@ -70,3 +70,8 @@ button.play:hover{border-color:var(--accent)}
 .view p:only-child{margin:0}
 a.free{display:inline-block;margin-left:8px;font-size:12px;font-weight:600;color:#15803d;border:1px solid #15803d;border-radius:10px;padding:0 7px;text-decoration:none;vertical-align:1px}
 a.free:hover{background:#15803d;color:#fff}
+
+.covers-t{font-weight:600;font-size:15px;margin:0 0 4px}
+ul.covers{margin:0 0 12px;padding-left:20px;font-size:15px}
+ul.covers li{margin:4px 0}
+ul.covers b{font-weight:600}

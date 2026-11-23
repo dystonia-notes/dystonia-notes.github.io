@@ -184,5 +184,9 @@
   "free_link": {
     "ko": "무료 전문",
     "en": "Free full text"
+  },
+  "covers_title": {
+    "ko": "다루는 내용",
+    "en": "What it covers"
   }
 }

@@ -99,6 +99,7 @@
     main.innerHTML = `<h1>${esc(t(i18n.nav.videos))}</h1><p class="lead">${esc(t(i18n.videos_intro))}</p>` +
       chans.map((c) => `<section class="group" id="${esc(c.id)}"><h2>${esc(c.name)}</h2>
         ${ts(c.about) ? `<p class="sum">${esc(ts(c.about))}</p>` : ''}
+        ${ts(c.covers) ? `<p class="covers-t">${esc(t(i18n.covers_title))}</p><ul class="covers">${ts(c.covers).map((x) => `<li><b>${esc(x.h)}</b> ${esc(x.p)}</li>`).join('')}</ul>` : ''}
         ${ts(c.caution) ? `<div class="view"><p>${esc(ts(c.caution))}</p></div>` : ''}
         ${viewHTML(c)}
         <p class="links"><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(t(i18n.channel_link))}</a></p>
