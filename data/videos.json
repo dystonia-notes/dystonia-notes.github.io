@@ -3,6 +3,11 @@
     "id": "defeating-dystonia",
     "name": "Defeating Dystonia",
     "url": "https://www.youtube.com/@focaldystonia",
+    "summary": {
+      "ko": "BATR(역치 아래에서 반복하는 재훈련)을 다루는 채널. 기전·원인·치료 강의와 회복 후기"
+    },
+    "created": "2026-11-23",
+    "updated": "2026-11-23",
     "site": {
       "url": "https://defeatingdystonia.com/",
       "note": {
@@ -191,6 +196,11 @@
     "id": "mindful-pianist",
     "name": "The Mindful Pianist (Akiko Tarumoto)",
     "url": "https://www.themindfulpianist.com/",
+    "summary": {
+      "ko": "스스로 재훈련해 회복한 피아니스트의 채널. 가벼운 압력에서 시작하는 연습"
+    },
+    "created": "2026-11-23",
+    "updated": "2026-11-23",
     "about": {
       "ko": "오른손 엄지의 근긴장이상에서 스스로 재훈련해 회복한 피아니스트의 채널."
     },
@@ -235,6 +245,11 @@
     "id": "dystonia-recovery-program",
     "name": "Dystonia Recovery Program (Joaquin Farias)",
     "url": "https://www.youtube.com/@Dystoniarecoveryprogram",
+    "summary": {
+      "ko": "움직임 훈련 중심의 온라인 프로그램. 부위별 훈련, 춤과 운동"
+    },
+    "created": "2026-11-24",
+    "updated": "2026-11-24",
     "site": {
       "url": "https://dystoniarecoveryprogram.com/ko/",
       "note": {
@@ -283,6 +298,11 @@
     "id": "focal-dystonia-method",
     "name": "Focal Dystonia Method (Ruth Chiles)",
     "url": "https://www.youtube.com/@RuthS.L.Chiles",
+    "summary": {
+      "ko": "신경계의 '생존 모드'를 푸는 데 초점을 둔 온라인 프로그램"
+    },
+    "created": "2026-11-24",
+    "updated": "2026-11-24",
     "site": {
       "url": "https://www.focaldystoniamethod.com/",
       "note": {
@@ -368,6 +388,11 @@
     "id": "distonia-del-guitarrista",
     "name": "Distonía del Guitarrista (Walter Silva)",
     "url": "https://www.youtube.com/channel/UCmp_MsQrny4sRmNFwDL3gOg",
+    "summary": {
+      "ko": "기타리스트의 회복 경험. 감정 요인과 의식적인 움직임을 함께 다룬다"
+    },
+    "created": "2026-11-24",
+    "updated": "2026-11-24",
     "site": {
       "url": "https://distoniadelguitarrista.com/en/",
       "note": {

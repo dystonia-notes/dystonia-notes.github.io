@@ -46,14 +46,16 @@
   const legendHTML = () => `<div class="legend">${Object.keys(i18n.evidence).map((k) =>
     `<span><span class="tag ${k}">${esc(t(i18n.evidence[k]))}</span></span><span>${esc(t(i18n.evidence_desc[k]))}</span>`).join('')}</div>`;
   const inLang = (tp) => !tp.langs || tp.langs.includes(L);
-  const cardsHTML = (topics) => topics.filter(inLang).map((tp) =>
-    `<a class="card" href="${base}topic-${esc(tp.id)}.html"><b>${esc(t(tp.name))}</b><span>${esc(t(tp.summary))}</span></a>`).join('');
+  const datesHTML = (o) => (o.created || o.updated) ? `<small class="dates">${[['created_label', o.created], ['updated_label', o.updated]]
+    .filter((x) => x[1]).map((x) => `<i>${esc(t(i18n[x[0]]))} ${esc(x[1])}</i>`).join('')}</small>` : '';
+  const cardsHTML = (topics, dates = true) => topics.filter(inLang).map((tp) =>
+    `<a class="card" href="${base}topic-${esc(tp.id)}.html"><b>${esc(t(tp.name))}</b><span>${esc(t(tp.summary))}</span>${dates ? datesHTML(tp) : ''}</a>`).join('');
 
   if (page === 'home') {
     const topics = await get('topics.json');
     main.innerHTML = `<h1>${esc(t(i18n.site))}</h1><p class="lead">${esc(t(i18n.tagline))}</p>
       <p>${esc(t(i18n.home_intro))}</p>
-      <div class="cards">${cardsHTML(topics)}
+      <div class="cards">${cardsHTML(topics, false)}
         <a class="card" href="${base}videos.html"><b>${esc(t(i18n.nav.videos))}</b><span>${esc(t(i18n.videos_intro).split('.')[0])}</span></a>
         <a class="card" href="${base}library.html"><b>${esc(t(i18n.nav.library))}</b><span>${esc(t(i18n.library_intro))}</span></a>
         <a class="card" href="${base}map.html"><b>${esc(t(i18n.nav.map))}</b></a></div>
@@ -99,8 +101,7 @@
       return `<div class="view"><b>${esc(t(i18n.view_title))}</b>${ps.map((p) => `<p>${esc(p)}</p>`).join('')}` +
         (tp ? `<p class="links"><a href="${base}topic-${esc(tp.id)}.html">${esc(t(tp.name))} →</a></p>` : '') + `</div>`;
     };
-    main.innerHTML = `<h1>${esc(t(i18n.nav.videos))}</h1><p class="lead">${esc(t(i18n.videos_intro))}</p>` +
-      chans.map((c) => `<section class="group" id="${esc(c.id)}"><h2>${esc(c.name)}</h2>
+    const chanHTML = (c) => `<section class="group" id="${esc(c.id)}">
         ${ts(c.about) ? `<p class="sum">${esc(ts(c.about))}</p>` : ''}
         ${ts(c.covers) ? `<p class="covers-t">${esc(t(i18n.covers_title))}</p><ul class="covers">${ts(c.covers).map((x) => `<li><b>${esc(x.h)}</b> ${esc(x.p)}</li>`).join('')}</ul>` : ''}
         ${c.site && ts(c.site.note) ? `<p class="sum">${esc(ts(c.site.note))}</p>` : ''}
@@ -112,7 +113,25 @@
           `<a class="ttl" href="https://www.youtube.com/watch?v=${esc(v.id)}" target="_blank" rel="noopener">${esc(v.title)}</a>` +
           `<div class="meta">${[v.duration, ts(v.note)].filter(Boolean).map(esc).join(' · ')}</div>` +
           `<button type="button" class="play" data-id="${esc(v.id)}">${esc(t(i18n.play_here))}</button><div class="player"></div></li>`).join('')}</ul>`).join('')}
-      </section>`).join('');
+        ${datesHTML(c)}
+      </section>`;
+    const render = () => {
+      const want = new URLSearchParams(location.search).get('c') || location.hash.slice(1);
+      const c = chans.find((x) => x.id === want);
+      const sw = document.querySelector('header a.lang');
+      if (sw) sw.href = other + file.videos + (c ? `?c=${encodeURIComponent(c.id)}` : '');
+      if (c) {
+        document.title = `${c.name} · ${t(i18n.site)}`;
+        main.innerHTML = `<p class="back"><a href="${base}${file.videos}">${esc(t(i18n.videos_back))}</a></p><h1>${esc(c.name)}</h1>` + chanHTML(c);
+      } else {
+        document.title = `${t(i18n.nav.videos)} · ${t(i18n.site)}`;
+        main.innerHTML = `<h1>${esc(t(i18n.nav.videos))}</h1><p class="lead">${esc(t(i18n.videos_intro))}</p>
+          <div class="cards">${chans.map((x) => `<a class="card" href="${base}${file.videos}?c=${encodeURIComponent(x.id)}"><b>${esc(x.name)}</b><span>${esc(ts(x.summary))}</span>${datesHTML(x)}</a>`).join('')}</div>`;
+      }
+      window.scrollTo(0, 0);
+    };
+    render();
+    window.addEventListener('hashchange', render);
     main.addEventListener('click', (e) => {
       const btn = e.target.closest('button.play');
       if (!btn) return;

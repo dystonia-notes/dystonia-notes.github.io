@@ -9,7 +9,9 @@
     "summary": {
       "ko": "손의 지도, 도구, 그리고 감각을 바꿔도 돌아오는 증상",
       "en": "The hand map, tools, and symptoms that return when sensation changes"
-    }
+    },
+    "created": "2026-11-23",
+    "updated": "2026-11-24"
   },
   {
     "id": "vision",
@@ -24,6 +26,8 @@
     },
     "langs": [
       "ko"
-    ]
+    ],
+    "created": "2026-11-23",
+    "updated": "2026-11-24"
   }
 ]

@@ -192,5 +192,17 @@
   "site_link": {
     "ko": "공식 사이트",
     "en": "Official site"
+  },
+  "created_label": {
+    "ko": "최초 생성",
+    "en": "Created"
+  },
+  "updated_label": {
+    "ko": "마지막 수정",
+    "en": "Updated"
+  },
+  "videos_back": {
+    "ko": "← 영상 전체 목록",
+    "en": "← All channels"
   }
 }
