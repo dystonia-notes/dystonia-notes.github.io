@@ -16,7 +16,7 @@
 
   document.querySelector('header').innerHTML = `<div class="wrap bar">
     <a class="brand" href="${base}">${esc(t(i18n.site))}</a>
-    <nav>${['home', 'topics', 'videos', 'library', 'map']
+    <nav>${['home', 'topics', 'videos', 'map']
       .map((k) => `<a href="${base}${file[k]}" class="${k === navKey ? 'on' : ''}">${esc(t(i18n.nav[k]))}</a>`).join('')}
       <a class="lang" href="${other}${selfFile}">${esc(t(i18n.lang_switch))}</a></nav></div>`;
   document.querySelector('footer').innerHTML = `<div class="wrap">${esc(t(i18n.disclaimer))}</div>`;
@@ -57,7 +57,6 @@
       <p>${esc(t(i18n.home_intro))}</p>
       <div class="cards">${cardsHTML(topics, false)}
         <a class="card" href="${base}videos.html"><b>${esc(t(i18n.nav.videos))}</b><span>${esc(t(i18n.videos_intro).split('.')[0])}</span></a>
-        <a class="card" href="${base}library.html"><b>${esc(t(i18n.nav.library))}</b><span>${esc(t(i18n.library_intro))}</span></a>
         <a class="card" href="${base}map.html"><b>${esc(t(i18n.nav.map))}</b></a></div>
       <h2>${esc(t(i18n.evidence_title))}</h2>${legendHTML()}`;
   }
