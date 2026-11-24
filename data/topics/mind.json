@@ -1,0 +1,741 @@
+{
+  "id": "mind",
+  "name": {
+    "ko": "마음",
+    "en": "Mind"
+  },
+  "summary": {
+    "ko": "불안과 스트레스는 증상을 얼마나 키우는가, 마음의 여유와 명상은 도움이 되는가",
+    "en": "How far anxiety and stress feed the symptoms, and whether ease of mind and meditation help"
+  },
+  "layers": [
+    {
+      "id": "together",
+      "name": {
+        "ko": "1. 마음의 어려움은 환자에게 더 흔하다"
+      },
+      "intro": {
+        "ko": "근긴장이상은 오랫동안 마음의 병으로 오해받았고, 그 오해를 벗은 뒤에는 거꾸로 마음을 이야기하는 것이 조심스러워졌다. 지금 연구가 말하는 것은 그 사이 어딘가다. 불안, 완벽주의, 스트레스에 약한 성향은 환자에게 분명히 더 흔하다. 그것이 병에 대한 반응만은 아니라는 근거도 있다. 그러나 환자의 절반 가까이에게는 그런 특성이 없고, 차이의 크기도 연구마다 다르다. 아래 그림은 어디까지가 확인되었고 어디부터가 가설인지를 계단으로 그린 것이다."
+      },
+      "figure": {
+        "src": {
+          "ko": "assets/fig/m_ladder.svg"
+        },
+        "caption": {
+          "ko": "네 가지 물음과 지금의 근거 수준. 위로 갈수록 근거가 얇다. 이 주제의 자료를 바탕으로 정리한 모식도."
+        }
+      },
+      "items": [
+        {
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
+          "title": "Primary focal dystonia: evidence for distinct neuropsychiatric and personality profiles",
+          "authors": "Lencer R, Steinlechner S, Stahlberg J, et al.",
+          "year": 2009,
+          "source": "Journal of Neurology, Neurosurgery & Psychiatry 80(10):1176–1179",
+          "note": {
+            "ko": "국소성 근긴장이상 환자의 약 71%가 평생 한 번은 정신과적 장애나 성격장애 기준에 해당했다. 사회공포증을 빼면 그 문제들은 근긴장이상보다 먼저 나타났다."
+          },
+          "url": "https://research.uni-luebeck.de/de/publications/primary-focal-dystonia-evidence-for-distinct-neuropsychiatric-and-2/",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "원발성 국소성 근긴장이상 환자 집단에서 정신과적 장애, 성격장애, 성격 특성이 얼마나 흔한지를 조사했다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "정신과적 장애나 성격장애가 하나라도 있었던 사람의 비율(평생 유병률)이 70.9%였다. 불안 계열 성격장애가 32.6%였고 그 가운데 강박성이 22.1%였다. 사회공포증을 빼면, 정신과적 장애는 근긴장이상 증상이 나타나기 전에 시작되었다. 성격 검사에서는 친화성과 성실성이 높고 개방성이 낮았다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "마음의 어려움이 '병을 얻어서 생긴 반응'만은 아닐 수 있다는 근거다. 먼저 나타났다면 병의 결과로만 설명하기 어렵다."
+                ],
+                [
+                  "한계·주의",
+                  "음악가만 본 연구가 아니고, 목이나 눈꺼풀 같은 다른 부위의 국소성 근긴장이상이 포함된 집단이다. 먼저 나타났다고 해서 원인이라는 뜻은 아니다. 같은 뿌리에서 둘 다 나왔을 수도 있다. 사회공포증은 예외였는데, 눈에 보이는 증상에 대한 반응으로 볼 수 있다."
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
+          "title": "Anxiety as an aggravation factor during onset of focal dystonia in musicians",
+          "authors": "Jabusch HC, Altenmüller E",
+          "year": 2004,
+          "source": "Medical Problems of Performing Artists 19:75–81",
+          "note": {
+            "ko": "발병 시기의 불안이 증상을 악화시키는 요인이라는 보고. 이 주제의 물음을 음악가에게서 처음 꺼낸 연구 가운데 하나다."
+          }
+        },
+        {
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
+          "title": "Musician's dystonia and comorbid anxiety: Two sides of one coin?",
+          "authors": "Enders L, Spector JT, Altenmüller E, Schmidt A, Klein C, Jabusch HC",
+          "year": 2011,
+          "source": "Movement Disorders 26(3):539–542",
+          "note": {
+            "ko": "음악가 근긴장이상 환자의 불안은 병을 앓은 기간과 상관이 없었다. 저자들은 불안이 병에 대한 반응이 아닐 수 있다고 본다."
+          },
+          "url": "https://doi.org/10.1002/mds.23607",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "음악가 근긴장이상 환자에게서 보이는 불안이 병보다 먼저 있던 것인지, 병 때문에 생긴 반응인지를 가리려 했다. 불안 검사와 성격 검사를 썼다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "불안의 정도와 근긴장이상을 앓은 기간 사이에 상관이 없었다. 병 때문에 생긴 반응이라면 오래 앓을수록 달라질 법한데 그렇지 않았다는 것이다. 저자들은 불안과 근긴장이상이 같은 병리 기전을 나눠 가진다는 가설과 맞는 결과라고 해석한다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "제목대로 '동전의 양면'이라는 그림이다. 불안이 근긴장이상을 만든다거나 근긴장이상이 불안을 만든다는 한 방향의 설명이 아니라, 둘이 같은 바탕에서 나온다는 제3의 가능성을 연다."
+                ],
+                [
+                  "한계·주의",
+                  "한 시점에서 잰 자료다. 상관이 없다는 것만으로 불안이 먼저였다고 확정할 수는 없다."
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
+          "title": "Psychological characteristics in musician's dystonia: A new diagnostic classification",
+          "authors": "Ioannou CI, Altenmüller E",
+          "year": 2014,
+          "source": "Neuropsychologia 61:80–88",
+          "note": {
+            "ko": "환자는 건강한 음악가보다 불안·완벽주의·스트레스 특성을 보일 가능성이 여섯 배였다. 그런 특성이 있는 환자와 없는 환자를 나누자고 제안한다."
+          },
+          "url": "https://doi.org/10.1016/j.neuropsychologia.2014.05.014",
+          "detail": {
+            "ko": {
+              "basis": "초록과 다른 논문의 인용을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "음악가 근긴장이상 환자와 건강한 음악가에게 심리 검사를 하고 비교했다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "환자가 불안, 완벽주의, 스트레스 특성이 높게 나올 가능성이 건강한 음악가의 여섯 배였다. 저자들은 이런 심리 상태가 발병을 부추기는 위험 요인일 수 있다고 본다. 그리고 환자를 그런 특성이 있는 군과 없는 군으로 나누는 분류를 제안한다. 같은 연구팀의 뒤 논문은 이 연구에서 환자의 56%가 심리적 증상을 보였다고 인용한다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "두 가지를 함께 말해 준다. 심리 요인이 환자에게 훨씬 흔하다는 것, 그리고 환자의 절반 가까이는 그런 특성이 없다는 것이다. 심리 요인만으로 이 병을 설명할 수 없고, 사람에 따라 무게가 다르다는 뜻이다."
+                ],
+                [
+                  "한계·주의",
+                  "병이 생긴 뒤에 잰 자료라서 그 특성이 병 이전부터 있었는지는 직접 보이지 못한다. 56%라는 수치는 다른 논문의 인용에서 확인했다."
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "paper",
+          "evidence": "case",
+          "aspects": [
+            "cause"
+          ],
+          "title": "The impact of stress on motor performance in skilled musicians suffering from focal dystonia: Physiological and psychological characteristics",
+          "authors": "Ioannou CI, Furuya S, Altenmüller E",
+          "year": 2016,
+          "source": "Neuropsychologia 85:226–236",
+          "note": {
+            "ko": "실험실에서 스트레스를 줘도 환자의 운동 장애는 그 자리에서 나빠지지 않았다. 그러나 불안·완벽주의 성향이 있는 환자는 평균 10년쯤 일찍 발병했다."
+          },
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27033741/",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "환자 20명과 건강한 음악가 16명에게 표준 스트레스 과제(여러 사람 앞에서 발표와 암산을 시키는 검사)를 하게 하고, 그 전과 도중의 연주 동작을 근전도와 타이밍의 고르기로 쟀다. 심전도와 코르티솔로 스트레스가 실제로 걸렸는지 확인했고, 심리 검사 세 가지로 성향을 조사했다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "급성 스트레스 상황에서 환자의 운동 장애는 달라지지 않았다. 다만 근육이 함께 수축하는 정도가 늘어난 것이 보고되었다. 환자의 40%가 불안·스트레스·완벽주의 특성이 높았다. 그런 환자와 그렇지 않은 환자 사이에 운동 결과의 차이는 없었다. 그러나 그런 성향의 환자는 평균 약 10년 일찍 근긴장이상이 생겼다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "스트레스의 작용을 두 가지 시간 단위로 나눠 보게 한다. '지금 긴장하면 지금 증상이 심해진다'는 것은 이 실험에서 지지되지 않았다. '오랜 성향이 발병을 앞당긴다'는 것은 지지되었다. 저자들은 그런 성향이 운동 기능에 오래 남는 영향을 주어 근긴장이상을 앞당기거나 촉발할 수 있다고 본다."
+                ],
+                [
+                  "한계·주의",
+                  "환자 20명의 작은 연구다. 실험실의 스트레스 과제가 무대나 레슨의 압박과 같다고 할 수 없다. 근육 동시 수축에 관한 부분은 초록의 일부만 확인했다."
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
+          "title": "Influence of Adverse Childhood Experiences and Perfectionism on Musician's Dystonia: a Case Control Study",
+          "authors": "Alpheis S, Altenmüller E, Scholz DS",
+          "year": 2022,
+          "source": "Tremor and Other Hyperkinetic Movements 12(1):8",
+          "note": {
+            "ko": "환자 128명과 건강한 음악가 136명을 비교했다. 어린 시절의 정서적 방임이 환자에게 더 많았지만 차이는 작았고, 완벽주의 점수는 두 집단이 같았다."
+          },
+          "url": "https://doi.org/10.5334/tohm.687",
+          "free": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8932351/",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "음악가 근긴장이상 환자 128명과 건강한 음악가 136명에게 아동기의 부정적 경험을 묻는 설문 두 가지와 완벽주의 척도를 하게 했다. 어떤 요인이 환자인지 아닌지를 예측하는지, 완벽주의가 그 사이를 매개하는지를 분석했다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "아동기 외상 설문의 총점(교차비 1.04, 95% 신뢰구간 1.01–1.08)과 그 하위 항목인 정서적 방임(교차비 1.13, 1.02–1.25)이 예측 요인이었다. 다른 종류의 부정적 경험에서는 차이가 없었다. 완벽주의는 매개 역할을 하지 않았고, 두 집단의 완벽주의 점수는 다르지 않았다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "어린 시절의 경험이 관련될 수 있다는 첫 대규모 자료다. 동시에 그 크기가 작다는 것도 보여 준다. 교차비 1.04는 설문 점수가 1점 오를 때 환자일 가능성이 4% 오른다는 뜻이다. 저자들 스스로 '차이는 작고, 경향이 있다'는 정도로 말한다."
+                ],
+                [
+                  "한계·주의",
+                  "두 집단의 성별과 나이가 맞지 않았다고 저자들이 밝힌다. 어린 시절을 어른이 되어 회상한 답이다. 완벽주의에서 차이가 없었다는 결과는 위의 Ioannou & Altenmüller(2014)와 어긋난다."
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
+          "title": "Towards a Holistic Understanding of Musician's Focal Dystonia: Educational Factors and Mistake Rumination Contribute to the Risk of Developing the Disorder",
+          "authors": "Détári A, Egermann H",
+          "year": 2022,
+          "source": "Frontiers in Psychology 13:882966",
+          "note": {
+            "ko": "환자 107명과 그렇지 않은 음악가 68명의 설문 비교. 실수를 곱씹는 정도, 이른 성공, 받은 음악 교육에서 차이가 났다."
+          },
+          "url": "https://doi.org/10.3389/fpsyg.2022.882966",
+          "free": "https://doi.org/10.3389/fpsyg.2022.882966",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "직업 음악가 가운데 근긴장이상이 있는 107명과 없는 68명을 온라인으로 모아 설문을 했다. 외상 경험 선별 도구를 포함한 설문과, 받은 음악 교육·이른 성공·개인적 경험에 대해 직접 만든 문항을 썼다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "실수를 곱씹는 정도, 이른 성공, 받은 음악 교육에서 두 집단이 유의하게 달랐다. 여섯 요인을 넣은 통계 모형은 환자인지 아닌지를 71.2% 맞혔다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "심리 요인을 개인의 성격으로만 보지 않고, 그 성격이 길러진 환경(어떤 교육을 받았는가)까지 넓혀 본다. 불안이나 완벽주의 같은 큰 이름보다 '실수를 곱씹는다'는 구체적인 습관을 짚은 점도 눈에 띈다."
+                ],
+                [
+                  "한계·주의",
+                  "저자들이 탐색적 연구라고 밝힌다. 병이 생긴 뒤에 과거를 돌아보며 답한 설문이다. 온라인과 단체를 통해 스스로 참여한 사람들이라 대표성을 알 수 없다."
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "paper",
+          "evidence": "case",
+          "aspects": [
+            "cause"
+          ],
+          "title": "Psychodiagnostics: Classification of the Yips Phenomenon based on Musician's Dystonia",
+          "authors": "Ioannou CI, Klämpfl MK, Lobinger BH, Raab M, Altenmüller E",
+          "year": 2018,
+          "source": "Medicine & Science in Sports & Exercise 50(11):2217–2225",
+          "note": {
+            "ko": "골프의 입스에서도 음악가 근긴장이상과 같은 갈래가 나왔다. 완벽주의·스트레스·불안 특성이 높은 사람과 그렇지 않은 사람으로 나뉜다."
+          },
+          "url": "https://openresearch.lsbu.ac.uk/download/612842fb9ecf09e024e6fff774f038602667ce25b69cda1c017184d7d10ee7f5/1300942/Ioannou_Raab_lobinger_Kla%CC%88mpfl_Altenmu%CC%88ller_2018_MSSE_YIPSSportMusic.pdf",
+          "free": "https://openresearch.lsbu.ac.uk/download/612842fb9ecf09e024e6fff774f038602667ce25b69cda1c017184d7d10ee7f5/1300942/Ioannou_Raab_lobinger_Kla%CC%88mpfl_Altenmu%CC%88ller_2018_MSSE_YIPSSportMusic.pdf",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "입스가 있는 골프 선수 20명을 포함한 참가자들에게 경쟁 불안과 완벽주의 척도를 포함한 표준 설문 세 가지를 하게 하고, 음악가 근긴장이상 연구에서 쓴 것과 같은 방식으로 묶어 보았다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "입스가 있는 선수들도 완벽주의·스트레스·불안 특성이 높은 군과 그렇지 않은 군으로 나뉘었다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "악기가 아닌 종목에서도 같은 구도가 되풀이된다. 숙련된 한 가지 동작이 무너지는 현상에는 심리 요인이 큰 사람과 작은 사람이 섞여 있다는 그림이다."
+                ],
+                [
+                  "한계·주의",
+                  "입스가 모두 근긴장이상인 것은 아니다. 작은 표본의 설문 연구다."
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "mechanism",
+      "name": {
+        "ko": "2. 어떻게 이어지는가: 가설과 반대 자료"
+      },
+      "intro": {
+        "ko": "마음의 상태가 손가락의 움직임에 닿는 길이 있다면 그것은 무엇인가. 연구자들이 내놓은 가설은 스트레스가 운동 기억이 굳는 과정에 끼어든다는 것이다. 이 가설을 직접 시험한 뇌 영상 연구는 기대한 결과를 얻지 못했다. 한편 회복탄력성이 보호 요인일 수 있다는 자료가 최근에 나왔다. 이 층은 확인된 사실보다 열려 있는 물음이 더 많다."
+      },
+      "items": [
+        {
+          "type": "paper",
+          "evidence": "hypothesis",
+          "aspects": [
+            "cause"
+          ],
+          "title": "Focal Dystonia and the Stress Network: The Role of Stress Vulnerability and Adverse Childhood Experiences in the Development of Musician's Dystonia",
+          "authors": "Alpheis S, Altenmüller E, Scholz DS",
+          "year": 2023,
+          "source": "Springer 단행본의 장, 23–44쪽",
+          "note": {
+            "ko": "스트레스 상황에서 편도체가 잘못된 운동 기억을 더 단단히 굳힐 수 있다는 가설. 근긴장이상을 '순수하게 신경학적인 병'으로 보는 분류에 이의를 단다."
+          },
+          "url": "https://research.uni-luebeck.de/en/publications/focal-dystonia-and-the-stress-network-the-role-of-stress-vulnerab/",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 말하나",
+                  "음악가 근긴장이상은 흔히 기저핵과 소뇌의 억제 저하, 피질 가소성의 이상으로 설명된다. 저자들은 여기에 스트레스 체계를 더한다. 방임이나 학대 같은 아동기의 부정적 경험은 편도체, 해마 같은 변연계와 스트레스 호르몬 축을 바꾸는 것으로 알려져 있고, 운동 학습에 필요한 피질-선조체-시상 고리에도 영향을 줄 수 있다고 본다."
+                ],
+                [
+                  "핵심 가설",
+                  "기저외측 편도체의 활동이 높으면, 스트레스 상황에서 잘못된 운동 기억이 더 강하게 굳을 수 있다. 그래서 음악가 근긴장이상은 스트레스에 대처하는 기제가 제대로 작동하지 않은 결과이기도 하다는 것이다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "'압박 속에서 익힌 동작은 더 깊이 새겨진다'는 생각을 연구자들이 신경 회로의 말로 옮긴 것이다. 영상 페이지의 Focal Dystonia Method와 Distonía del Guitarrista가 말하는 것과 방향이 같다."
+                ],
+                [
+                  "한계·주의",
+                  "기존 연구를 엮어 내놓은 가설이고, 직접 확인한 실험이 아니다. 같은 연구팀이 이 가설을 뇌 영상으로 시험한 결과가 바로 아래 항목인데, 기대와 다르게 나왔다."
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
+          "title": "Stress in Musicians with and Without Focal Dystonia Is Not Reflected in Limbic Circuit Activation",
+          "authors": "Alpheis S, Sinke C, Burek J, Krüger THC, Altenmüller E, Scholz DS",
+          "year": 2024,
+          "source": "Movement Disorders 39(11):2075–2086",
+          "note": {
+            "ko": "반대쪽 자료. 스트레스를 주며 뇌를 찍었더니 변연계의 반응은 나타나지 않았고, 환자와 건강한 음악가 사이에 차이도 없었다."
+          },
+          "url": "https://research.uni-luebeck.de/en/publications/stress-in-musicians-with-and-without-focal-dystonia-is-not-reflec/",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "환자 40명과 건강한 음악가 39명이 기능적 자기공명영상 장치 안에서 스트레스 과제(시간 압박 속에 암산을 하고 부정적 평가를 받는 검사)를 했다. 뇌 전체와 미리 정한 영역을 분석했고, 아동기 외상 설문 점수와의 관계를 보았다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "환자는 아동기 외상 점수가 유의하게 높았다. 그러나 주관적으로 느낀 스트레스는 두 집단이 같았다. 스트레스와 관련된 변연계의 활동은 전체에서도, 집단 사이에서도 나타나지 않았다. 대신 시각 연합 영역과 측두 영역의 활동이 늘었는데 이것도 집단 차이는 없었다. 환자에게서 스트레스 때 설전부 활동이 줄어드는 경향이 있었다. 아동기의 부정적 경험은 참가자 전체에서 설전부, 시상, 흑질의 활동과 음의 상관을 보였다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "위 가설이 예측한 '환자는 스트레스에 변연계가 더 크게 반응한다'는 그림이 확인되지 않았다. 환자에게 아동기 외상이 더 많다는 것은 다시 확인되었지만, 그것이 스트레스 반응의 차이로 이어진다는 고리는 보이지 않았다."
+                ],
+                [
+                  "한계·주의",
+                  "장치 안에서 하는 암산 과제가 변연계를 충분히 자극하지 못했을 수 있다. 건강한 음악가에게서도 변연계 반응이 나오지 않았다는 점이 그 가능성을 남긴다. 연주 중의 스트레스를 본 것이 아니다."
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause",
+            "treatment"
+          ],
+          "title": "Resilience Mitigates the Link between Adverse Childhood Experiences and Musician's Dystonia: A Neuroendocrine and Psychological Perspective",
+          "authors": "Burek J, Alpheis S, Sinke C, Krüger THC, Großbach M, Scholz DS, Worschech F, Lee A, Altenmüller E",
+          "year": 2026,
+          "source": "Tremor and Other Hyperkinetic Movements 16(1):16",
+          "note": {
+            "ko": "회복탄력성이 높으면 아동기 경험과 근긴장이상 사이의 연결이 약해졌다. 스트레스 때의 코르티솔 반응은 환자와 건강한 음악가가 같았다."
+          },
+          "url": "https://doi.org/10.5334/tohm.1161",
+          "free": "https://doi.org/10.5334/tohm.1161",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "환자 40명과 조건을 맞춘 건강한 음악가 39명이 스트레스 과제를 하는 동안 코르티솔을 쟀다. 회복탄력성 척도와 아동기 외상 설문을 함께 했다. 회복탄력성이 아동기 경험과 근긴장이상 사이의 관계를 누그러뜨리는지 분석했다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "건강한 음악가가 환자보다 회복탄력성이 높았다. 차이가 가장 큰 영역은 적응력·유연성과 감정·생각의 조절이었다. 회복탄력성은 아동기 경험과 근긴장이상의 관계를 조절했다(효과 약 −0.29, 95% 구간 약 −0.47 ~ −0.10). 급성 스트레스 때의 코르티솔 양은 두 집단이 다르지 않았다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "위험 요인만이 아니라 보호 요인을 본 드문 연구다. 저자들은 음악 교육의 이른 단계에서 회복탄력성을 기르는 개입을 제안한다. '마음의 여유가 도움이 된다'는 생각에 가장 가까운 연구 근거다."
+                ],
+                [
+                  "한계·주의",
+                  "한 시점의 비교다. 병을 앓아서 회복탄력성 점수가 낮아졌을 가능성을 가릴 수 없다. 회복탄력성을 길렀더니 증상이 나아졌다는 것을 보인 연구가 아니다. 코르티솔 반응에서 차이가 없었다는 것은 위 2024년 연구와 같은 방향이다."
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "cause"
+          ],
+          "title": "Stress Prompts Habit Behavior in Humans",
+          "authors": "Schwabe L, Wolf OT",
+          "year": 2009,
+          "source": "Journal of Neuroscience 29(22):7191–7198",
+          "note": {
+            "ko": "건강한 사람에게 스트레스를 준 뒤 학습시키면, 결과를 따져 고르는 행동이 줄고 습관대로 하는 행동이 늘었다. 뒤의 재현 연구는 결과가 엇갈린다."
+          },
+          "url": "https://doi.org/10.1523/JNEUROSCI.0979-09.2009",
+          "free": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6666491",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "건강한 사람에게 스트레스를 준 뒤, 어떤 행동을 하면 어떤 음식 보상이 나오는지를 배우게 했다. 그다음 한 보상의 가치를 떨어뜨리고(그 음식을 배부르게 먹게 함), 사람들이 행동을 바꾸는지를 보았다. 결과를 따져서 하는 행동이라면 바뀌고, 습관이라면 그대로다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "스트레스를 받은 사람들은 보상의 가치가 떨어져도 행동을 바꾸지 않았다. 행동과 결과의 관계를 말로 설명하는 능력도 떨어졌다. 저자들은 스트레스가 목표를 따지는 체계 대신 습관 체계를 쓰게 만든다고 해석한다. 앞의 체계는 전전두엽에, 뒤의 체계는 선조체(기저핵의 일부)에 기댄다고 알려져 있다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "'압박 속에서 익힌 것은 따져서 고칠 수 있는 형태가 아니라 습관의 형태로 저장된다'는 생각에 실험적 발판을 준다. 영상 페이지의 Distonía del Guitarrista가 기저핵을 들어 말한 내용과 닿아 있다. 습관이 된 동작은 결과가 나빠져도 잘 바뀌지 않는다는 점이 근긴장이상의 고집스러움과 겹쳐 보인다."
+                ],
+                [
+                  "한계·주의",
+                  "음식 보상을 고르는 과제이고 악기 연주 같은 숙련 운동이 아니다. 2023년에 다른 연구팀이 이 실험을 그대로 두 번 되풀이했는데, 스트레스를 받지 않은 집단도 행동을 바꾸지 않아서 차이를 확인할 수 없었다(Smeets 등, Neurobiology of Stress). 같은 팀의 앞선 연구에서는 코르티솔이 실제로 오른 사람에게서만 습관 쪽으로 기울었다. 방향은 여러 번 보고되었지만 확고하다고 할 수는 없다."
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "treat",
+      "name": {
+        "ko": "3. 마음을 다루면 달라지는가"
+      },
+      "intro": {
+        "ko": "심리적 개입이나 명상이 근긴장이상의 운동 증상을 줄인다는 것을 보인 연구는 아직 없다고 해도 지나치지 않다. 있는 것은 세 가지다. 불안, 우울, 삶의 질이 나아졌다는 작은 연구들, 건강한 사람에게서 명상이 운동피질의 억제를 올렸다는 보고, 그리고 음악가의 무대 불안에 대해서는 방법들이 꽤 검증되어 있다는 사실이다. 영상 페이지에 소개한 Focal Dystonia Method와 Distonía del Guitarrista는 이 방향을 실제 프로그램으로 만든 사례이고, 둘 다 연구로 시험되지는 않았다."
+      },
+      "items": [
+        {
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "treatment"
+          ],
+          "title": "Behavioural interventions for people living with adult-onset primary dystonia: a systematic review",
+          "authors": "Bernstein CJ, Ellard DR, Davies G, Hertenstein E, Tang NKY, Underwood M, Sandhu H",
+          "year": 2016,
+          "source": "BMC Neurology 16:40",
+          "note": {
+            "ko": "근긴장이상에 행동·심리적 개입을 쓴 연구를 모두 모았더니 아홉 편, 참가자 73명이 전부였다. 무작위 대조 시험은 두 편뿐이다."
+          },
+          "url": "https://doi.org/10.1186/s12883-016-0562-y",
+          "free": "https://doi.org/10.1186/s12883-016-0562-y",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "성인기에 시작된 원발성 근긴장이상 환자에게 행동적 개입을 쓴 연구를 네 개의 데이터베이스에서 체계적으로 찾았다. 근긴장이상의 정도 같은 몸의 결과와 수면, 우울 같은 마음의 결과를 함께 보았다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "1,798건을 걸러 아홉 편이 남았다. 참가자는 모두 합쳐 73명이고, 무작위 대조 시험은 두 편이었다. 다룬 병은 눈꺼풀 1편, 목 2편, 서경(글씨 쓰는 손) 3편, 입스 3편이었다. 저자들은 무작위 시험이 드물고 표본이 작아서 결과를 조심해서 해석해야 한다고 결론 낸다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "'마음을 다루면 증상이 나아지는가'라는 물음에 대해 지금 있는 근거의 크기를 보여 준다. 답이 '아니다'가 아니라 '아직 제대로 물어본 적이 거의 없다'에 가깝다."
+                ],
+                [
+                  "한계·주의",
+                  "2016년까지의 문헌이다. 음악가 근긴장이상을 다룬 연구는 포함된 목록에 보이지 않는다. 개별 연구들의 결과는 초록에서 확인하지 못했다."
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "paper",
+          "evidence": "case",
+          "aspects": [
+            "treatment"
+          ],
+          "title": "Combined cognitive–behavioural and mindfulness programme for people living with dystonia: a proof-of-concept study",
+          "authors": "Sandhu H, Bernstein CJ, Davies G, et al.",
+          "year": 2016,
+          "source": "BMJ Open 6(8):e011495",
+          "note": {
+            "ko": "근긴장이상 환자에게 인지행동 접근과 마음챙김을 묶은 3일 프로그램을 해 본 연구. 9명이 마쳤고, 마음챙김은 대처 방법으로 받아들여졌다."
+          },
+          "url": "https://doi.org/10.1136/bmjopen-2016-011495",
+          "free": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4985914",
+          "detail": {
+            "ko": {
+              "basis": "초록과 본문 일부를 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "영국 근긴장이상 협회의 설문에서 회원들이 불안, 가라앉은 기분 같은 비운동 증상을 다루는 도움을 원한다고 답한 것이 출발점이다. 보툴리눔 주사 클리닉 한 곳에서 환자를 모아, 인지행동 접근과 마음챙김을 합친 3일짜리 합숙 그룹 프로그램을 해 보았다. 이런 프로그램을 실제로 운영할 수 있는지, 환자가 받아들이는지를 보는 것이 목적이었다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "참가자의 평균 나이는 60세(44–77세)였고 8명이 여성이었다. 중도에 빠진 사람을 빼고 9명이 3일 과정을 마쳤다. 참가자들은 프로그램이 유익했다고 했고, 같은 병을 가진 사람들과 함께한 것이 자기 상태를 인정받는 경험이 되었다고 했다. 마음챙김은 대처 전략으로 받아들여졌고 한 달 뒤에도 쓰이고 있었다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "명상 계열의 방법이 근긴장이상 환자에게 쓰인 드문 기록이다. 목표가 '증상을 줄이는 것'이 아니라 '병과 함께 사는 것을 돕는 것'이었다는 점을 구분해서 읽어야 한다."
+                ],
+                [
+                  "한계·주의",
+                  "9명이고 비교 집단이 없다. 운동 증상이 나아지는지를 보려던 연구가 아니다. 참가자의 병은 음악가 근긴장이상이 아니다."
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "paper",
+          "evidence": "case",
+          "aspects": [
+            "treatment"
+          ],
+          "title": "A pilot study on efficacy and tolerability of cognitive behavioral therapy (CBT-FD) for Japanese patients with focal dystonia",
+          "authors": "Kobayashi K, Sakamoto T, Maruo K, et al.",
+          "year": 2020,
+          "source": "Neurology and Clinical Neuroscience 8:16–27",
+          "note": {
+            "ko": "국소성 근긴장이상 환자 15명에게 한 인지행동치료 예비 연구. 불안, 우울, 삶의 질이 나아졌다고 보고한다."
+          },
+          "url": "https://tsukuba.repo.nii.ac.jp/records/55978",
+          "free": "https://tsukuba.repo.nii.ac.jp/records/55978"
+        },
+        {
+          "type": "paper",
+          "evidence": "hypothesis",
+          "aspects": [
+            "treatment"
+          ],
+          "title": "Treating the musician rather than the symptom: The holistic tools employed by current practices to attend to the non-motor problems of musicians with task-specific focal dystonia",
+          "authors": "Détári A",
+          "year": 2023,
+          "source": "Frontiers in Psychology 13:1038775",
+          "note": {
+            "ko": "음악가 근긴장이상을 다루는 실무자 14명의 인터뷰. 안전한 학습 환경, 몸을 통한 방법, 주의의 방향을 이끄는 방법의 세 갈래로 정리한다. 현장에서는 이미 마음을 함께 다루고 있다는 기록이다."
+          },
+          "url": "https://doi.org/10.3389/fpsyg.2022.1038775",
+          "free": "https://doi.org/10.3389/fpsyg.2022.1038775"
+        },
+        {
+          "type": "paper",
+          "evidence": "case",
+          "aspects": [
+            "treatment"
+          ],
+          "title": "Meditation-Related Increases in GABAB Modulated Cortical Inhibition",
+          "authors": "Guglietti CL, Daskalakis ZJ, Radhu N, Fitzgerald PB, Ritvo P",
+          "year": 2013,
+          "source": "Brain Stimulation 6(3):397–402",
+          "note": {
+            "ko": "건강한 사람에게서 명상 한 번 뒤에 운동피질의 억제 지표가 올랐다는 보고. 근긴장이상의 '억제 부족'과 이어 볼 수 있지만, 환자에게서 확인된 것은 아니다."
+          },
+          "url": "https://doi.org/10.1016/j.brs.2012.08.005",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "건강한 오른손잡이 70명(명상을 해 온 사람 35명, 하지 않는 사람 35명)을 대상으로, 60분의 명상 또는 명상이 아닌 활동의 전과 후에 경두개 자기자극으로 운동피질의 억제를 쟀다. 지표는 두 가지로, 하나는 GABA-B 수용체와 관련된 억제(피질 침묵기), 다른 하나는 GABA-A 수용체와 관련된 억제(짧은 간격 피질내 억제)다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "제목과 초록이 밝히듯 명상 뒤에 GABA-B와 관련된 피질 억제가 늘었다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "근긴장이상은 흥분에 비해 억제가 모자란 상태로 설명되곤 한다('감각' 주제, 영상 페이지의 Defeating Dystonia). 명상이 운동피질의 억제를 올린다면, 마음의 여유가 기분만이 아니라 운동 회로에도 닿을 수 있다는 다리가 된다. 이 연결은 이 사이트의 해석이고 논문이 한 말이 아니다."
+                ],
+                [
+                  "한계·주의",
+                  "건강한 사람에게서 한 번의 명상 직후에 잰 변화다. 얼마나 오래가는지 알 수 없다. 근긴장이상에서 문제가 되는 억제가 이 지표로 재는 것과 같은 종류인지도 분명하지 않다. 근긴장이상 환자에게 명상을 시키고 억제나 증상을 본 연구는 찾지 못했다."
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "type": "paper",
+          "evidence": "strong",
+          "aspects": [
+            "treatment"
+          ],
+          "title": "Recent developments in coping strategies focusing on music performance anxiety: a systematic review",
+          "authors": "Bakhtiari P, Nikanmajd N, Ghasemi Shayan R",
+          "year": 2025,
+          "source": "Frontiers in Psychology 16:1507229",
+          "note": {
+            "ko": "음악가의 무대 불안에 대해서는 수용전념치료, 인지행동치료, 마음챙김, 요가가 불안을 줄인다는 연구가 모여 있다. 근긴장이상이 아니라 불안에 대한 근거다."
+          },
+          "url": "https://doi.org/10.3389/fpsyg.2025.1507229",
+          "free": "https://doi.org/10.3389/fpsyg.2025.1507229",
+          "detail": {
+            "ko": {
+              "basis": "초록을 기준으로 정리",
+              "sections": [
+                [
+                  "무엇을 했나",
+                  "2016년부터 2023년까지 나온, 음악가가 무대 불안에 대처하는 방법에 관한 연구를 체계적으로 모았다."
+                ],
+                [
+                  "무엇이 나왔나",
+                  "수용전념치료, 인지행동치료, 마음챙김, 요가 같은 개입이 불안을 유의하게 줄이고 심리적 회복력을 높였다고 정리한다. 수용전념치료는 심리적 유연성을 뚜렷하게 높였다."
+                ],
+                [
+                  "이 주제에서의 의미",
+                  "근긴장이상 환자에게 불안이 흔하다면, 불안 자체를 줄이는 방법은 이미 근거가 있다는 뜻이다. 불안이 줄면 운동 증상이 나아지는지는 별개의 물음이지만, 불안이 줄어드는 것만으로도 얻는 것이 있다."
+                ],
+                [
+                  "한계·주의",
+                  "근긴장이상 환자를 대상으로 한 연구들이 아니다. 포함된 연구들의 질과 크기는 초록에서 확인하지 못했다."
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "view",
+      "name": {
+        "ko": "4. 유별의 관점: 키우는 요인, 그리고 여유"
+      },
+      "intro": {
+        "ko": "유별은 마음을 근긴장이상의 유일한 원인으로 보지 않는다. 증상을 키우는 데 어느 정도 기여하는 요인으로 본다."
+      },
+      "items": [
+        {
+          "type": "hypothesis",
+          "evidence": "personal",
+          "aspects": [
+            "cause"
+          ],
+          "title": {
+            "ko": "가설: 위협이 설계를 바꿨다"
+          },
+          "note": {
+            "ko": "뇌는 몸을 움직이는 방식을 쉽게 바꾸지 않는다. 그런데도 바뀌었다면, 생존에 버금가는 위협으로 받아들인 무언가가 있었기 때문일 수 있다."
+          },
+          "detail": {
+            "ko": {
+              "basis": "유별의 가설 — 검증되지 않음",
+              "sections": [
+                [
+                  "가설",
+                  "오래 익힌 동작이 어느 날 달라졌다. 뇌가 몸을 쓰는 방식을 가볍게 바꾸지는 않을 것이므로, 바꿔야 할 만큼의 이유가 있었다고 본다. 그 이유의 후보가 위협이다. 실제로 목숨이 걸린 일이 아니어도, 그만큼 강하게 느껴진 압박이 그 동작과 함께 되풀이되었다면 뇌는 그 동작을 위협과 묶어서 기록했을 수 있다."
+                ],
+                [
+                  "어디서 왔나",
+                  "영상 페이지에 소개한 Focal Dystonia Method와 Distonía del Guitarrista의 영상에서 실마리를 얻었다. 앞쪽은 신경계가 '생존 모드'에 갇힌다고 하고, 뒤쪽은 뇌가 위협을 찾아내는 기관이며 동작과 그때의 감정이 함께 묶여 저장된다고 한다."
+                ],
+                [
+                  "연구와 만나는 지점",
+                  "연구자들도 비슷한 가설을 내놓았다. 스트레스 상황에서 편도체가 잘못된 운동 기억을 더 단단히 굳힐 수 있다는 것이다(Alpheis 등 2023). 건강한 사람에게서 스트레스는 따져서 하는 행동을 습관으로 기울게 했다(Schwabe & Wolf 2009). 불안·완벽주의 성향이 있는 환자는 평균 10년쯤 일찍 발병했다(Ioannou 등 2016)."
+                ],
+                [
+                  "연구와 어긋나는 지점",
+                  "스트레스를 주며 뇌를 찍은 연구에서 환자의 변연계가 더 크게 반응하지 않았다(Alpheis 등 2024). 급성 스트레스는 환자의 운동 장애를 그 자리에서 키우지 않았다(Ioannou 등 2016). 환자의 절반 가까이는 불안이나 완벽주의 특성이 없다(Ioannou & Altenmüller 2014). 위협이 모든 환자에게 공통된 원인이라면 설명하기 어려운 결과들이다."
+                ],
+                [
+                  "한계",
+                  "한 사람의 생각에서 나온 가설이다. '위협으로 기록된다'는 것을 직접 잴 방법이 지금은 없다. 실마리를 준 두 프로그램도 자기 방법을 연구로 시험한 적이 없다."
+                ]
+              ]
+            }
+          },
+          "figure": {
+            "src": {
+              "ko": "assets/fig/m_threat.svg"
+            },
+            "caption": {
+              "ko": "가설의 흐름과, 마음의 여유가 끼어들 수 있다고 보는 자리. 검증되지 않은 모식도."
+            }
+          }
+        }
+      ],
+      "view": {
+        "ko": "정신적으로 불안정한 상태는 증상을 키우는 데 어느 정도 기여할 수 있다고 본다. 그렇다면 심리적 여유와 명상 같은 활동은 도움이 될 수 있다. 지금의 연구는 앞의 절반을 일부 받쳐 주고, 뒤의 절반은 아직 제대로 시험되지 않았다."
+      }
+    }
+  ]
+}

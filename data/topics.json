@@ -29,5 +29,22 @@
     ],
     "created": "2026-11-23",
     "updated": "2026-11-24"
+  },
+  {
+    "id": "mind",
+    "file": "topics/mind.json",
+    "name": {
+      "ko": "마음",
+      "en": "Mind"
+    },
+    "summary": {
+      "ko": "불안과 스트레스는 증상을 얼마나 키우는가, 마음의 여유와 명상은 도움이 되는가",
+      "en": "How far anxiety and stress feed the symptoms, and whether ease of mind and meditation help"
+    },
+    "langs": [
+      "ko"
+    ],
+    "created": "2026-11-24",
+    "updated": "2026-11-24"
   }
 ]
