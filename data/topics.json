@@ -46,5 +46,22 @@
     ],
     "created": "2026-11-24",
     "updated": "2026-11-24"
+  },
+  {
+    "id": "pattern",
+    "file": "topics/pattern.json",
+    "name": {
+      "ko": "패턴",
+      "en": "Pattern"
+    },
+    "summary": {
+      "ko": "반복으로 묶이고 굳는 동작. 손가락 사이의 연계, 그리고 버릇과 증상을 가르는 것",
+      "en": "Movements that bind and set through repetition: coupling between fingers, and what separates a habit from a symptom"
+    },
+    "langs": [
+      "ko"
+    ],
+    "created": "2026-11-25",
+    "updated": "2026-11-25"
   }
 ]
