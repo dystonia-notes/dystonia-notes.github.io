@@ -77,7 +77,7 @@
     main.innerHTML = `<h1>${esc(t(tp.name))}</h1><p class="lead">${esc(t(tp.summary))}</p>
       <p class="tools"><button type="button" id="toggle-all">${esc(t(i18n.open_all))}</button></p>` +
       tp.layers.map((ly) => `<section class="group layer" id="${esc(ly.id)}"><h2>${esc(t(ly.name))}</h2>
-        <p class="sum">${esc(t(ly.intro))}</p>${figHTML(ly.figure)}${listHTML(ly.items)}
+        <p class="sum">${esc(t(ly.intro))}</p>${figHTML(ly.figure)}${ly.figure && !ly.items.length ? '' : listHTML(ly.items)}
         ${ly.view ? `<div class="view"><b>${esc(t(i18n.view_title))}</b><p>${esc(t(ly.view))}</p></div>` : ''}</section>`).join('') +
       `<section class="group"><h2>${esc(t(i18n.evidence_title))}</h2>${legendHTML()}</section>`;
     const btn = document.getElementById('toggle-all');

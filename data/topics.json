@@ -63,5 +63,22 @@
     ],
     "created": "2026-11-25",
     "updated": "2026-11-25"
+  },
+  {
+    "id": "medical",
+    "file": "topics/medical.json",
+    "name": {
+      "ko": "의학적 치료",
+      "en": "Medical treatment"
+    },
+    "summary": {
+      "ko": "보톡스와 뇌 수술(뇌심부 자극술, 시상 절개술, 집속 초음파): 얼마나 듣고, 무엇을 대가로 치르는가",
+      "en": "Botulinum toxin and brain surgery (DBS, thalamotomy, focused ultrasound): how well they work and at what cost"
+    },
+    "langs": [
+      "ko"
+    ],
+    "created": "2026-11-26",
+    "updated": "2026-11-26"
   }
 ]
