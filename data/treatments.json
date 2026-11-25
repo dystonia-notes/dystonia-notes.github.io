@@ -97,17 +97,17 @@
       },
       {
         "type": "paper",
-        "evidence": "case",
-        "title": "A Proposed Cause, Cure, and Mechanism for Focal Task-Specific Dystonia (BATR)",
-        "authors": "Lu N, Pena R",
-        "year": 2025,
-        "source": "Preprints.org (동료심사 전 / not peer-reviewed)",
-        "url": "https://doi.org/10.20944/preprints202507.2002.v1",
+        "evidence": "hypothesis",
+        "title": "Focal Task-Specific Dystonia: An M1-Centered TSMS Framework",
+        "authors": "Lu N, Pena RFO",
+        "year": 2026,
+        "source": "Brain Sciences 16(10):1011",
+        "url": "https://doi.org/10.3390/brainsci16101011",
+        "free": "https://doi.org/10.3390/brainsci16101011",
         "note": {
-          "ko": "증상이 나오는 문턱 아래에서만 연습하는 '역치 이하 재훈련(BATR)'으로 회복했다는 저자 본인 사례",
-          "en": "Author's own recovery using below/at-threshold retraining (BATR)"
-        },
-        "free": "https://doi.org/10.20944/preprints202507.2002.v1"
+          "ko": "증상이 나오지 않는 범위에서만 연습해 증상 문턱을 올린다는 '역치 이하·역치 수준 재훈련(BATR)'을 시험할 수 있는 가설로 제안한다. 효과, 용량, 안전성은 아직 검증되지 않았다고 저자들이 밝힌다. 2025년 프리프린트에는 저자 본인의 회복 사례가 실려 있었다",
+          "en": "Proposes below- or at-threshold retraining (BATR) as a testable hypothesis; the authors state efficacy, dose and safety are untested. The 2025 preprint included the author's own recovery"
+        }
       },
       {
         "type": "video",

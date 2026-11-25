@@ -27,16 +27,30 @@
       {
         "type": "paper",
         "evidence": "hypothesis",
-        "title": "A Proposed Cause, Cure, and Mechanism for Focal Task-Specific Dystonia: A Theoretical-Empirical Approach",
-        "authors": "Lu N, Pena R",
-        "year": 2025,
-        "source": "Preprints.org (동료심사 전 / not peer-reviewed)",
-        "url": "https://doi.org/10.20944/preprints202507.2002.v1",
+        "title": "Focal Task-Specific Dystonia: An M1-Centered TSMS Framework",
+        "authors": "Lu N, Pena RFO",
+        "year": 2026,
+        "source": "Brain Sciences 16(10):1011",
+        "url": "https://doi.org/10.3390/brainsci16101011",
+        "free": "https://doi.org/10.3390/brainsci16101011",
         "note": {
-          "ko": "피아니스트 환자 본인이 제1저자. 일차 운동피질 안에 흥분·억제 균형이 깨진 '근긴장이상 시너지'가 생긴다는 모델",
-          "en": "First author is the pianist-patient. Proposes a 'dystonic synergy' with excitation/inhibition imbalance forming in primary motor cortex"
-        },
-        "free": "https://doi.org/10.20944/preprints202507.2002.v1"
+          "ko": "동료심사를 거친 가설 논문(2025년 프리프린트의 개정판). 일차 운동피질 안의 과제별 운동 시너지에서 흥분이 빠른 억제에 비해 지나치게 강해진다는 모델. 제1저자는 음악가 근긴장이상을 겪은 피아니스트다",
+          "en": "Peer-reviewed hypothesis article (revised from the 2025 preprint). Proposes that excitation outgrows fast inhibition within a task-specific motor synergy in primary motor cortex. The first author is a pianist who has had musician's dystonia"
+        }
+      },
+      {
+        "type": "paper",
+        "evidence": "hypothesis",
+        "title": "Focal Task-Specific Dystonia Beyond M1: Network Adaptations and a Causal-Architecture Taxonomy of Dystonia",
+        "authors": "Lu N, Pena RFO",
+        "year": 2026,
+        "source": "Brain Sciences 16(9):985",
+        "url": "https://doi.org/10.3390/brainsci16090985",
+        "free": "https://doi.org/10.3390/brainsci16090985",
+        "note": {
+          "ko": "위 논문의 짝. 기저핵, 소뇌, 감각피질, 척수에서 보이는 이상이 운동피질의 이상에서 뒤따라 생겼을 수 있다는 가설과, 근긴장이상을 원인 구조에 따라 세 갈래로 나누는 분류를 제안한다",
+          "en": "Companion paper: proposes that basal ganglia, cerebellar, somatosensory and spinal abnormalities may follow from the M1 abnormality, and a three-branch causal taxonomy of dystonia"
+        }
       }
     ]
   },
