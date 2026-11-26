@@ -1,84 +1,101 @@
 [
-  {
-    "id": "sensation",
-    "file": "topics/sensation.json",
-    "name": {
-      "ko": "감각",
-      "en": "Sensation"
-    },
-    "summary": {
-      "ko": "손의 지도, 도구, 그리고 감각을 바꿔도 돌아오는 증상",
-      "en": "The hand map, tools, and symptoms that return when sensation changes"
-    },
-    "created": "2026-11-23",
-    "updated": "2026-11-24"
+ {
+  "id": "sensation",
+  "file": "topics/sensation.json",
+  "name": {
+   "ko": "감각",
+   "en": "Sensation"
   },
-  {
-    "id": "vision",
-    "file": "topics/vision.json",
-    "name": {
-      "ko": "시각",
-      "en": "Vision"
-    },
-    "summary": {
-      "ko": "무언가를 형성해 갈 때 눈이 하는 일: 보는 것, 거울, 그리고 안 보던 손",
-      "en": "What the eyes do while a movement is being formed: looking, mirrors, and the hand that went unwatched"
-    },
-    "langs": [
-      "ko"
-    ],
-    "created": "2026-11-23",
-    "updated": "2026-11-24"
+  "summary": {
+   "ko": "손의 지도, 도구, 그리고 감각을 바꿔도 돌아오는 증상",
+   "en": "The hand map, tools, and symptoms that return when sensation changes"
   },
-  {
-    "id": "mind",
-    "file": "topics/mind.json",
-    "name": {
-      "ko": "마음",
-      "en": "Mind"
-    },
-    "summary": {
-      "ko": "불안과 스트레스는 증상을 얼마나 키우는가, 마음의 여유와 명상은 도움이 되는가",
-      "en": "How far anxiety and stress feed the symptoms, and whether ease of mind and meditation help"
-    },
-    "langs": [
-      "ko"
-    ],
-    "created": "2026-11-24",
-    "updated": "2026-11-24"
+  "created": "2026-11-23",
+  "updated": "2026-11-24"
+ },
+ {
+  "id": "vision",
+  "file": "topics/vision.json",
+  "name": {
+   "ko": "시각",
+   "en": "Vision"
   },
-  {
-    "id": "pattern",
-    "file": "topics/pattern.json",
-    "name": {
-      "ko": "패턴",
-      "en": "Pattern"
-    },
-    "summary": {
-      "ko": "반복으로 묶이고 굳는 동작. 손가락 사이의 연계, 그리고 버릇과 증상을 가르는 것",
-      "en": "Movements that bind and set through repetition: coupling between fingers, and what separates a habit from a symptom"
-    },
-    "langs": [
-      "ko"
-    ],
-    "created": "2026-11-25",
-    "updated": "2026-11-25"
+  "summary": {
+   "ko": "무언가를 형성해 갈 때 눈이 하는 일: 보는 것, 거울, 그리고 안 보던 손",
+   "en": "What the eyes do while a movement is being formed: looking, mirrors, and the hand that went unwatched"
   },
-  {
-    "id": "medical",
-    "file": "topics/medical.json",
-    "name": {
-      "ko": "의학적 치료",
-      "en": "Medical treatment"
-    },
-    "summary": {
-      "ko": "보톡스와 뇌 수술(뇌심부 자극술, 시상 절개술, 집속 초음파): 얼마나 듣고, 무엇을 대가로 치르는가",
-      "en": "Botulinum toxin and brain surgery (DBS, thalamotomy, focused ultrasound): how well they work and at what cost"
-    },
-    "langs": [
-      "ko"
-    ],
-    "created": "2026-11-26",
-    "updated": "2026-11-26"
-  }
+  "langs": [
+   "ko"
+  ],
+  "created": "2026-11-23",
+  "updated": "2026-11-24"
+ },
+ {
+  "id": "mind",
+  "file": "topics/mind.json",
+  "name": {
+   "ko": "마음",
+   "en": "Mind"
+  },
+  "summary": {
+   "ko": "불안과 스트레스는 증상을 얼마나 키우는가, 마음의 여유와 명상은 도움이 되는가",
+   "en": "How far anxiety and stress feed the symptoms, and whether ease of mind and meditation help"
+  },
+  "langs": [
+   "ko"
+  ],
+  "created": "2026-11-24",
+  "updated": "2026-11-24"
+ },
+ {
+  "id": "pattern",
+  "file": "topics/pattern.json",
+  "name": {
+   "ko": "패턴",
+   "en": "Pattern"
+  },
+  "summary": {
+   "ko": "반복으로 묶이고 굳는 동작. 손가락 사이의 연계, 그리고 버릇과 증상을 가르는 것",
+   "en": "Movements that bind and set through repetition: coupling between fingers, and what separates a habit from a symptom"
+  },
+  "langs": [
+   "ko"
+  ],
+  "created": "2026-11-25",
+  "updated": "2026-11-25"
+ },
+ {
+  "id": "medical",
+  "file": "topics/medical.json",
+  "name": {
+   "ko": "의학적 치료",
+   "en": "Medical treatment"
+  },
+  "summary": {
+   "ko": "보톡스와 뇌 수술(뇌심부 자극술, 시상 절개술, 집속 초음파): 얼마나 듣고, 무엇을 대가로 치르는가",
+   "en": "Botulinum toxin and brain surgery (DBS, thalamotomy, focused ultrasound): how well they work and at what cost"
+  },
+  "langs": [
+   "ko"
+  ],
+  "created": "2026-11-26",
+  "updated": "2026-11-26"
+ },
+ {
+  "id": "rechunk",
+  "file": "topics/rechunk.json",
+  "name": {
+   "ko": "충동과 다시 묶기",
+   "en": "Urge and rechunking"
+  },
+  "summary": {
+   "ko": "증상 직전에 오는 충동, 기다리면 가라앉는 것, 그리고 묶인 동작을 풀어 새로 쌓는 연습. 유별의 관찰과 가설에서 출발한 주제",
+   "en": "The urge before a symptom, how waiting lets it fade, and practice that unbinds a chunk and rebuilds it. Built on the author's own observations"
+  },
+  "langs": [
+   "ko"
+  ],
+  "created": "2026-11-26",
+  "updated": "2026-11-26"
+ }
 ]
